@@ -9,7 +9,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="OOAD-Project-3-Part-2" target="17" />
+      <module name="OOAD-Project-4" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
