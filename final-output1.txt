@@ -1,0 +1,1786 @@
+Enter the number of days for simulation run: 
+Day 1: arriveAtStore - Daphne arrives at the store on Day 1
+Day 1: checkRegister - Cash Register value: 0.0
+Day 1: goToBank - 1000.0 has been added to the Cash Register on Day 1. New value: 1000.0
+Daphne
+Day 1: doInventory - RecordPlayer 0 is tuned from false to true Manually
+Day 1: doInventory - RecordPlayer 1 is tuned from false to true Manually
+Day 1: doInventory - RecordPlayer 2 is tuned from false to true Manually
+Day 1: doInventory - RecordPlayer 2 is tuned from true to false Manually
+Day 1: doInventory - CDPlayer 0 is tuned from false to true Manually
+Day 1: doInventory - CDPlayer 1 is tuned from false to true Manually
+Day 1: doInventory - CDPlayer 2 is tuned from false to true Manually
+Day 1: doInventory - MP3Player 0 is tuned from false to true Manually
+Day 1: doInventory - MP3Player 1 is tuned from false to true Manually
+Day 1: doInventory - MP3Player 2 is tuned from false to true Manually
+Day 1: doInventory - MP3Player 2 is tuned from true to false Manually
+Day 1: doInventory - CassettePlayer 0 is tuned from false to true Manually
+Day 1: doInventory - CassettePlayer 1 is tuned from false to true Manually
+Day 1: doInventory - CassettePlayer 2 is tuned from true to false Manually
+Day 1: doInventory - Guitar 1 is tuned from false to true Manually
+Day 1: doInventory - Guitar 2 is tuned from false to true Manually
+Day 1: doInventory - Guitar 2 is tuned from true to false Manually
+Day 1: doInventory - Bass 0 is tuned from false to true Manually
+Day 1: doInventory - Bass 1 is tuned from false to true Manually
+Day 1: doInventory - Bass 2 is tuned from false to true Manually
+Day 1: doInventory - Mandolin 0 is tuned from false to true Manually
+Day 1: doInventory - Mandolin 2 is tuned from false to true Manually
+Day 1: doInventory - Flute 0 is tuned from false to true Manually
+Day 1: doInventory - Flute 1 is tuned from true to false Manually
+Day 1: doInventory - Harmonica 2 is tuned from false to true Manually
+Day 1: doInventory - Saxophone 0 is tuned from true to false Manually
+Day 1: doInventory - Saxophone 1 is tuned from false to true Manually
+0
+Day 1: doInventory - The total number of items damaged is 0
+Day 1: doInventory - The total number of items in inventory is 63
+Day 1: doInventory - Cash Register value: 1000.00
+Day 1: doInventory - Total purchase value of all the inventory items is 1532.27
+Day 1: openTheStore - We have 10 customers today.
+Day 1: openTheStore - Customer1 bought a Shirt for 44.32!
+Day 1: openTheStore - Customer2 bought a CDPlayer for 98.90!
+Day 1: openTheStore - Customer3 sold a Bass for 7.97!
+Day 1: openTheStore - Customer4 left without selling a Harmonica!
+Mandolin
+Day 1: openTheStore - Customer5 bought a Mandolin for 35.6!
+Additional items bought are
+GigBag
+Day 1: openTheStore - Customer5 bought a GigBag for 64.3!
+Day 1: openTheStore - Customer6 bought a Flute for 91.92!
+Day 1: openTheStore - Customer7 bought a Harmonica for 77.18!
+Day 1: openTheStore - Customer8 sold a Flute for 35.12!
+Day 1: openTheStore - Customer9 bought a RecordPlayer for 21.58!
+Day 1: openTheStore - Customer10 sold a Flute for 15.72!
+Day 1: openTheStore - 3 Items were sold today.
+Day 1: openTheStore - 7 Items were purchased today.
+Day 1: cleanTheStore - Daphnehas damaged a Mandolin while cleaning. Item condition is lowered and list price is reduced.
+Day 1: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 1: leaveTheStore - Closing time! Daphne left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            0                 0               0
+     Daphne            3                 7               1
+     Shaggy            0                 0               0
+-------------------------------------------------------------------
+Day 2: arriveAtStore - Daphne arrives at the store on Day 2
+Daphne
+Day 2: doInventory - RecordPlayer 0 is tuned from false to true Manually
+Day 2: doInventory - RecordPlayer 0 is tuned from true to false Manually
+Day 2: doInventory - RecordPlayer 1 is tuned from false to true Manually
+Day 2: doInventory - CDPlayer 0 is tuned from true to false Manually
+Day 2: doInventory - MP3Player 1 is tuned from false to true Manually
+Day 2: doInventory - MP3Player 2 is tuned from false to true Manually
+Day 2: doInventory - MP3Player 2 is tuned from true to false Manually
+Day 2: doInventory - CassettePlayer 0 is tuned from false to true Manually
+Day 2: doInventory - CassettePlayer 1 is tuned from false to true Manually
+Day 2: doInventory - Guitar 0 is tuned from false to true Manually
+Day 2: doInventory - Guitar 1 is tuned from false to true Manually
+Day 2: doInventory - Bass 0 is tuned from true to false Manually
+Day 2: doInventory - Bass 2 is tuned from false to true Manually
+Day 2: doInventory - Mandolin 0 is tuned from false to true Manually
+Day 2: doInventory - Mandolin 1 is tuned from false to true Manually
+Day 2: doInventory - Flute 1 is tuned from false to true Manually
+Day 2: doInventory - Flute 2 is tuned from false to true Manually
+Day 2: doInventory - Flute 3 is tuned from false to true Manually
+Day 2: doInventory - Harmonica 0 is tuned from false to true Manually
+Day 2: doInventory - Harmonica 1 is tuned from false to true Manually
+Day 2: doInventory - Harmonica 1 is tuned from true to false Manually
+Day 2: doInventory - Saxophone 0 is tuned from false to true Manually
+Day 2: doInventory - Saxophone 1 is tuned from false to true Manually
+0
+Day 2: doInventory - The total number of items damaged is 0
+Day 2: doInventory - The total number of items in inventory is 59
+Day 2: doInventory - Cash Register value: 1374.99
+Day 2: doInventory - Total purchase value of all the inventory items is 1372.98
+Day 2: openTheStore - We have 10 customers today.
+Day 2: openTheStore - Customer1 sold a Bandana for 8.87!
+Day 2: openTheStore - Customer2 bought a CDPlayer for 28.35!
+Day 2: openTheStore - Customer3 left without buying a MP3Player!
+Day 2: openTheStore - Customer4 left without selling a Guitar!
+Day 2: openTheStore - Customer5 bought a Flute for 70.24!
+Day 2: openTheStore - Customer6 bought a Strings for 27.45!
+Day 2: openTheStore - Customer7 bought a Cables for 43.96!
+Day 2: openTheStore - Customer8 bought a GigBag for 57.12!
+Day 2: openTheStore - Customer9 sold a CassettePlayer for 25.02!
+Day 2: openTheStore - Customer10 bought a CDPlayer for 31.64!
+Day 2: openTheStore - 2 Items were sold today.
+Day 2: openTheStore - 6 Items were purchased today.
+Day 2: leaveTheStore - Closing time! Daphne left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            0                 0               0
+     Daphne            5                13               1
+     Shaggy            0                 0               0
+-------------------------------------------------------------------
+Day 3: arriveAtStore - Shaggy arrives at the store on Day 3
+Shaggy
+Day 3: doInventory - RecordPlayer 0 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - RecordPlayer 0 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - RecordPlayer 1 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - MP3Player 0 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - MP3Player 1 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - MP3Player 2 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - MP3Player 2 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - CassettePlayer 0 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - CassettePlayer 0 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - CassettePlayer 1 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - CassettePlayer 2 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - CassettePlayer 3 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - Guitar 0 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - Guitar 1 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - Guitar 2 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - Guitar 2 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - Mandolin 0 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - Flute 0 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - Flute 1 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - Harmonica 1 is tuned from false to true in a Haphazard fashion
+Day 3: doInventory - Saxophone 0 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - Saxophone 2 is tuned from true to false in a Haphazard fashion
+Day 3: doInventory - Saxophone 2 is tuned from false to true in a Haphazard fashion
+0
+Day 3: doInventory - The total number of items damaged is 0
+Day 3: doInventory - The total number of items in inventory is 55
+Day 3: doInventory - Cash Register value: 1599.86
+Day 3: doInventory - Total purchase value of all the inventory items is 1272.63
+Day 3: addItems - An order of 47.57 has been made. Items of type CDPlayer will arrive on Day 6.
+Day 3: placeAnOrder - Cash Register value before placing the order: 1599.86
+Day 3: placeAnOrder - Cash Register value after placing the order: 1552.29
+Day 3: placeAnOrder - 1 have been purchased
+Day 3: openTheStore - We have 9 customers today.
+Day 3: openTheStore - Customer1 bought a Bandana for 91.71!
+Bass
+Day 3: openTheStore - Customer2 bought a Bass for 12.44!
+Additional items bought are
+PracticeAmps
+Day 3: openTheStore - Customer2 bought a PracticeAmps for 46.36!
+Day 3: openTheStore - Customer3 bought a Hat for 2.50!
+Day 3: openTheStore - Customer4 sold a CDPlayer for 9.17!
+Day 3: openTheStore - Customer5 left without selling a Flute!
+Day 3: openTheStore - Customer6 sold a Hat for 28.57!
+Day 3: openTheStore - Customer7 sold a CD for 21.52!
+Day 3: openTheStore - Customer8 bought a Cables for 22.96!
+Day 3: openTheStore - Customer9 bought a Vinyl for 27.96!
+Day 3: openTheStore - 3 Items were sold today.
+Day 3: openTheStore - 6 Items were purchased today.
+Day 3: cleanTheStore - Shaggyhas damaged a CDPlayer while cleaning. Item is removed from the inventory.
+Day 3: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 3: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            0                 0               0
+     Daphne            5                13               1
+     Shaggy            3                 7               1
+-------------------------------------------------------------------
+Day 4: arriveAtStore - Velma arrives at the store on Day 4
+Day 4: arriveAtStore - 0Items were added to inventory.
+Velma
+Day 4: doInventory - RecordPlayer 1 is tuned from false to true Electronically
+Day 4: doInventory - CassettePlayer 2 is tuned from false to true Electronically
+Day 4: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 4: doInventory - Guitar 1 is tuned from false to true Electronically
+Day 4: doInventory - Guitar 2 is tuned from false to true Electronically
+Day 4: doInventory - Bass 0 is tuned from false to true Electronically
+Day 4: doInventory - Bass 1 is tuned from false to true Electronically
+Day 4: doInventory - Bass 2 is tuned from false to true Electronically
+Day 4: doInventory - Mandolin 0 is tuned from false to true Electronically
+Day 4: doInventory - Mandolin 1 is tuned from false to true Electronically
+Day 4: doInventory - Flute 0 is tuned from false to true Electronically
+Day 4: doInventory - Flute 1 is tuned from false to true Electronically
+Day 4: doInventory - Flute 2 is tuned from false to true Electronically
+Day 4: doInventory - Harmonica 0 is tuned from false to true Electronically
+Day 4: doInventory - Harmonica 1 is tuned from false to true Electronically
+Day 4: doInventory - Saxophone 0 is tuned from false to true Electronically
+Day 4: doInventory - Saxophone 1 is tuned from false to true Electronically
+Day 4: doInventory - Saxophone 2 is tuned from false to true Electronically
+0
+Day 4: doInventory - The total number of items damaged is 0
+Day 4: doInventory - The total number of items in inventory is 51
+Day 4: doInventory - Cash Register value: 1696.97
+Day 4: doInventory - Total purchase value of all the inventory items is 1215.52
+Day 4: openTheStore - We have 8 customers today.
+Guitar
+Day 4: openTheStore - Customer1 bought a Guitar for 62.04!
+Day 4: openTheStore - Customer2 bought a PaperScore for 42.60!
+Day 4: openTheStore - Customer3 sold a Hat for 8.51!
+Day 4: openTheStore - Customer4 left without selling a Mandolin!
+Day 4: openTheStore - Customer5 bought a MP3Player for 33.90!
+Day 4: openTheStore - Customer6 sold a Vinyl for 37.09!
+Day 4: openTheStore - Customer7 sold a RecordPlayer for 10.88!
+Mandolin
+Day 4: openTheStore - Customer8 bought a Mandolin for 64.72!
+Additional items bought are
+Strings
+Day 4: openTheStore - Customer8 bought a Strings for 28.72!
+Strings
+Day 4: openTheStore - Customer8 bought a Strings for 61.26!
+Day 4: openTheStore - 3 Items were sold today.
+Day 4: openTheStore - 6 Items were purchased today.
+Day 4: cleanTheStore - Velmahas damaged a CD while cleaning. Item condition is lowered and list price is reduced.
+Day 4: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 4: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            3                 6               1
+     Daphne            5                13               1
+     Shaggy            3                 7               1
+-------------------------------------------------------------------
+Day 5: arriveAtStore - Daphne arrives at the store on Day 5
+Day 5: arriveAtStore - 0Items were added to inventory.
+Daphne
+Day 5: doInventory - RecordPlayer 0 is tuned from false to true Manually
+Day 5: doInventory - RecordPlayer 1 is tuned from false to true Manually
+Day 5: doInventory - MP3Player 0 is tuned from false to true Manually
+Day 5: doInventory - MP3Player 1 is tuned from false to true Manually
+Day 5: doInventory - CassettePlayer 0 is tuned from false to true Manually
+Day 5: doInventory - CassettePlayer 1 is tuned from false to true Manually
+Day 5: doInventory - CassettePlayer 2 is tuned from false to true Manually
+Day 5: doInventory - CassettePlayer 3 is tuned from false to true Manually
+Day 5: doInventory - Guitar 0 is tuned from false to true Manually
+Day 5: doInventory - Guitar 1 is tuned from false to true Manually
+Day 5: doInventory - Bass 0 is tuned from false to true Manually
+Day 5: doInventory - Bass 0 is tuned from true to false Manually
+Day 5: doInventory - Bass 1 is tuned from false to true Manually
+Day 5: doInventory - Bass 2 is tuned from false to true Manually
+Day 5: doInventory - Bass 2 is tuned from true to false Manually
+Day 5: doInventory - Mandolin 0 is tuned from false to true Manually
+Day 5: doInventory - Flute 0 is tuned from false to true Manually
+Day 5: doInventory - Flute 1 is tuned from false to true Manually
+Day 5: doInventory - Harmonica 0 is tuned from false to true Manually
+Day 5: doInventory - Harmonica 1 is tuned from false to true Manually
+Day 5: doInventory - Saxophone 0 is tuned from false to true Manually
+Day 5: doInventory - Saxophone 2 is tuned from false to true Manually
+0
+Day 5: doInventory - The total number of items damaged is 0
+Day 5: doInventory - The total number of items in inventory is 48
+Day 5: doInventory - Cash Register value: 1933.73
+Day 5: doInventory - Total purchase value of all the inventory items is 1117.29
+Day 5: addItems - An order of 79.57 has been made. Items of type Strings will arrive on Day 8.
+Day 5: placeAnOrder - Cash Register value before placing the order: 1933.73
+Day 5: placeAnOrder - Cash Register value after placing the order: 1854.16
+Day 5: placeAnOrder - 1 have been purchased
+Day 5: openTheStore - We have 5 customers today.
+Day 5: openTheStore - Customer1 sold a Cables for 51.89!
+Day 5: openTheStore - Customer2 sold a Cables for 13.70!
+Day 5: openTheStore - Customer3 bought a Vinyl for 23.60!
+Day 5: openTheStore - Customer4 left without buying a Bandana!
+Day 5: openTheStore - Customer5 left without buying a Flute!
+Day 5: openTheStore - 2 Items were sold today.
+Day 5: openTheStore - 1 Items were purchased today.
+Day 5: cleanTheStore - Daphnehas damaged a Bass while cleaning. Item condition is lowered and list price is reduced.
+Day 5: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 5: leaveTheStore - Closing time! Daphne left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            3                 6               1
+     Daphne            7                15               2
+     Shaggy            3                 7               1
+-------------------------------------------------------------------
+Day 6: arriveAtStore - Velma arrives at the store on Day 6
+Day 6: arriveAtStore - Item CDPlayer has arrived.
+Day 6: arriveAtStore - Item CDPlayer has arrived.
+Day 6: arriveAtStore - Item CDPlayer has arrived.
+Day 6: arriveAtStore - 3Items were added to inventory.
+Day 6: arriveAtStore - 3Items were added to inventory.
+Velma
+Day 6: doInventory - RecordPlayer 2 is tuned from false to true Electronically
+Day 6: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 6: doInventory - Guitar 1 is tuned from false to true Electronically
+Day 6: doInventory - Bass 0 is tuned from false to true Electronically
+Day 6: doInventory - Bass 1 is tuned from false to true Electronically
+Day 6: doInventory - Bass 2 is tuned from false to true Electronically
+Day 6: doInventory - Mandolin 0 is tuned from false to true Electronically
+Day 6: doInventory - Flute 0 is tuned from false to true Electronically
+Day 6: doInventory - Flute 1 is tuned from false to true Electronically
+Day 6: doInventory - Flute 2 is tuned from false to true Electronically
+Day 6: doInventory - Harmonica 0 is tuned from false to true Electronically
+Day 6: doInventory - Harmonica 1 is tuned from false to true Electronically
+Day 6: doInventory - Saxophone 0 is tuned from false to true Electronically
+Day 6: doInventory - Saxophone 1 is tuned from false to true Electronically
+Day 6: doInventory - Saxophone 2 is tuned from false to true Electronically
+0
+Day 6: doInventory - The total number of items damaged is 0
+Day 6: doInventory - The total number of items in inventory is 49
+Day 6: doInventory - Cash Register value: 1812.17
+Day 6: doInventory - Total purchase value of all the inventory items is 1169.76
+Day 6: addItems - An order of 82.84 has been made. Items of type CDPlayer will arrive on Day 7.
+Day 6: placeAnOrder - Cash Register value before placing the order: 1812.17
+Day 6: placeAnOrder - Cash Register value after placing the order: 1729.33
+Day 6: placeAnOrder - 1 have been purchased
+Day 6: openTheStore - We have 7 customers today.
+Day 6: openTheStore - Customer1 bought a CD for 53.44!
+Day 6: openTheStore - Customer2 left without buying a Cables!
+Mandolin
+Day 6: openTheStore - Customer3 bought a Mandolin for 50.5!
+Additional items bought are
+Cables
+Day 6: openTheStore - Customer3 bought a Cables for 16.94!
+Cables
+Day 6: openTheStore - Customer3 bought a Cables for 103.773994!
+Day 6: openTheStore - Customer4 bought a Bandana for 91.26!
+Day 6: openTheStore - Customer5 bought a Saxophone for 13.76!
+Day 6: openTheStore - Customer6 bought a CD for 38.73!
+Day 6: openTheStore - Customer7 sold a Bass for 2.56!
+Day 6: openTheStore - 1 Items were sold today.
+Day 6: openTheStore - 7 Items were purchased today.
+Day 6: cleanTheStore - Velmahas damaged a Flute while cleaning. Item condition is lowered and list price is reduced.
+Day 6: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 6: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            4                14               2
+     Daphne            7                15               2
+     Shaggy            3                 7               1
+-------------------------------------------------------------------
+Day 7: storeIsClosed - It's a Sunday. Store is closed today.
+Day 8: arriveAtStore - Daphne arrives at the store on Day 8
+Day 8: arriveAtStore - Item CDPlayer has arrived.
+Day 8: arriveAtStore - Item CDPlayer has arrived.
+Day 8: arriveAtStore - Item CDPlayer has arrived.
+Day 8: arriveAtStore - 3Items were added to inventory.
+Day 8: arriveAtStore - Item Strings has arrived.
+Day 8: arriveAtStore - Item Strings has arrived.
+Day 8: arriveAtStore - Item Strings has arrived.
+Day 8: arriveAtStore - 6Items were added to inventory.
+Daphne
+Day 8: doInventory - RecordPlayer 1 is tuned from false to true Manually
+Day 8: doInventory - RecordPlayer 1 is tuned from true to false Manually
+Day 8: doInventory - RecordPlayer 2 is tuned from false to true Manually
+Day 8: doInventory - MP3Player 0 is tuned from false to true Manually
+Day 8: doInventory - MP3Player 1 is tuned from false to true Manually
+Day 8: doInventory - CassettePlayer 0 is tuned from false to true Manually
+Day 8: doInventory - CassettePlayer 1 is tuned from false to true Manually
+Day 8: doInventory - CassettePlayer 2 is tuned from false to true Manually
+Day 8: doInventory - Bass 1 is tuned from false to true Manually
+Day 8: doInventory - Bass 3 is tuned from false to true Manually
+Day 8: doInventory - Flute 0 is tuned from false to true Manually
+Day 8: doInventory - Flute 0 is tuned from true to false Manually
+Day 8: doInventory - Flute 1 is tuned from false to true Manually
+Day 8: doInventory - Flute 1 is tuned from true to false Manually
+Day 8: doInventory - Flute 2 is tuned from false to true Manually
+Day 8: doInventory - Harmonica 0 is tuned from true to false Manually
+Day 8: doInventory - Saxophone 0 is tuned from false to true Manually
+0
+Day 8: doInventory - The total number of items damaged is 0
+Day 8: doInventory - The total number of items in inventory is 43
+Day 8: doInventory - Cash Register value: 2095.17
+Day 8: doInventory - Total purchase value of all the inventory items is 985.97
+Day 8: addItems - An order of 116.81 has been made. Items of type CDPlayer will arrive on Day 10.
+Day 8: addItems - An order of 243.92 has been made. Items of type Mandolin will arrive on Day 10.
+Day 8: addItems - An order of 333.53 has been made. Items of type Strings will arrive on Day 10.
+Day 8: placeAnOrder - Cash Register value before placing the order: 2095.17
+Day 8: placeAnOrder - Cash Register value after placing the order: 1761.64
+Day 8: placeAnOrder - 3 have been purchased
+Day 8: openTheStore - We have 8 customers today.
+Day 8: openTheStore - Customer1 bought a Flute for 1.62!
+Day 8: openTheStore - Customer2 bought a RecordPlayer for 22.91!
+Day 8: openTheStore - Customer3 sold a CDPlayer for 19.39!
+Day 8: openTheStore - Customer4 bought a Hat for 45.92!
+Day 8: openTheStore - Customer5 left without buying a CD!
+Day 8: openTheStore - Customer6 left without buying a CD!
+Day 8: openTheStore - Customer7 sold a RecordPlayer for 15.42!
+Day 8: openTheStore - Customer8 sold a Hat for 13.09!
+Day 8: openTheStore - 3 Items were sold today.
+Day 8: openTheStore - 3 Items were purchased today.
+Day 8: cleanTheStore - Daphnehas damaged a MP3Player while cleaning. Item condition is lowered and list price is reduced.
+Day 8: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 8: leaveTheStore - Closing time! Daphne left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            4                14               2
+     Daphne           10                21               3
+     Shaggy            3                 7               1
+-------------------------------------------------------------------
+Day 9: arriveAtStore - Velma arrives at the store on Day 9
+Day 9: arriveAtStore - 0Items were added to inventory.
+Day 9: arriveAtStore - 0Items were added to inventory.
+Day 9: arriveAtStore - 0Items were added to inventory.
+Velma
+Day 9: doInventory - RecordPlayer 2 is tuned from false to true Electronically
+Day 9: doInventory - CDPlayer 0 is tuned from false to true Electronically
+Day 9: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 9: doInventory - Guitar 1 is tuned from false to true Electronically
+Day 9: doInventory - Bass 0 is tuned from false to true Electronically
+Day 9: doInventory - Bass 1 is tuned from false to true Electronically
+Day 9: doInventory - Bass 2 is tuned from false to true Electronically
+Day 9: doInventory - Bass 3 is tuned from false to true Electronically
+Day 9: doInventory - Flute 0 is tuned from false to true Electronically
+Day 9: doInventory - Flute 1 is tuned from false to true Electronically
+Day 9: doInventory - Harmonica 0 is tuned from false to true Electronically
+Day 9: doInventory - Harmonica 1 is tuned from false to true Electronically
+Day 9: doInventory - Saxophone 0 is tuned from false to true Electronically
+Day 9: doInventory - Saxophone 1 is tuned from false to true Electronically
+0
+Day 9: doInventory - The total number of items damaged is 0
+Day 9: doInventory - The total number of items in inventory is 43
+Day 9: doInventory - Cash Register value: 1784.19
+Day 9: doInventory - Total purchase value of all the inventory items is 997.17
+Day 9: openTheStore - We have 13 customers today.
+Bass
+Day 9: openTheStore - Customer1 bought a Bass for 72.32!
+Additional items bought are
+Cables
+Day 9: openTheStore - Customer1 bought a Cables for 27.396!
+Day 9: openTheStore - Customer2 bought a Bandana for 17.73!
+Day 9: openTheStore - Customer3 bought a CassettePlayer for 50.05!
+Day 9: openTheStore - Customer4 sold a PaperScore for 10.31!
+Day 9: openTheStore - Customer5 left without buying a GigBag!
+Day 9: openTheStore - Customer6 bought a CassettePlayer for 83.09!
+Day 9: openTheStore - Customer7 bought a Flute for 31.45!
+Day 9: openTheStore - Customer8 bought a Hat for 53.26!
+Day 9: openTheStore - Customer9 bought a PaperScore for 45.16!
+Day 9: openTheStore - Customer10 left without selling a Cables!
+Guitar
+Day 9: openTheStore - Customer11 bought a Guitar for 31.38!
+Day 9: openTheStore - Customer12 bought a Saxophone for 57.89!
+Day 9: openTheStore - Customer13 left without selling a MP3Player!
+Day 9: openTheStore - 1 Items were sold today.
+Day 9: openTheStore - 10 Items were purchased today.
+Day 9: cleanTheStore - Velmahas damaged a Harmonica while cleaning. Item condition is lowered and list price is reduced.
+Day 9: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 9: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            5                24               3
+     Daphne           10                21               3
+     Shaggy            3                 7               1
+-------------------------------------------------------------------
+Day 10: arriveAtStore - Velma arrives at the store on Day 10
+Day 10: arriveAtStore - Item CDPlayer has arrived.
+Day 10: arriveAtStore - Item CDPlayer has arrived.
+Day 10: arriveAtStore - Item CDPlayer has arrived.
+Day 10: arriveAtStore - 3Items were added to inventory.
+Day 10: arriveAtStore - Item Mandolin has arrived.
+Day 10: arriveAtStore - Item Mandolin has arrived.
+Day 10: arriveAtStore - Item Mandolin has arrived.
+Day 10: arriveAtStore - 6Items were added to inventory.
+Day 10: arriveAtStore - Item Strings has arrived.
+Day 10: arriveAtStore - Item Strings has arrived.
+Day 10: arriveAtStore - Item Strings has arrived.
+Day 10: arriveAtStore - 9Items were added to inventory.
+Velma
+Day 10: doInventory - CDPlayer 1 is tuned from false to true Electronically
+Day 10: doInventory - CDPlayer 2 is tuned from false to true Electronically
+Day 10: doInventory - CDPlayer 3 is tuned from false to true Electronically
+Day 10: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 10: doInventory - Bass 0 is tuned from false to true Electronically
+Day 10: doInventory - Bass 1 is tuned from false to true Electronically
+Day 10: doInventory - Bass 2 is tuned from false to true Electronically
+Day 10: doInventory - Flute 0 is tuned from false to true Electronically
+Day 10: doInventory - Harmonica 0 is tuned from false to true Electronically
+Day 10: doInventory - Harmonica 1 is tuned from false to true Electronically
+Day 10: doInventory - Saxophone 0 is tuned from false to true Electronically
+0
+Day 10: doInventory - The total number of items damaged is 0
+Day 10: doInventory - The total number of items in inventory is 37
+Day 10: doInventory - Cash Register value: 2243.59
+Day 10: doInventory - Total purchase value of all the inventory items is 881.61
+Day 10: addItems - An order of 43.35 has been made. Items of type Mandolin will arrive on Day 11.
+Day 10: addItems - An order of 103.96 has been made. Items of type Cables will arrive on Day 11.
+Day 10: addItems - An order of 227.08 has been made. Items of type Strings will arrive on Day 11.
+Day 10: placeAnOrder - Cash Register value before placing the order: 2243.59
+Day 10: placeAnOrder - Cash Register value after placing the order: 2016.51
+Day 10: placeAnOrder - 3 have been purchased
+Day 10: openTheStore - We have 5 customers today.
+Day 10: openTheStore - Customer1 left without buying a CDPlayer!
+Day 10: openTheStore - Customer2 sold a Mandolin for 9.67!
+Bass
+Day 10: openTheStore - Customer3 bought a Bass for 5.1239996!
+Additional items bought are
+PracticeAmps
+Day 10: openTheStore - Customer3 bought a PracticeAmps for 91.0!
+Day 10: openTheStore - Customer4 bought a RecordPlayer for 30.84!
+Day 10: openTheStore - Customer5 sold a CD for 9.51!
+Day 10: openTheStore - 2 Items were sold today.
+Day 10: openTheStore - 3 Items were purchased today.
+Day 10: cleanTheStore - Velmahas damaged a Flute while cleaning. Item condition is lowered and list price is reduced.
+Day 10: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 10: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            7                30               4
+     Daphne           10                21               3
+     Shaggy            3                 7               1
+-------------------------------------------------------------------
+Day 11: arriveAtStore - Shaggy arrives at the store on Day 11
+Day 11: arriveAtStore - Item Mandolin has arrived.
+Day 11: arriveAtStore - Item Mandolin has arrived.
+Day 11: arriveAtStore - Item Mandolin has arrived.
+Day 11: arriveAtStore - 3Items were added to inventory.
+Day 11: arriveAtStore - Item Strings has arrived.
+Day 11: arriveAtStore - Item Strings has arrived.
+Day 11: arriveAtStore - Item Strings has arrived.
+Day 11: arriveAtStore - 6Items were added to inventory.
+Day 11: arriveAtStore - Item Cables has arrived.
+Day 11: arriveAtStore - Item Cables has arrived.
+Day 11: arriveAtStore - Item Cables has arrived.
+Day 11: arriveAtStore - 9Items were added to inventory.
+Shaggy
+Day 11: doInventory - RecordPlayer 1 is tuned from true to false in a Haphazard fashion
+Day 11: doInventory - RecordPlayer 1 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - CDPlayer 0 is tuned from true to false in a Haphazard fashion
+Day 11: doInventory - CDPlayer 0 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - CDPlayer 3 is tuned from true to false in a Haphazard fashion
+Day 11: doInventory - MP3Player 0 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - MP3Player 1 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - CassettePlayer 0 is tuned from true to false in a Haphazard fashion
+Day 11: doInventory - CassettePlayer 0 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - CassettePlayer 1 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - Guitar 0 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - Bass 1 is tuned from true to false in a Haphazard fashion
+Day 11: doInventory - Bass 1 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - Mandolin 2 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - Mandolin 3 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - Flute 0 is tuned from false to true in a Haphazard fashion
+Day 11: doInventory - Harmonica 1 is tuned from true to false in a Haphazard fashion
+Day 11: doInventory - Harmonica 1 is tuned from false to true in a Haphazard fashion
+0
+Day 11: doInventory - The total number of items damaged is 0
+Day 11: doInventory - The total number of items in inventory is 39
+Day 11: doInventory - Cash Register value: 2124.29
+Day 11: doInventory - Total purchase value of all the inventory items is 880.66
+Day 11: addItems - An order of 52.97 has been made. Items of type Cables will arrive on Day 13.
+Day 11: addItems - An order of 132.74 has been made. Items of type Strings will arrive on Day 13.
+Day 11: placeAnOrder - Cash Register value before placing the order: 2124.29
+Day 11: placeAnOrder - Cash Register value after placing the order: 1991.55
+Day 11: placeAnOrder - 2 have been purchased
+Day 11: openTheStore - We have 7 customers today.
+Mandolin
+Day 11: openTheStore - Customer1 bought a Mandolin for 19.34!
+Additional items bought are
+PracticeAmps
+Day 11: openTheStore - Customer1 bought a PracticeAmps for 10.56!
+Mandolin
+Day 11: openTheStore - Customer2 bought a Mandolin for 46.74!
+Additional items bought are
+GigBag
+Day 11: openTheStore - Customer2 bought a GigBag for 28.58!
+Day 11: openTheStore - Customer3 sold a PaperScore for 31.39!
+Day 11: openTheStore - Customer4 left without selling a Cassette!
+Day 11: openTheStore - Customer5 sold a Saxophone for 37.01!
+Day 11: openTheStore - Customer6 sold a Vinyl for 13.87!
+Day 11: openTheStore - Customer7 bought a MP3Player for 51.67!
+Day 11: openTheStore - 3 Items were sold today.
+Day 11: openTheStore - 5 Items were purchased today.
+Day 11: cleanTheStore - Shaggyhas damaged a Bandana while cleaning. Item condition is lowered and list price is reduced.
+Day 11: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 11: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            7                30               4
+     Daphne           10                21               3
+     Shaggy            6                14               2
+-------------------------------------------------------------------
+Day 12: arriveAtStore - Shaggy arrives at the store on Day 12
+Day 12: arriveAtStore - 0Items were added to inventory.
+Day 12: arriveAtStore - 0Items were added to inventory.
+Shaggy
+Day 12: doInventory - RecordPlayer 0 is tuned from true to false in a Haphazard fashion
+Day 12: doInventory - RecordPlayer 0 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - RecordPlayer 1 is tuned from true to false in a Haphazard fashion
+Day 12: doInventory - RecordPlayer 1 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - CDPlayer 0 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - CDPlayer 1 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - CDPlayer 2 is tuned from true to false in a Haphazard fashion
+Day 12: doInventory - CDPlayer 2 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - CDPlayer 3 is tuned from true to false in a Haphazard fashion
+Day 12: doInventory - CDPlayer 3 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - MP3Player 0 is tuned from true to false in a Haphazard fashion
+Day 12: doInventory - MP3Player 0 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - CassettePlayer 0 is tuned from true to false in a Haphazard fashion
+Day 12: doInventory - CassettePlayer 1 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - Guitar 0 is tuned from true to false in a Haphazard fashion
+Day 12: doInventory - Bass 0 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - Flute 0 is tuned from true to false in a Haphazard fashion
+Day 12: doInventory - Saxophone 0 is tuned from false to true in a Haphazard fashion
+Day 12: doInventory - Saxophone 1 is tuned from true to false in a Haphazard fashion
+0
+Day 12: doInventory - The total number of items damaged is 0
+Day 12: doInventory - The total number of items in inventory is 37
+Day 12: doInventory - Cash Register value: 2066.16
+Day 12: doInventory - Total purchase value of all the inventory items is 874.44
+Day 12: addItems - An order of 90.54 has been made. Items of type PracticeAmps will arrive on Day 14.
+Day 12: addItems - An order of 148.84 has been made. Items of type GigBag will arrive on Day 14.
+Day 12: placeAnOrder - Cash Register value before placing the order: 2066.16
+Day 12: placeAnOrder - Cash Register value after placing the order: 1917.32
+Day 12: placeAnOrder - 2 have been purchased
+Day 12: openTheStore - We have 7 customers today.
+Day 12: openTheStore - Customer1 bought a Cassette for 88.04!
+Day 12: openTheStore - Customer2 bought a CD for 19.03!
+Day 12: openTheStore - Customer3 sold a Strings for 27.56!
+Day 12: openTheStore - Customer4 bought a PaperScore for 71.84!
+Day 12: openTheStore - Customer5 left without buying a Harmonica!
+Day 12: openTheStore - Customer6 sold a MP3Player for 23.44!
+Day 12: openTheStore - Customer7 sold a Shirt for 11.15!
+Day 12: openTheStore - 3 Items were sold today.
+Day 12: openTheStore - 3 Items were purchased today.
+Day 12: cleanTheStore - Shaggyhas damaged a CD while cleaning. Item condition is lowered and list price is reduced.
+Day 12: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 12: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            7                30               4
+     Daphne           10                21               3
+     Shaggy            9                19               3
+-------------------------------------------------------------------
+Day 13: arriveAtStore - Shaggy cannot work 3 days in a row.
+Day 13: arriveAtStore - Daphne arrives at the store on Day 13
+Day 13: arriveAtStore - 0Items were added to inventory.
+Day 13: arriveAtStore - 0Items were added to inventory.
+Day 13: arriveAtStore - Item Strings has arrived.
+Day 13: arriveAtStore - Item Strings has arrived.
+Day 13: arriveAtStore - Item Strings has arrived.
+Day 13: arriveAtStore - 3Items were added to inventory.
+Day 13: arriveAtStore - Item Cables has arrived.
+Day 13: arriveAtStore - Item Cables has arrived.
+Day 13: arriveAtStore - Item Cables has arrived.
+Day 13: arriveAtStore - 6Items were added to inventory.
+Daphne
+Day 13: doInventory - RecordPlayer 0 is tuned from false to true Manually
+Day 13: doInventory - CDPlayer 0 is tuned from true to false Manually
+Day 13: doInventory - CDPlayer 1 is tuned from false to true Manually
+Day 13: doInventory - CDPlayer 2 is tuned from true to false Manually
+Day 13: doInventory - MP3Player 0 is tuned from false to true Manually
+Day 13: doInventory - MP3Player 1 is tuned from false to true Manually
+Day 13: doInventory - CassettePlayer 0 is tuned from false to true Manually
+Day 13: doInventory - CassettePlayer 0 is tuned from true to false Manually
+Day 13: doInventory - CassettePlayer 1 is tuned from false to true Manually
+Day 13: doInventory - Bass 1 is tuned from false to true Manually
+Day 13: doInventory - Flute 0 is tuned from false to true Manually
+Day 13: doInventory - Harmonica 0 is tuned from false to true Manually
+Day 13: doInventory - Harmonica 0 is tuned from true to false Manually
+Day 13: doInventory - Saxophone 0 is tuned from false to true Manually
+Day 13: doInventory - Saxophone 1 is tuned from false to true Manually
+0
+Day 13: doInventory - The total number of items damaged is 0
+Day 13: doInventory - The total number of items in inventory is 40
+Day 13: doInventory - Cash Register value: 2034.08
+Day 13: doInventory - Total purchase value of all the inventory items is 926.91
+Day 13: addItems - An order of 109.74 has been made. Items of type Cables will arrive on Day 15.
+Day 13: placeAnOrder - Cash Register value before placing the order: 2034.08
+Day 13: placeAnOrder - Cash Register value after placing the order: 1924.34
+Day 13: placeAnOrder - 1 have been purchased
+Day 13: openTheStore - We have 7 customers today.
+Day 13: openTheStore - Customer1 bought a Vinyl for 27.75!
+Day 13: openTheStore - Customer2 sold a Flute for 46.60!
+Day 13: openTheStore - Customer3 bought a Flute for 12.51!
+Bass
+Day 13: openTheStore - Customer4 bought a Bass for 37.64!
+Day 13: openTheStore - Customer5 bought a Strings for 55.44!
+Day 13: openTheStore - Customer6 bought a CDPlayer for 38.79!
+Day 13: openTheStore - Customer7 bought a Saxophone for 63.77!
+Day 13: openTheStore - 1 Items were sold today.
+Day 13: openTheStore - 6 Items were purchased today.
+Day 13: cleanTheStore - Daphnehas damaged a CDPlayer while cleaning. Item condition is lowered and list price is reduced.
+Day 13: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 13: leaveTheStore - Closing time! Daphne left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            7                30               4
+     Daphne           11                28               4
+     Shaggy            9                19               3
+-------------------------------------------------------------------
+Day 14: storeIsClosed - It's a Sunday. Store is closed today.
+Day 15: arriveAtStore - Velma arrives at the store on Day 15
+Day 15: arriveAtStore - Item PracticeAmps has arrived.
+Day 15: arriveAtStore - Item PracticeAmps has arrived.
+Day 15: arriveAtStore - Item PracticeAmps has arrived.
+Day 15: arriveAtStore - 3Items were added to inventory.
+Day 15: arriveAtStore - Item GigBag has arrived.
+Day 15: arriveAtStore - Item GigBag has arrived.
+Day 15: arriveAtStore - Item GigBag has arrived.
+Day 15: arriveAtStore - 6Items were added to inventory.
+Day 15: arriveAtStore - Item Cables has arrived.
+Day 15: arriveAtStore - Item Cables has arrived.
+Day 15: arriveAtStore - Item Cables has arrived.
+Day 15: arriveAtStore - 9Items were added to inventory.
+Velma
+Day 15: doInventory - MP3Player 1 is tuned from false to true Electronically
+Day 15: doInventory - CassettePlayer 0 is tuned from false to true Electronically
+Day 15: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 15: doInventory - Bass 0 is tuned from false to true Electronically
+Day 15: doInventory - Mandolin 0 is tuned from false to true Electronically
+Day 15: doInventory - Mandolin 1 is tuned from false to true Electronically
+Day 15: doInventory - Flute 0 is tuned from false to true Electronically
+Day 15: doInventory - Harmonica 0 is tuned from false to true Electronically
+Day 15: doInventory - Harmonica 1 is tuned from false to true Electronically
+Day 15: doInventory - Saxophone 0 is tuned from false to true Electronically
+0
+Day 15: doInventory - The total number of items damaged is 0
+Day 15: doInventory - The total number of items in inventory is 35
+Day 15: doInventory - Cash Register value: 2113.64
+Day 15: doInventory - Total purchase value of all the inventory items is 849.58
+Day 15: addItems - An order of 72.10 has been made. Items of type PracticeAmps will arrive on Day 17.
+Day 15: addItems - An order of 144.89 has been made. Items of type Cables will arrive on Day 17.
+Day 15: addItems - An order of 255.31 has been made. Items of type GigBag will arrive on Day 17.
+Day 15: placeAnOrder - Cash Register value before placing the order: 2113.64
+Day 15: placeAnOrder - Cash Register value after placing the order: 1858.33
+Day 15: placeAnOrder - 3 have been purchased
+Day 15: openTheStore - We have 6 customers today.
+Day 15: openTheStore - Customer1 sold a Shirt for 23.78!
+Day 15: openTheStore - Customer2 bought a Shirt for 42.80!
+Day 15: openTheStore - Customer3 sold a CD for 9.52!
+Day 15: openTheStore - Customer4 bought a Shirt for 22.30!
+Day 15: openTheStore - Customer5 bought a Strings for 55.12!
+Day 15: openTheStore - Customer6 bought a CDPlayer for 96.98!
+Day 15: openTheStore - 2 Items were sold today.
+Day 15: openTheStore - 4 Items were purchased today.
+Day 15: cleanTheStore - Velmahas damaged a MP3Player while cleaning. Item condition is lowered and list price is reduced.
+Day 15: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 15: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            9                37               5
+     Daphne           11                28               4
+     Shaggy            9                19               3
+-------------------------------------------------------------------
+Day 16: arriveAtStore - Velma arrives at the store on Day 16
+Day 16: arriveAtStore - 0Items were added to inventory.
+Day 16: arriveAtStore - 0Items were added to inventory.
+Day 16: arriveAtStore - 0Items were added to inventory.
+Velma
+Day 16: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 16: doInventory - Bass 0 is tuned from false to true Electronically
+Day 16: doInventory - Mandolin 0 is tuned from false to true Electronically
+Day 16: doInventory - Mandolin 1 is tuned from false to true Electronically
+Day 16: doInventory - Flute 0 is tuned from false to true Electronically
+Day 16: doInventory - Harmonica 0 is tuned from false to true Electronically
+Day 16: doInventory - Harmonica 1 is tuned from false to true Electronically
+Day 16: doInventory - Saxophone 0 is tuned from false to true Electronically
+0
+Day 16: doInventory - The total number of items damaged is 0
+Day 16: doInventory - The total number of items in inventory is 33
+Day 16: doInventory - Cash Register value: 2042.22
+Day 16: doInventory - Total purchase value of all the inventory items is 771.91
+Day 16: openTheStore - We have 5 customers today.
+Bass
+Day 16: openTheStore - Customer1 bought a Bass for 12.752!
+Day 16: openTheStore - Customer2 left without selling a Mandolin!
+Day 16: openTheStore - Customer3 bought a PaperScore for 20.63!
+Day 16: openTheStore - Customer4 bought a Hat for 57.13!
+Day 16: openTheStore - Customer5 left without buying a CD!
+Day 16: openTheStore - 0 Items were sold today.
+Day 16: openTheStore - 3 Items were purchased today.
+Day 16: cleanTheStore - Velmahas damaged a Shirt while cleaning. Item condition is lowered and list price is reduced.
+Day 16: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 16: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            9                40               6
+     Daphne           11                28               4
+     Shaggy            9                19               3
+-------------------------------------------------------------------
+Day 17: arriveAtStore - Shaggy arrives at the store on Day 17
+Day 17: arriveAtStore - Item PracticeAmps has arrived.
+Day 17: arriveAtStore - Item PracticeAmps has arrived.
+Day 17: arriveAtStore - Item PracticeAmps has arrived.
+Day 17: arriveAtStore - 3Items were added to inventory.
+Day 17: arriveAtStore - Item GigBag has arrived.
+Day 17: arriveAtStore - Item GigBag has arrived.
+Day 17: arriveAtStore - Item GigBag has arrived.
+Day 17: arriveAtStore - 6Items were added to inventory.
+Day 17: arriveAtStore - Item Cables has arrived.
+Day 17: arriveAtStore - Item Cables has arrived.
+Day 17: arriveAtStore - Item Cables has arrived.
+Day 17: arriveAtStore - 9Items were added to inventory.
+Shaggy
+Day 17: doInventory - RecordPlayer 0 is tuned from true to false in a Haphazard fashion
+Day 17: doInventory - RecordPlayer 1 is tuned from true to false in a Haphazard fashion
+Day 17: doInventory - CDPlayer 1 is tuned from false to true in a Haphazard fashion
+Day 17: doInventory - MP3Player 0 is tuned from false to true in a Haphazard fashion
+Day 17: doInventory - MP3Player 1 is tuned from true to false in a Haphazard fashion
+Day 17: doInventory - CassettePlayer 0 is tuned from true to false in a Haphazard fashion
+Day 17: doInventory - CassettePlayer 1 is tuned from false to true in a Haphazard fashion
+Day 17: doInventory - Guitar 0 is tuned from false to true in a Haphazard fashion
+Day 17: doInventory - Mandolin 0 is tuned from false to true in a Haphazard fashion
+Day 17: doInventory - Flute 0 is tuned from false to true in a Haphazard fashion
+Day 17: doInventory - Harmonica 0 is tuned from false to true in a Haphazard fashion
+Day 17: doInventory - Harmonica 1 is tuned from true to false in a Haphazard fashion
+Day 17: doInventory - Harmonica 1 is tuned from false to true in a Haphazard fashion
+Day 17: doInventory - Saxophone 0 is tuned from false to true in a Haphazard fashion
+0
+Day 17: doInventory - The total number of items damaged is 0
+Day 17: doInventory - The total number of items in inventory is 30
+Day 17: doInventory - Cash Register value: 2132.74
+Day 17: doInventory - Total purchase value of all the inventory items is 725.06
+Day 17: addItems - An order of 118.91 has been made. Items of type Bass will arrive on Day 19.
+Day 17: addItems - An order of 218.12 has been made. Items of type PracticeAmps will arrive on Day 19.
+Day 17: addItems - An order of 303.99 has been made. Items of type Cables will arrive on Day 19.
+Day 17: addItems - An order of 426.46 has been made. Items of type GigBag will arrive on Day 19.
+Day 17: placeAnOrder - Cash Register value before placing the order: 2132.74
+Day 17: placeAnOrder - Cash Register value after placing the order: 1706.28
+Day 17: placeAnOrder - 4 have been purchased
+Day 17: openTheStore - We have 6 customers today.
+Day 17: openTheStore - Customer1 bought a CD for 13.30!
+Day 17: openTheStore - Customer2 bought a Flute for 93.20!
+Day 17: openTheStore - Customer3 sold a CD for 20.47!
+Mandolin
+Day 17: openTheStore - Customer4 bought a Mandolin for 3.76!
+Additional items bought are
+Strings
+Day 17: openTheStore - Customer4 bought a Strings for 18.48!
+Day 17: openTheStore - Customer5 left without selling a Bandana!
+Day 17: openTheStore - Customer6 bought a Saxophone for 66.62!
+Day 17: openTheStore - 1 Items were sold today.
+Day 17: openTheStore - 5 Items were purchased today.
+Day 17: cleanTheStore - Shaggyhas damaged a MP3Player while cleaning. Item condition is lowered and list price is reduced.
+Day 17: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 17: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            9                40               6
+     Daphne           11                28               4
+     Shaggy           10                28               4
+-------------------------------------------------------------------
+Day 18: arriveAtStore - Shaggy arrives at the store on Day 18
+Day 18: arriveAtStore - 0Items were added to inventory.
+Day 18: arriveAtStore - 0Items were added to inventory.
+Day 18: arriveAtStore - 0Items were added to inventory.
+Day 18: arriveAtStore - 0Items were added to inventory.
+Shaggy
+Day 18: doInventory - RecordPlayer 0 is tuned from true to false in a Haphazard fashion
+Day 18: doInventory - RecordPlayer 0 is tuned from false to true in a Haphazard fashion
+Day 18: doInventory - RecordPlayer 1 is tuned from false to true in a Haphazard fashion
+Day 18: doInventory - CDPlayer 0 is tuned from true to false in a Haphazard fashion
+Day 18: doInventory - MP3Player 1 is tuned from true to false in a Haphazard fashion
+Day 18: doInventory - MP3Player 1 is tuned from false to true in a Haphazard fashion
+Day 18: doInventory - CassettePlayer 0 is tuned from false to true in a Haphazard fashion
+Day 18: doInventory - CassettePlayer 1 is tuned from false to true in a Haphazard fashion
+Day 18: doInventory - Mandolin 0 is tuned from true to false in a Haphazard fashion
+Day 18: doInventory - Harmonica 1 is tuned from false to true in a Haphazard fashion
+0
+Day 18: doInventory - The total number of items damaged is 0
+Day 18: doInventory - The total number of items in inventory is 26
+Day 18: doInventory - Cash Register value: 1881.17
+Day 18: doInventory - Total purchase value of all the inventory items is 644.15
+Day 18: addItems - An order of 106.26 has been made. Items of type Flute will arrive on Day 21.
+Day 18: addItems - An order of 198.52 has been made. Items of type Saxophone will arrive on Day 21.
+Day 18: placeAnOrder - Cash Register value before placing the order: 1881.17
+Day 18: placeAnOrder - Cash Register value after placing the order: 1682.65
+Day 18: placeAnOrder - 2 have been purchased
+Day 18: openTheStore - We have 8 customers today.
+Day 18: openTheStore - Customer1 sold a Saxophone for 13.98!
+Day 18: openTheStore - Customer2 left without selling a Bandana!
+Mandolin
+Day 18: openTheStore - Customer3 bought a Mandolin for 36.2!
+Additional items bought are
+Strings
+Day 18: openTheStore - Customer3 bought a Strings for 85.62!
+Day 18: openTheStore - Customer4 bought a Saxophone for 27.96!
+Day 18: openTheStore - Customer5 bought a CassettePlayer for 8.42!
+Day 18: openTheStore - Customer6 bought a Shirt for 50.18!
+Day 18: openTheStore - Customer7 bought a Shirt for 69.44!
+Day 18: openTheStore - Customer8 sold a PaperScore for 31.85!
+Day 18: openTheStore - 2 Items were sold today.
+Day 18: openTheStore - 6 Items were purchased today.
+Day 18: cleanTheStore - Shaggyhas damaged a Harmonica while cleaning. Item condition is lowered and list price is reduced.
+Day 18: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 18: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma            9                40               6
+     Daphne           11                28               4
+     Shaggy           12                36               5
+-------------------------------------------------------------------
+Day 19: arriveAtStore - Shaggy cannot work 3 days in a row.
+Day 19: arriveAtStore - Velma arrives at the store on Day 19
+Day 19: arriveAtStore - Item Bass has arrived.
+Day 19: arriveAtStore - Item Bass has arrived.
+Day 19: arriveAtStore - Item Bass has arrived.
+Day 19: arriveAtStore - 3Items were added to inventory.
+Day 19: arriveAtStore - Item PracticeAmps has arrived.
+Day 19: arriveAtStore - Item PracticeAmps has arrived.
+Day 19: arriveAtStore - Item PracticeAmps has arrived.
+Day 19: arriveAtStore - 6Items were added to inventory.
+Day 19: arriveAtStore - 6Items were added to inventory.
+Day 19: arriveAtStore - Item GigBag has arrived.
+Day 19: arriveAtStore - Item GigBag has arrived.
+Day 19: arriveAtStore - Item GigBag has arrived.
+Day 19: arriveAtStore - 9Items were added to inventory.
+Day 19: arriveAtStore - 9Items were added to inventory.
+Day 19: arriveAtStore - Item Cables has arrived.
+Day 19: arriveAtStore - Item Cables has arrived.
+Day 19: arriveAtStore - Item Cables has arrived.
+Day 19: arriveAtStore - 12Items were added to inventory.
+Velma
+Day 19: doInventory - CDPlayer 0 is tuned from false to true Electronically
+Day 19: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 19: doInventory - Harmonica 0 is tuned from false to true Electronically
+Day 19: doInventory - Harmonica 1 is tuned from false to true Electronically
+0
+Day 19: doInventory - The total number of items damaged is 0
+Day 19: doInventory - The total number of items in inventory is 22
+Day 19: doInventory - Cash Register value: 1914.65
+Day 19: doInventory - Total purchase value of all the inventory items is 537.45
+Day 19: addItems - An order of 87.99 has been made. Items of type Bass will arrive on Day 21.
+Day 19: addItems - An order of 192.53 has been made. Items of type Mandolin will arrive on Day 21.
+Day 19: addItems - An order of 268.95 has been made. Items of type Shirt will arrive on Day 21.
+Day 19: addItems - An order of 351.98 has been made. Items of type PracticeAmps will arrive on Day 21.
+Day 19: addItems - An order of 384.12 has been made. Items of type Cables will arrive on Day 21.
+Day 19: addItems - An order of 453.95 has been made. Items of type Strings will arrive on Day 21.
+Day 19: addItems - An order of 544.05 has been made. Items of type GigBag will arrive on Day 21.
+Day 19: placeAnOrder - Cash Register value before placing the order: 1914.65
+Day 19: placeAnOrder - Cash Register value after placing the order: 1370.60
+Day 19: placeAnOrder - 7 have been purchased
+Day 19: openTheStore - We have 7 customers today.
+Day 19: openTheStore - Customer1 bought a Cassette for 82.89!
+Day 19: openTheStore - Customer2 bought a CDPlayer for 52.47!
+Day 19: openTheStore - Customer3 left without buying a Bandana!
+Day 19: openTheStore - Customer4 bought a CD for 19.05!
+Day 19: openTheStore - Customer5 sold a PaperScore for 15.29!
+Day 19: openTheStore - Customer6 sold a PaperScore for 18.28!
+Day 19: openTheStore - Customer7 left without selling a Vinyl!
+Day 19: openTheStore - 2 Items were sold today.
+Day 19: openTheStore - 3 Items were purchased today.
+Day 19: cleanTheStore - Velmahas damaged a Harmonica while cleaning. Item condition is lowered and list price is reduced.
+Day 19: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 19: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           11                50               7
+     Daphne           11                28               4
+     Shaggy           12                36               5
+-------------------------------------------------------------------
+Day 20: arriveAtStore - Velma is sick on day 20
+Day 20: arriveAtStore - Daphne arrives at the store on Day 20
+Day 20: arriveAtStore - 0Items were added to inventory.
+Day 20: arriveAtStore - 0Items were added to inventory.
+Day 20: arriveAtStore - 0Items were added to inventory.
+Day 20: arriveAtStore - 0Items were added to inventory.
+Day 20: arriveAtStore - 0Items were added to inventory.
+Day 20: arriveAtStore - 0Items were added to inventory.
+Day 20: arriveAtStore - 0Items were added to inventory.
+Day 20: arriveAtStore - 0Items were added to inventory.
+Day 20: arriveAtStore - 0Items were added to inventory.
+Daphne
+Day 20: doInventory - RecordPlayer 0 is tuned from false to true Manually
+Day 20: doInventory - RecordPlayer 0 is tuned from true to false Manually
+Day 20: doInventory - RecordPlayer 1 is tuned from false to true Manually
+Day 20: doInventory - RecordPlayer 1 is tuned from true to false Manually
+Day 20: doInventory - CDPlayer 0 is tuned from false to true Manually
+Day 20: doInventory - MP3Player 0 is tuned from false to true Manually
+Day 20: doInventory - MP3Player 0 is tuned from true to false Manually
+Day 20: doInventory - CassettePlayer 0 is tuned from false to true Manually
+Day 20: doInventory - Guitar 0 is tuned from false to true Manually
+Day 20: doInventory - Harmonica 0 is tuned from false to true Manually
+Day 20: doInventory - Harmonica 1 is tuned from false to true Manually
+0
+Day 20: doInventory - The total number of items damaged is 0
+Day 20: doInventory - The total number of items in inventory is 21
+Day 20: doInventory - Cash Register value: 1491.43
+Day 20: doInventory - Total purchase value of all the inventory items is 486.29
+Day 20: openTheStore - We have 8 customers today.
+Day 20: openTheStore - Customer1 sold a CD for 44.18!
+Day 20: openTheStore - Customer2 sold a Mandolin for 35.12!
+Day 20: openTheStore - Customer3 bought a Vinyl for 74.17!
+Day 20: openTheStore - Customer4 bought a Vinyl for 23.96!
+Day 20: openTheStore - Customer5 left without buying a CD!
+Day 20: openTheStore - Customer6 bought a CDPlayer for 56.40!
+Day 20: openTheStore - Customer7 bought a PaperScore for 30.58!
+Day 20: openTheStore - Customer8 left without selling a Hat!
+Day 20: openTheStore - 2 Items were sold today.
+Day 20: openTheStore - 4 Items were purchased today.
+Day 20: cleanTheStore - Daphnehas damaged a Hat while cleaning. Item condition is lowered and list price is reduced.
+Day 20: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 20: leaveTheStore - Closing time! Daphne left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           11                50               7
+     Daphne           13                32               5
+     Shaggy           12                36               5
+-------------------------------------------------------------------
+Day 21: storeIsClosed - It's a Sunday. Store is closed today.
+Day 22: arriveAtStore - Daphne is sick on day 22
+Day 22: arriveAtStore - Velma is sick on day 22
+Day 22: arriveAtStore - Shaggy arrives at the store on Day 22
+Day 22: arriveAtStore - Item Bass has arrived.
+Day 22: arriveAtStore - Item Bass has arrived.
+Day 22: arriveAtStore - Item Bass has arrived.
+Day 22: arriveAtStore - 3Items were added to inventory.
+Day 22: arriveAtStore - Item PracticeAmps has arrived.
+Day 22: arriveAtStore - Item PracticeAmps has arrived.
+Day 22: arriveAtStore - Item PracticeAmps has arrived.
+Day 22: arriveAtStore - 6Items were added to inventory.
+Day 22: arriveAtStore - Item Shirt has arrived.
+Day 22: arriveAtStore - Item Shirt has arrived.
+Day 22: arriveAtStore - Item Shirt has arrived.
+Day 22: arriveAtStore - 9Items were added to inventory.
+Day 22: arriveAtStore - Item Saxophone has arrived.
+Day 22: arriveAtStore - Item Saxophone has arrived.
+Day 22: arriveAtStore - Item Saxophone has arrived.
+Day 22: arriveAtStore - 12Items were added to inventory.
+Day 22: arriveAtStore - Item GigBag has arrived.
+Day 22: arriveAtStore - Item GigBag has arrived.
+Day 22: arriveAtStore - Item GigBag has arrived.
+Day 22: arriveAtStore - 15Items were added to inventory.
+Day 22: arriveAtStore - Item Flute has arrived.
+Day 22: arriveAtStore - Item Flute has arrived.
+Day 22: arriveAtStore - Item Flute has arrived.
+Day 22: arriveAtStore - 18Items were added to inventory.
+Day 22: arriveAtStore - Item Mandolin has arrived.
+Day 22: arriveAtStore - Item Mandolin has arrived.
+Day 22: arriveAtStore - Item Mandolin has arrived.
+Day 22: arriveAtStore - 21Items were added to inventory.
+Day 22: arriveAtStore - Item Strings has arrived.
+Day 22: arriveAtStore - Item Strings has arrived.
+Day 22: arriveAtStore - Item Strings has arrived.
+Day 22: arriveAtStore - 24Items were added to inventory.
+Day 22: arriveAtStore - Item Cables has arrived.
+Day 22: arriveAtStore - Item Cables has arrived.
+Day 22: arriveAtStore - Item Cables has arrived.
+Day 22: arriveAtStore - 27Items were added to inventory.
+Shaggy
+Day 22: doInventory - MP3Player 1 is tuned from true to false in a Haphazard fashion
+Day 22: doInventory - CassettePlayer is damaged  while tuning. Instrument condition is lowered and list price is reduced.
+Day 22: doInventory - CassettePlayer 0 is tuned from true to false in a Haphazard fashion
+Day 22: doInventory - Guitar 0 is tuned from false to true in a Haphazard fashion
+Day 22: doInventory - Mandolin 0 is tuned from false to true in a Haphazard fashion
+Day 22: doInventory - Mandolin 1 is tuned from false to true in a Haphazard fashion
+Day 22: doInventory - Mandolin 2 is tuned from true to false in a Haphazard fashion
+Day 22: doInventory - Mandolin 3 is tuned from true to false in a Haphazard fashion
+Day 22: doInventory - Mandolin 3 is tuned from false to true in a Haphazard fashion
+Day 22: doInventory - Harmonica 0 is tuned from false to true in a Haphazard fashion
+Day 22: doInventory - Harmonica 1 is tuned from true to false in a Haphazard fashion
+0
+Day 22: doInventory - The total number of items damaged is 1
+Day 22: doInventory - The total number of items in inventory is 22
+Day 22: doInventory - Cash Register value: 1597.24
+Day 22: doInventory - Total purchase value of all the inventory items is 565.28
+Day 22: addItems - An order of 34.05 has been made. Items of type Vinyl will arrive on Day 23.
+Day 22: addItems - An order of 104.67 has been made. Items of type CDPlayer will arrive on Day 23.
+Day 22: addItems - An order of 189.15 has been made. Items of type Bass will arrive on Day 23.
+Day 22: addItems - An order of 248.60 has been made. Items of type Flute will arrive on Day 23.
+Day 22: addItems - An order of 323.95 has been made. Items of type Saxophone will arrive on Day 23.
+Day 22: addItems - An order of 392.65 has been made. Items of type Shirt will arrive on Day 23.
+Day 22: addItems - An order of 417.02 has been made. Items of type PracticeAmps will arrive on Day 23.
+Day 22: addItems - An order of 505.30 has been made. Items of type Cables will arrive on Day 23.
+Day 22: addItems - An order of 614.14 has been made. Items of type Strings will arrive on Day 23.
+Day 22: addItems - An order of 728.55 has been made. Items of type GigBag will arrive on Day 23.
+Day 22: placeAnOrder - Cash Register value before placing the order: 1597.24
+Day 22: placeAnOrder - Cash Register value after placing the order: 868.69
+Day 22: placeAnOrder - 10 have been purchased
+Day 22: openTheStore - We have 7 customers today.
+Mandolin
+Day 22: openTheStore - Customer1 bought a Mandolin for 70.240005!
+Day 22: openTheStore - Customer2 left without buying a CassettePlayer!
+Day 22: openTheStore - Customer3 bought a PaperScore for 57.33!
+Day 22: openTheStore - Customer4 bought a PaperScore for 36.56!
+Day 22: openTheStore - Customer5 bought a PaperScore for 56.50!
+Day 22: openTheStore - Customer6 sold a Saxophone for 21.94!
+Day 22: openTheStore - Customer7 sold a CassettePlayer for 2.41!
+Day 22: openTheStore - 2 Items were sold today.
+Day 22: openTheStore - 4 Items were purchased today.
+Day 22: cleanTheStore - Shaggyhas damaged a CD while cleaning. Item condition is lowered and list price is reduced.
+Day 22: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 22: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           11                50               7
+     Daphne           13                32               5
+     Shaggy           14                50               7
+-------------------------------------------------------------------
+Day 23: arriveAtStore - Shaggy arrives at the store on Day 23
+Day 23: arriveAtStore - Item Bass has arrived.
+Day 23: arriveAtStore - Item Bass has arrived.
+Day 23: arriveAtStore - Item Bass has arrived.
+Day 23: arriveAtStore - 3Items were added to inventory.
+Day 23: arriveAtStore - Item PracticeAmps has arrived.
+Day 23: arriveAtStore - Item PracticeAmps has arrived.
+Day 23: arriveAtStore - Item PracticeAmps has arrived.
+Day 23: arriveAtStore - 6Items were added to inventory.
+Day 23: arriveAtStore - Item Vinyl has arrived.
+Day 23: arriveAtStore - Item Vinyl has arrived.
+Day 23: arriveAtStore - Item Vinyl has arrived.
+Day 23: arriveAtStore - 9Items were added to inventory.
+Day 23: arriveAtStore - Item Shirt has arrived.
+Day 23: arriveAtStore - Item Shirt has arrived.
+Day 23: arriveAtStore - Item Shirt has arrived.
+Day 23: arriveAtStore - 12Items were added to inventory.
+Day 23: arriveAtStore - Item CDPlayer has arrived.
+Day 23: arriveAtStore - Item CDPlayer has arrived.
+Day 23: arriveAtStore - Item CDPlayer has arrived.
+Day 23: arriveAtStore - 15Items were added to inventory.
+Day 23: arriveAtStore - Item Saxophone has arrived.
+Day 23: arriveAtStore - Item Saxophone has arrived.
+Day 23: arriveAtStore - Item Saxophone has arrived.
+Day 23: arriveAtStore - 18Items were added to inventory.
+Day 23: arriveAtStore - Item GigBag has arrived.
+Day 23: arriveAtStore - Item GigBag has arrived.
+Day 23: arriveAtStore - Item GigBag has arrived.
+Day 23: arriveAtStore - 21Items were added to inventory.
+Day 23: arriveAtStore - Item Flute has arrived.
+Day 23: arriveAtStore - Item Flute has arrived.
+Day 23: arriveAtStore - Item Flute has arrived.
+Day 23: arriveAtStore - 24Items were added to inventory.
+Day 23: arriveAtStore - Item Strings has arrived.
+Day 23: arriveAtStore - Item Strings has arrived.
+Day 23: arriveAtStore - Item Strings has arrived.
+Day 23: arriveAtStore - 27Items were added to inventory.
+Day 23: arriveAtStore - Item Cables has arrived.
+Day 23: arriveAtStore - Item Cables has arrived.
+Day 23: arriveAtStore - Item Cables has arrived.
+Day 23: arriveAtStore - 30Items were added to inventory.
+Shaggy
+Day 23: doInventory - RecordPlayer 0 is tuned from false to true in a Haphazard fashion
+Day 23: doInventory - RecordPlayer 1 is tuned from true to false in a Haphazard fashion
+Day 23: doInventory - CassettePlayer 1 is tuned from false to true in a Haphazard fashion
+Day 23: doInventory - Guitar 0 is tuned from false to true in a Haphazard fashion
+Day 23: doInventory - Mandolin 0 is tuned from false to true in a Haphazard fashion
+Day 23: doInventory - Mandolin 1 is tuned from true to false in a Haphazard fashion
+Day 23: doInventory - Mandolin 1 is tuned from false to true in a Haphazard fashion
+Day 23: doInventory - Mandolin 2 is tuned from true to false in a Haphazard fashion
+Day 23: doInventory - Harmonica 0 is tuned from true to false in a Haphazard fashion
+Day 23: doInventory - Harmonica 0 is tuned from false to true in a Haphazard fashion
+Day 23: doInventory - Harmonica 1 is tuned from true to false in a Haphazard fashion
+Day 23: doInventory - Saxophone 1 is tuned from false to true in a Haphazard fashion
+Day 23: doInventory - Saxophone 2 is tuned from true to false in a Haphazard fashion
+0
+Day 23: doInventory - The total number of items damaged is 0
+Day 23: doInventory - The total number of items in inventory is 23
+Day 23: doInventory - Cash Register value: 1064.98
+Day 23: doInventory - Total purchase value of all the inventory items is 548.34
+Day 23: addItems - An order of 47.62 has been made. Items of type PaperScore will arrive on Day 25.
+Day 23: addItems - An order of 164.37 has been made. Items of type Vinyl will arrive on Day 25.
+Day 23: addItems - An order of 249.31 has been made. Items of type CDPlayer will arrive on Day 25.
+Day 23: addItems - An order of 274.58 has been made. Items of type Bass will arrive on Day 25.
+Day 23: addItems - An order of 342.07 has been made. Items of type Flute will arrive on Day 25.
+Day 23: addItems - An order of 424.88 has been made. Items of type Shirt will arrive on Day 25.
+Day 23: addItems - An order of 481.05 has been made. Items of type PracticeAmps will arrive on Day 25.
+Day 23: addItems - An order of 549.10 has been made. Items of type Cables will arrive on Day 25.
+Day 23: addItems - An order of 663.42 has been made. Items of type Strings will arrive on Day 25.
+Day 23: addItems - An order of 758.13 has been made. Items of type GigBag will arrive on Day 25.
+Day 23: placeAnOrder - Cash Register value before placing the order: 1064.98
+Day 23: placeAnOrder - Cash Register value after placing the order: 306.85
+Day 23: placeAnOrder - 10 have been purchased
+Day 23: openTheStore - We have 8 customers today.
+Day 23: openTheStore - Customer1 bought a Hat for 23.56!
+Day 23: openTheStore - Customer2 bought a CD for 36.85!
+Day 23: openTheStore - Customer3 bought a Saxophone for 40.54!
+Day 23: openTheStore - Customer4 sold a Cassette for 13.04!
+Mandolin
+Day 23: openTheStore - Customer5 bought a Mandolin for 40.56!
+Day 23: openTheStore - Customer6 bought a Saxophone for 43.87!
+Day 23: openTheStore - Customer7 left without buying a CD!
+Day 23: openTheStore - Customer8 left without buying a RecordPlayer!
+Day 23: openTheStore - 1 Items were sold today.
+Day 23: openTheStore - 5 Items were purchased today.
+Day 23: cleanTheStore - Shaggyhas damaged a Guitar while cleaning. Item condition is lowered and list price is reduced.
+Day 23: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 23: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           11                50               7
+     Daphne           13                32               5
+     Shaggy           15                65               8
+-------------------------------------------------------------------
+Day 24: arriveAtStore - Daphne is sick on day 24
+Day 24: arriveAtStore - Shaggy cannot work 3 days in a row.
+Day 24: arriveAtStore - Velma arrives at the store on Day 24
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Day 24: arriveAtStore - 0Items were added to inventory.
+Velma
+Day 24: doInventory - RecordPlayer 1 is tuned from false to true Electronically
+Day 24: doInventory - MP3Player 1 is tuned from false to true Electronically
+Day 24: doInventory - CassettePlayer 0 is tuned from false to true Electronically
+Day 24: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 24: doInventory - Mandolin 0 is tuned from false to true Electronically
+Day 24: doInventory - Mandolin 1 is tuned from false to true Electronically
+Day 24: doInventory - Harmonica 0 is tuned from false to true Electronically
+Day 24: doInventory - Harmonica 1 is tuned from false to true Electronically
+Day 24: doInventory - Saxophone 0 is tuned from false to true Electronically
+Day 24: doInventory - Saxophone 1 is tuned from false to true Electronically
+0
+Day 24: doInventory - The total number of items damaged is 0
+Day 24: doInventory - The total number of items in inventory is 19
+Day 24: doInventory - Cash Register value: 479.19
+Day 24: doInventory - Total purchase value of all the inventory items is 465.33
+Day 24: openTheStore - We have 6 customers today.
+Day 24: openTheStore - Customer1 sold a Vinyl for 22.21!
+Day 24: openTheStore - Customer2 bought a Saxophone for 25.92!
+Mandolin
+Day 24: openTheStore - Customer3 bought a Mandolin for 99.4!
+Day 24: openTheStore - Customer4 bought a Saxophone for 75.82!
+Day 24: openTheStore - Customer5 bought a Harmonica for 52.62!
+Mandolin
+Day 24: openTheStore - Customer6 bought a Mandolin for 69.12!
+Day 24: openTheStore - 1 Items were sold today.
+Day 24: openTheStore - 5 Items were purchased today.
+Day 24: cleanTheStore - Velmahas damaged a Hat while cleaning. Item is removed from the inventory.
+Day 24: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 24: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           12                55               8
+     Daphne           13                32               5
+     Shaggy           15                65               8
+-------------------------------------------------------------------
+Day 25: arriveAtStore - Velma arrives at the store on Day 25
+Day 25: arriveAtStore - Item Bass has arrived.
+Day 25: arriveAtStore - Item Bass has arrived.
+Day 25: arriveAtStore - Item Bass has arrived.
+Day 25: arriveAtStore - 3Items were added to inventory.
+Day 25: arriveAtStore - Item PracticeAmps has arrived.
+Day 25: arriveAtStore - Item PracticeAmps has arrived.
+Day 25: arriveAtStore - Item PracticeAmps has arrived.
+Day 25: arriveAtStore - 6Items were added to inventory.
+Day 25: arriveAtStore - Item Vinyl has arrived.
+Day 25: arriveAtStore - Item Vinyl has arrived.
+Day 25: arriveAtStore - Item Vinyl has arrived.
+Day 25: arriveAtStore - 9Items were added to inventory.
+Day 25: arriveAtStore - Item Shirt has arrived.
+Day 25: arriveAtStore - Item Shirt has arrived.
+Day 25: arriveAtStore - Item Shirt has arrived.
+Day 25: arriveAtStore - 12Items were added to inventory.
+Day 25: arriveAtStore - Item PaperScore has arrived.
+Day 25: arriveAtStore - Item PaperScore has arrived.
+Day 25: arriveAtStore - Item PaperScore has arrived.
+Day 25: arriveAtStore - 15Items were added to inventory.
+Day 25: arriveAtStore - Item CDPlayer has arrived.
+Day 25: arriveAtStore - Item CDPlayer has arrived.
+Day 25: arriveAtStore - Item CDPlayer has arrived.
+Day 25: arriveAtStore - 18Items were added to inventory.
+Day 25: arriveAtStore - Item GigBag has arrived.
+Day 25: arriveAtStore - Item GigBag has arrived.
+Day 25: arriveAtStore - Item GigBag has arrived.
+Day 25: arriveAtStore - 21Items were added to inventory.
+Day 25: arriveAtStore - Item Flute has arrived.
+Day 25: arriveAtStore - Item Flute has arrived.
+Day 25: arriveAtStore - Item Flute has arrived.
+Day 25: arriveAtStore - 24Items were added to inventory.
+Day 25: arriveAtStore - Item Strings has arrived.
+Day 25: arriveAtStore - Item Strings has arrived.
+Day 25: arriveAtStore - Item Strings has arrived.
+Day 25: arriveAtStore - 27Items were added to inventory.
+Day 25: arriveAtStore - Item Cables has arrived.
+Day 25: arriveAtStore - Item Cables has arrived.
+Day 25: arriveAtStore - Item Cables has arrived.
+Day 25: arriveAtStore - 30Items were added to inventory.
+Velma
+Day 25: doInventory - Guitar 0 is tuned from false to true Electronically
+Day 25: doInventory - Harmonica 0 is tuned from false to true Electronically
+0
+Day 25: doInventory - The total number of items damaged is 0
+Day 25: doInventory - The total number of items in inventory is 17
+Day 25: doInventory - Cash Register value: 779.85
+Day 25: doInventory - Total purchase value of all the inventory items is 423.56
+Day 25: addItems - An order of 89.45 has been made. Items of type PaperScore will arrive on Day 27.
+Day 25: addItems - An order of 145.90 has been made. Items of type CDPlayer will arrive on Day 27.
+Day 25: addItems - An order of 173.52 has been made. Items of type Bass will arrive on Day 27.
+Day 25: addItems - An order of 242.11 has been made. Items of type Mandolin will arrive on Day 27.
+Day 25: addItems - An order of 319.57 has been made. Items of type Flute will arrive on Day 27.
+Day 25: addItems - An order of 348.69 has been made. Items of type Saxophone will arrive on Day 27.
+Day 25: addItems - An order of 429.58 has been made. Items of type Hat will arrive on Day 27.
+Day 25: addItems - An order of 540.25 has been made. Items of type Shirt will arrive on Day 27.
+Day 25: addItems - An order of 621.23 has been made. Items of type PracticeAmps will arrive on Day 27.
+Day 25: addItems - An order of 702.01 has been made. Items of type Cables will arrive on Day 27.
+Day 25: addItems - An order of 765.39 has been made. Items of type Strings will arrive on Day 27.
+Day 25: addItems - Not enough money in the Cash Register to buy GigBag.
+Day 25: placeAnOrder - Cash Register value before placing the order: 779.85
+Day 25: placeAnOrder - Cash Register value after placing the order: 14.46
+Day 25: placeAnOrder - 12 have been purchased
+Day 25: openTheStore - We have 7 customers today.
+Day 25: openTheStore - Customer1 bought a Bandana for 12.93!
+Day 25: openTheStore - Customer2 bought a Cassette for 26.08!
+Day 25: openTheStore - Customer3 sold a RecordPlayer for 9.29!
+Day 25: openTheStore - Customer4 sold a Saxophone for 30.30!
+Day 25: openTheStore - Customer5 bought a RecordPlayer for 52.94!
+Day 25: openTheStore - Customer6 bought a MP3Player for 33.76!
+Day 25: openTheStore - Customer7 bought a Harmonica for 11.55!
+Day 25: openTheStore - 2 Items were sold today.
+Day 25: openTheStore - 5 Items were purchased today.
+Day 25: cleanTheStore - Velmahas damaged a Cassette while cleaning. Item condition is lowered and list price is reduced.
+Day 25: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 25: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           14                72               9
+     Daphne           13                32               5
+     Shaggy           15                65               8
+-------------------------------------------------------------------
+Day 26: arriveAtStore - Shaggy arrives at the store on Day 26
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Day 26: arriveAtStore - 0Items were added to inventory.
+Shaggy
+Day 26: doInventory - RecordPlayer 0 is tuned from false to true in a Haphazard fashion
+Day 26: doInventory - RecordPlayer 1 is tuned from true to false in a Haphazard fashion
+Day 26: doInventory - MP3Player 0 is tuned from false to true in a Haphazard fashion
+Day 26: doInventory - CassettePlayer 0 is tuned from true to false in a Haphazard fashion
+Day 26: doInventory - CassettePlayer 1 is tuned from true to false in a Haphazard fashion
+Day 26: doInventory - CassettePlayer 1 is tuned from false to true in a Haphazard fashion
+Day 26: doInventory - Guitar 0 is tuned from false to true in a Haphazard fashion
+Day 26: doInventory - Saxophone 0 is tuned from false to true in a Haphazard fashion
+0
+Day 26: doInventory - The total number of items damaged is 0
+Day 26: doInventory - The total number of items in inventory is 14
+Day 26: doInventory - Cash Register value: 112.12
+Day 26: doInventory - Total purchase value of all the inventory items is 380.16
+Day 26: addItems - An order of 63.15 has been made. Items of type Harmonica will arrive on Day 27.
+Day 26: addItems - Not enough money in the Cash Register to buy GigBag.
+Day 26: placeAnOrder - Cash Register value before placing the order: 112.12
+Day 26: placeAnOrder - Cash Register value after placing the order: 48.97
+Day 26: placeAnOrder - 2 have been purchased
+Day 26: openTheStore - We have 5 customers today.
+Day 26: openTheStore - Customer1 sold a CD for 6.75!
+Day 26: openTheStore - Customer2 sold a RecordPlayer for 20.87!
+Day 26: openTheStore - Customer3 bought a Saxophone for 60.60!
+Day 26: openTheStore - Customer4 bought a RecordPlayer for 19.59!
+Day 26: openTheStore - Customer5 bought a CD for 13.47!
+Day 26: openTheStore - 2 Items were sold today.
+Day 26: openTheStore - 3 Items were purchased today.
+Day 26: cleanTheStore - Shaggyhas damaged a Vinyl while cleaning. Item condition is lowered and list price is reduced.
+Day 26: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 26: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           14                72               9
+     Daphne           13                32               5
+     Shaggy           17                70               9
+-------------------------------------------------------------------
+Day 27: arriveAtStore - Shaggy arrives at the store on Day 27
+Day 27: arriveAtStore - Item Bass has arrived.
+Day 27: arriveAtStore - Item Bass has arrived.
+Day 27: arriveAtStore - Item Bass has arrived.
+Day 27: arriveAtStore - 3Items were added to inventory.
+Day 27: arriveAtStore - Item PracticeAmps has arrived.
+Day 27: arriveAtStore - Item PracticeAmps has arrived.
+Day 27: arriveAtStore - Item PracticeAmps has arrived.
+Day 27: arriveAtStore - 6Items were added to inventory.
+Day 27: arriveAtStore - Item Harmonica has arrived.
+Day 27: arriveAtStore - Item Harmonica has arrived.
+Day 27: arriveAtStore - Item Harmonica has arrived.
+Day 27: arriveAtStore - 9Items were added to inventory.
+Day 27: arriveAtStore - Item Shirt has arrived.
+Day 27: arriveAtStore - Item Shirt has arrived.
+Day 27: arriveAtStore - Item Shirt has arrived.
+Day 27: arriveAtStore - 12Items were added to inventory.
+Day 27: arriveAtStore - Item PaperScore has arrived.
+Day 27: arriveAtStore - Item PaperScore has arrived.
+Day 27: arriveAtStore - Item PaperScore has arrived.
+Day 27: arriveAtStore - 15Items were added to inventory.
+Day 27: arriveAtStore - Item CDPlayer has arrived.
+Day 27: arriveAtStore - Item CDPlayer has arrived.
+Day 27: arriveAtStore - Item CDPlayer has arrived.
+Day 27: arriveAtStore - 18Items were added to inventory.
+Day 27: arriveAtStore - Item Hat has arrived.
+Day 27: arriveAtStore - Item Hat has arrived.
+Day 27: arriveAtStore - Item Hat has arrived.
+Day 27: arriveAtStore - 21Items were added to inventory.
+Day 27: arriveAtStore - Item Saxophone has arrived.
+Day 27: arriveAtStore - Item Saxophone has arrived.
+Day 27: arriveAtStore - Item Saxophone has arrived.
+Day 27: arriveAtStore - 24Items were added to inventory.
+Day 27: arriveAtStore - Item Mandolin has arrived.
+Day 27: arriveAtStore - Item Mandolin has arrived.
+Day 27: arriveAtStore - Item Mandolin has arrived.
+Day 27: arriveAtStore - 27Items were added to inventory.
+Day 27: arriveAtStore - Item Flute has arrived.
+Day 27: arriveAtStore - Item Flute has arrived.
+Day 27: arriveAtStore - Item Flute has arrived.
+Day 27: arriveAtStore - 30Items were added to inventory.
+Day 27: arriveAtStore - Item Strings has arrived.
+Day 27: arriveAtStore - Item Strings has arrived.
+Day 27: arriveAtStore - Item Strings has arrived.
+Day 27: arriveAtStore - 33Items were added to inventory.
+Day 27: arriveAtStore - Item Cables has arrived.
+Day 27: arriveAtStore - Item Cables has arrived.
+Day 27: arriveAtStore - Item Cables has arrived.
+Day 27: arriveAtStore - 36Items were added to inventory.
+Shaggy
+Day 27: doInventory - RecordPlayer 1 is tuned from true to false in a Haphazard fashion
+Day 27: doInventory - CassettePlayer 0 is tuned from true to false in a Haphazard fashion
+Day 27: doInventory - CassettePlayer 1 is tuned from true to false in a Haphazard fashion
+Day 27: doInventory - CassettePlayer 1 is tuned from false to true in a Haphazard fashion
+0
+Day 27: doInventory - The total number of items damaged is 0
+Day 27: doInventory - The total number of items in inventory is 13
+Day 27: doInventory - Cash Register value: 115.00
+Day 27: doInventory - Total purchase value of all the inventory items is 353.45
+Day 27: addItems - An order of 44.10 has been made. Items of type PaperScore will arrive on Day 28.
+Day 27: addItems - Not enough money in the Cash Register to buy CDPlayer.
+Day 27: addItems - Not enough money in the Cash Register to buy Bass.
+Day 27: addItems - Not enough money in the Cash Register to buy Mandolin.
+Day 27: addItems - An order of 86.29 has been made. Items of type Flute will arrive on Day 28.
+Day 27: addItems - Not enough money in the Cash Register to buy Harmonica.
+Day 27: addItems - Not enough money in the Cash Register to buy Saxophone.
+Day 27: addItems - Not enough money in the Cash Register to buy PracticeAmps.
+Day 27: addItems - Not enough money in the Cash Register to buy Cables.
+Day 27: addItems - Not enough money in the Cash Register to buy Strings.
+Day 27: addItems - Not enough money in the Cash Register to buy GigBag.
+Day 27: placeAnOrder - Cash Register value before placing the order: 115.00
+Day 27: placeAnOrder - Cash Register value after placing the order: 28.71
+Day 27: placeAnOrder - 11 have been purchased
+Day 27: openTheStore - We have 4 customers today.
+Day 27: openTheStore - Customer1 bought a RecordPlayer for 37.57!
+Day 27: openTheStore - Customer2 sold a MP3Player for 26.52!
+Day 27: openTheStore - Customer3 sold a CassettePlayer for 16.85!
+Day 27: openTheStore - Customer4 left without buying a Cassette!
+Day 27: openTheStore - 2 Items were sold today.
+Day 27: openTheStore - 1 Items were purchased today.
+Day 27: cleanTheStore - Shaggyhas damaged a Vinyl while cleaning. Item condition is lowered and list price is reduced.
+Day 27: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 27: leaveTheStore - Closing time! Shaggy left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           14                72               9
+     Daphne           13                32               5
+     Shaggy           19                82              10
+-------------------------------------------------------------------
+Day 28: storeIsClosed - It's a Sunday. Store is closed today.
+Day 29: arriveAtStore - Daphne is sick on day 29
+Day 29: arriveAtStore - Velma arrives at the store on Day 29
+Day 29: arriveAtStore - Item PaperScore has arrived.
+Day 29: arriveAtStore - Item PaperScore has arrived.
+Day 29: arriveAtStore - Item PaperScore has arrived.
+Day 29: arriveAtStore - 3Items were added to inventory.
+Day 29: arriveAtStore - Item Flute has arrived.
+Day 29: arriveAtStore - Item Flute has arrived.
+Day 29: arriveAtStore - Item Flute has arrived.
+Day 29: arriveAtStore - 6Items were added to inventory.
+Day 29: checkRegister - Cash Register value: 22.904604
+Day 29: goToBank - 1000.0 has been added to the Cash Register on Day 29. New value: 1022.9046
+Velma
+Day 29: doInventory - RecordPlayer 0 is tuned from false to true Electronically
+Day 29: doInventory - MP3Player 1 is tuned from false to true Electronically
+Day 29: doInventory - CassettePlayer 0 is tuned from false to true Electronically
+Day 29: doInventory - CassettePlayer 2 is tuned from false to true Electronically
+Day 29: doInventory - Guitar 0 is tuned from false to true Electronically
+0
+Day 29: doInventory - The total number of items damaged is 0
+Day 29: doInventory - The total number of items in inventory is 14
+Day 29: doInventory - Cash Register value: 1022.90
+Day 29: doInventory - Total purchase value of all the inventory items is 375.95
+Day 29: addItems - An order of 60.54 has been made. Items of type PaperScore will arrive on Day 32.
+Day 29: addItems - An order of 94.58 has been made. Items of type CDPlayer will arrive on Day 32.
+Day 29: addItems - An order of 125.86 has been made. Items of type Bass will arrive on Day 32.
+Day 29: addItems - An order of 263.72 has been made. Items of type Mandolin will arrive on Day 32.
+Day 29: addItems - An order of 310.14 has been made. Items of type Flute will arrive on Day 32.
+Day 29: addItems - An order of 374.25 has been made. Items of type Harmonica will arrive on Day 32.
+Day 29: addItems - An order of 443.75 has been made. Items of type Saxophone will arrive on Day 32.
+Day 29: addItems - An order of 500.71 has been made. Items of type PracticeAmps will arrive on Day 32.
+Day 29: addItems - An order of 575.87 has been made. Items of type Cables will arrive on Day 32.
+Day 29: addItems - An order of 673.31 has been made. Items of type Strings will arrive on Day 32.
+Day 29: addItems - An order of 682.59 has been made. Items of type GigBag will arrive on Day 32.
+Day 29: placeAnOrder - Cash Register value before placing the order: 1022.90
+Day 29: placeAnOrder - Cash Register value after placing the order: 340.31
+Day 29: placeAnOrder - 11 have been purchased
+Day 29: openTheStore - We have 12 customers today.
+Day 29: openTheStore - Customer1 bought a CassettePlayer for 46.86!
+Day 29: openTheStore - Customer2 left without selling a Cassette!
+Day 29: openTheStore - Customer3 bought a CD for 12.16!
+Day 29: openTheStore - Customer4 sold a GigBag for 28.45!
+Day 29: openTheStore - Customer5 bought a CassettePlayer for 4.82!
+Day 29: openTheStore - Customer6 sold a PaperScore for 6.71!
+Day 29: openTheStore - Customer7 bought a MP3Player for 53.05!
+Day 29: openTheStore - Customer8 bought a CassettePlayer for 33.70!
+Day 29: openTheStore - Customer9 sold a Saxophone for 4.61!
+Day 29: openTheStore - Customer10 bought a Vinyl for 70.67!
+Day 29: openTheStore - Customer11 bought a CD for 79.53!
+Day 29: openTheStore - Customer12 bought a Vinyl for 44.85!
+Day 29: openTheStore - 3 Items were sold today.
+Day 29: openTheStore - 8 Items were purchased today.
+Day 29: cleanTheStore - Velmahas damaged a Saxophone while cleaning. Item condition is lowered and list price is reduced.
+Day 29: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 29: leaveTheStore - Closing time! Velma left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           17                91              10
+     Daphne           13                32               5
+     Shaggy           19                82              10
+-------------------------------------------------------------------
+Day 30: arriveAtStore - Daphne arrives at the store on Day 30
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Day 30: arriveAtStore - 0Items were added to inventory.
+Daphne
+Day 30: doInventory - RecordPlayer 0 is tuned from false to true Manually
+Day 30: doInventory - Guitar 0 is tuned from false to true Manually
+Day 30: doInventory - Guitar 0 is tuned from true to false Manually
+0
+Day 30: doInventory - The total number of items damaged is 0
+Day 30: doInventory - The total number of items in inventory is 9
+Day 30: doInventory - Cash Register value: 646.18
+Day 30: doInventory - Total purchase value of all the inventory items is 217.51
+Day 30: addItems - An order of 63.04 has been made. Items of type CD will arrive on Day 31.
+Day 30: addItems - An order of 99.18 has been made. Items of type CassettePlayer will arrive on Day 31.
+Day 30: placeAnOrder - Cash Register value before placing the order: 646.18
+Day 30: placeAnOrder - Cash Register value after placing the order: 547.00
+Day 30: placeAnOrder - 2 have been purchased
+Day 30: openTheStore - We have 10 customers today.
+Day 30: openTheStore - Customer1 bought a Vinyl for 80.19!
+Day 30: openTheStore - Customer2 bought a GigBag for 56.90!
+Day 30: openTheStore - Customer3 bought a Saxophone for 7.37!
+Day 30: openTheStore - Customer4 sold a GigBag for 9.07!
+Day 30: openTheStore - Customer5 bought a RecordPlayer for 16.73!
+Day 30: openTheStore - Customer6 bought a PaperScore for 12.09!
+Day 30: openTheStore - Customer7 bought a Vinyl for 39.99!
+Day 30: openTheStore - Customer8 left without selling a Harmonica!
+Day 30: openTheStore - Customer9 left without selling a Harmonica!
+Day 30: openTheStore - Customer10 sold a Vinyl for 15.21!
+Day 30: openTheStore - 2 Items were sold today.
+Day 30: openTheStore - 6 Items were purchased today.
+Day 30: cleanTheStore - Daphnehas damaged a Guitar while cleaning. Item condition is lowered and list price is reduced.
+Day 30: cleanTheStore - 1 items were damaged while cleaning the store.
+Day 30: leaveTheStore - Closing time! Daphne left the store.
+-------------------------------------------------------------------
+      Clerk   Items Sold   Items Purchased   Items Damaged
+-------------------------------------------------------------------
+      Velma           17                91              10
+     Daphne           15                40               6
+     Shaggy           19                82              10
+-------------------------------------------------------------------
+
+Inventory at the end of simulation
+----------------------------------
+Item: Guitar  Purchase Price: 28.27
+Item: Vinyl  Purchase Price: 15.21
+Item: MP3Player  Purchase Price: 27.44
+Item: Cassette  Purchase Price: 45.97
+Item: GigBag  Purchase Price: 9.07
+
+Sold Items' details at the end of simulation
+--------------------------------------------
+Item Bandana was sold on day 3 for price 91.71
+Item Bandana was sold on day 6 for price 91.26
+Item Bandana was sold on day 9 for price 17.73
+Item Bandana was sold on day 25 for price 12.93
+Item CD was sold on day 6 for price 53.44
+Item CD was sold on day 6 for price 38.73
+Item CD was sold on day 12 for price 19.03
+Item CD was sold on day 17 for price 13.30
+Item CD was sold on day 19 for price 19.05
+Item CD was sold on day 23 for price 36.85
+Item CD was sold on day 26 for price 13.47
+Item CD was sold on day 29 for price 12.16
+Item CD was sold on day 29 for price 79.53
+Item Vinyl was sold on day 3 for price 27.96
+Item Vinyl was sold on day 5 for price 23.60
+Item Vinyl was sold on day 13 for price 27.75
+Item Vinyl was sold on day 20 for price 74.17
+Item Vinyl was sold on day 20 for price 23.96
+Item Vinyl was sold on day 29 for price 70.67
+Item Vinyl was sold on day 29 for price 44.85
+Item Vinyl was sold on day 30 for price 80.19
+Item Vinyl was sold on day 30 for price 39.99
+Item PaperScore was sold on day 4 for price 42.60
+Item PaperScore was sold on day 9 for price 45.16
+Item PaperScore was sold on day 12 for price 71.84
+Item PaperScore was sold on day 16 for price 20.63
+Item PaperScore was sold on day 20 for price 30.58
+Item PaperScore was sold on day 22 for price 57.33
+Item PaperScore was sold on day 22 for price 36.56
+Item PaperScore was sold on day 22 for price 56.50
+Item PaperScore was sold on day 30 for price 12.09
+Item MP3Player was sold on day 4 for price 33.90
+Item MP3Player was sold on day 11 for price 51.67
+Item MP3Player was sold on day 25 for price 33.76
+Item MP3Player was sold on day 29 for price 53.05
+Item CassettePlayer was sold on day 9 for price 50.05
+Item CassettePlayer was sold on day 9 for price 83.09
+Item CassettePlayer was sold on day 18 for price 8.42
+Item CassettePlayer was sold on day 29 for price 46.86
+Item CassettePlayer was sold on day 29 for price 4.82
+Item CassettePlayer was sold on day 29 for price 33.70
+Item Flute was sold on day 1 for price 91.92
+Item Flute was sold on day 2 for price 70.24
+Item Flute was sold on day 8 for price 1.62
+Item Flute was sold on day 9 for price 31.45
+Item Flute was sold on day 13 for price 12.51
+Item Flute was sold on day 17 for price 93.20
+Item Strings was sold on day 2 for price 27.45
+Item Strings was sold on day 13 for price 55.44
+Item Strings was sold on day 15 for price 55.12
+Item Cables was sold on day 2 for price 43.96
+Item Cables was sold on day 3 for price 22.96
+Item Cassette was sold on day 12 for price 88.04
+Item Cassette was sold on day 19 for price 82.89
+Item Cassette was sold on day 25 for price 26.08
+Item Harmonica was sold on day 1 for price 77.18
+Item Harmonica was sold on day 24 for price 52.62
+Item Harmonica was sold on day 25 for price 11.55
+Item Shirt was sold on day 1 for price 44.32
+Item Shirt was sold on day 15 for price 42.80
+Item Shirt was sold on day 15 for price 22.30
+Item Shirt was sold on day 18 for price 50.18
+Item Shirt was sold on day 18 for price 69.44
+Item CDPlayer was sold on day 1 for price 98.90
+Item CDPlayer was sold on day 2 for price 28.35
+Item CDPlayer was sold on day 2 for price 31.64
+Item CDPlayer was sold on day 13 for price 38.79
+Item CDPlayer was sold on day 15 for price 96.98
+Item CDPlayer was sold on day 19 for price 52.47
+Item CDPlayer was sold on day 20 for price 56.40
+Item Hat was sold on day 3 for price 2.50
+Item Hat was sold on day 8 for price 45.92
+Item Hat was sold on day 9 for price 53.26
+Item Hat was sold on day 16 for price 57.13
+Item Hat was sold on day 23 for price 23.56
+Item Saxophone was sold on day 6 for price 13.76
+Item Saxophone was sold on day 9 for price 57.89
+Item Saxophone was sold on day 13 for price 63.77
+Item Saxophone was sold on day 17 for price 66.62
+Item Saxophone was sold on day 18 for price 27.96
+Item Saxophone was sold on day 23 for price 40.54
+Item Saxophone was sold on day 23 for price 43.87
+Item Saxophone was sold on day 24 for price 25.92
+Item Saxophone was sold on day 24 for price 75.82
+Item Saxophone was sold on day 26 for price 60.60
+Item Saxophone was sold on day 30 for price 7.37
+Item GigBag was sold on day 2 for price 57.12
+Item GigBag was sold on day 30 for price 56.90
+Item RecordPlayer was sold on day 1 for price 21.58
+Item RecordPlayer was sold on day 8 for price 22.91
+Item RecordPlayer was sold on day 10 for price 30.84
+Item RecordPlayer was sold on day 25 for price 52.94
+Item RecordPlayer was sold on day 26 for price 19.59
+Item RecordPlayer was sold on day 27 for price 37.57
+Item RecordPlayer was sold on day 30 for price 16.73
+
+Bought Items' details at the end of simulation
+--------------------------------------------
+Item Bass was bought on day 1 for price 7.97
+Item Bass was bought on day 6 for price 2.56
+Item Bandana was bought on day 2 for price 8.87
+Item CD was bought on day 3 for price 21.52
+Item CD was bought on day 10 for price 9.51
+Item CD was bought on day 15 for price 9.52
+Item CD was bought on day 17 for price 20.47
+Item CD was bought on day 20 for price 44.18
+Item CD was bought on day 26 for price 6.75
+Item Vinyl was bought on day 4 for price 37.09
+Item Vinyl was bought on day 11 for price 13.87
+Item Vinyl was bought on day 24 for price 22.21
+Item Vinyl was bought on day 30 for price 15.21
+Item PaperScore was bought on day 9 for price 10.31
+Item PaperScore was bought on day 11 for price 31.39
+Item PaperScore was bought on day 18 for price 31.85
+Item PaperScore was bought on day 19 for price 15.29
+Item PaperScore was bought on day 19 for price 18.28
+Item PaperScore was bought on day 29 for price 6.71
+Item MP3Player was bought on day 12 for price 23.44
+Item MP3Player was bought on day 27 for price 26.52
+Item CassettePlayer was bought on day 2 for price 25.02
+Item CassettePlayer was bought on day 22 for price 2.41
+Item CassettePlayer was bought on day 27 for price 16.85
+Item Flute was bought on day 1 for price 35.12
+Item Flute was bought on day 1 for price 15.72
+Item Flute was bought on day 13 for price 46.60
+Item Mandolin was bought on day 10 for price 9.67
+Item Mandolin was bought on day 20 for price 35.12
+Item Strings was bought on day 12 for price 27.56
+Item Cables was bought on day 5 for price 51.89
+Item Cables was bought on day 5 for price 13.70
+Item Cassette was bought on day 23 for price 13.04
+Item Shirt was bought on day 12 for price 11.15
+Item Shirt was bought on day 15 for price 23.78
+Item CDPlayer was bought on day 3 for price 9.17
+Item CDPlayer was bought on day 8 for price 19.39
+Item Hat was bought on day 3 for price 28.57
+Item Hat was bought on day 4 for price 8.51
+Item Hat was bought on day 8 for price 13.09
+Item Saxophone was bought on day 11 for price 37.01
+Item Saxophone was bought on day 18 for price 13.98
+Item Saxophone was bought on day 22 for price 21.94
+Item Saxophone was bought on day 25 for price 30.30
+Item Saxophone was bought on day 29 for price 4.61
+Item GigBag was bought on day 29 for price 28.45
+Item GigBag was bought on day 30 for price 9.07
+Item RecordPlayer was bought on day 4 for price 10.88
+Item RecordPlayer was bought on day 8 for price 15.42
+Item RecordPlayer was bought on day 25 for price 9.29
+Item RecordPlayer was bought on day 26 for price 20.87
+
+Ordered Items' details at the end of simulation
+--------------------------------------------
+Item Bass is set to arrive on day 32 for price 5.35
+Item Bass is set to arrive on day 32 for price 9.99
+Item Bass is set to arrive on day 32 for price 15.94
+Item CD is set to arrive on day 31 for price 13.32
+Item CD is set to arrive on day 31 for price 23.71
+Item CD is set to arrive on day 31 for price 26.01
+Item PaperScore is set to arrive on day 32 for price 8.66
+Item PaperScore is set to arrive on day 32 for price 4.16
+Item PaperScore is set to arrive on day 32 for price 47.72
+Item CassettePlayer is set to arrive on day 31 for price 18.11
+Item CassettePlayer is set to arrive on day 31 for price 2.75
+Item CassettePlayer is set to arrive on day 31 for price 15.28
+Item Mandolin is set to arrive on day 32 for price 46.59
+Item Mandolin is set to arrive on day 32 for price 44.22
+Item Mandolin is set to arrive on day 32 for price 47.05
+Item Flute is set to arrive on day 32 for price 10.95
+Item Flute is set to arrive on day 32 for price 24.33
+Item Flute is set to arrive on day 32 for price 11.14
+Item Strings is set to arrive on day 32 for price 35.63
+Item Strings is set to arrive on day 32 for price 32.37
+Item Strings is set to arrive on day 32 for price 29.44
+Item Cables is set to arrive on day 32 for price 31.40
+Item Cables is set to arrive on day 32 for price 32.05
+Item Cables is set to arrive on day 32 for price 11.71
+Item PracticeAmps is set to arrive on day 32 for price 19.63
+Item PracticeAmps is set to arrive on day 32 for price 26.65
+Item PracticeAmps is set to arrive on day 32 for price 10.68
+Item Harmonica is set to arrive on day 32 for price 44.03
+Item Harmonica is set to arrive on day 32 for price 17.84
+Item Harmonica is set to arrive on day 32 for price 2.24
+Item CDPlayer is set to arrive on day 32 for price 9.03
+Item CDPlayer is set to arrive on day 32 for price 3.84
+Item CDPlayer is set to arrive on day 32 for price 21.17
+Item Saxophone is set to arrive on day 32 for price 17.91
+Item Saxophone is set to arrive on day 32 for price 42.13
+Item Saxophone is set to arrive on day 32 for price 9.46
+Item GigBag is set to arrive on day 32 for price 1.87
+Item GigBag is set to arrive on day 32 for price 4.50
+Item GigBag is set to arrive on day 32 for price 2.91
+
+Total Sale Price at the end of 30 days: 4144.39
+Total Buy Price at the end of 30 days: 991.74
+Total Ordered Items' Price at the end of 30 days: 781.77
+Cash Register value at the end of 30 days: 735.98
+Total money withdrawn from the bank at the end of 30 days: 2000.00

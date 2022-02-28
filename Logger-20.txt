@@ -1,0 +1,12 @@
+----------------------Logger-20.txt----------------------
+arriveAtStore - 3Items were added to inventory.
+arriveAtStore - 6Items were added to inventory.
+arriveAtStore - 9Items were added to inventory.
+doInventory - The total number of items damaged is 0
+doInventory - The total number of items in inventory is 29
+doInventory - Total purchase value of all the inventory items is 790.72
+placeAnOrder - 7 have been purchased
+openTheStore - 2 Items were sold today.
+openTheStore - 8 Items were purchased today.
+cleanTheStore - 1 items were damaged while cleaning the store.
+leaveTheStore - Closing time! Daphne left the store.

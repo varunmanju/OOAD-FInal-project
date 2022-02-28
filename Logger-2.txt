@@ -1,0 +1,9 @@
+----------------------Logger-2.txt----------------------
+doInventory - The total number of items damaged is 1
+doInventory - The total number of items in inventory is 59
+doInventory - Total purchase value of all the inventory items is 1573.82
+placeAnOrder - 1 have been purchased
+openTheStore - 2 Items were sold today.
+openTheStore - 4 Items were purchased today.
+cleanTheStore - 1 items were damaged while cleaning the store.
+leaveTheStore - Closing time! Shaggy left the store.

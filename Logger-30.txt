@@ -1,0 +1,12 @@
+----------------------Logger-30.txt----------------------
+arriveAtStore - 0Items were added to inventory.
+arriveAtStore - 0Items were added to inventory.
+arriveAtStore - 0Items were added to inventory.
+doInventory - The total number of items damaged is 0
+doInventory - The total number of items in inventory is 17
+doInventory - Total purchase value of all the inventory items is 424.48
+placeAnOrder - 8 have been purchased
+openTheStore - 3 Items were sold today.
+openTheStore - 7 Items were purchased today.
+cleanTheStore - 1 items were damaged while cleaning the store.
+leaveTheStore - Closing time! Shaggy left the store.
