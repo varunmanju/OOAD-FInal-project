@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="OOAD-Project-3-Part-2" />
+        <module name="OOAD-Project-4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="OOAD-Project-3-Part-2" target="17" />
+      <module name="OOAD-Project-4" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
