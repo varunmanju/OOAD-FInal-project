@@ -1,6 +1,6 @@
 
 /*
-Demonstration of Object Oriented Concepts
+Demonstration of Object-Oriented Concepts
 Inheritance - Class CD inherits from Class Music
 Polymorphism - We didn't need it with the current design. Will add in future requirements.
 Abstraction - Class Item is abstract
