@@ -470,6 +470,13 @@ class GigBag extends Accessories{
 	}
 }
 
+class TestItem extends Item{
+
+    public TestItem(String name, float purchasePrice, float listPrice, String newOrUsed, int dayArrived, String condition) {
+        super(name, purchasePrice, listPrice, newOrUsed, dayArrived, condition);
+    }
+}
+
 
 
 

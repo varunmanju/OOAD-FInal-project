@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="619e4a75-38d6-4e02-8a49-16595471aa37" name="Changes" comment="Logger" />
+    <list default="true" id="619e4a75-38d6-4e02-8a49-16595471aa37" name="Changes" comment="Test .gitignore">
+      <change beforePath="$PROJECT_DIR$/TryCode/src/abhi/ooad/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/TryCode/src/abhi/ooad/Item.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,7 +172,7 @@
       <workItem from="1645854916069" duration="10000" />
       <workItem from="1646070399880" duration="734000" />
       <workItem from="1646090518502" duration="178000" />
-      <workItem from="1646101659546" duration="906000" />
+      <workItem from="1646101659546" duration="1227000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1645292941697</created>
@@ -228,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645844567108</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Test .gitignore">
+      <created>1646102813422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646102813422</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +261,8 @@
     <MESSAGE value="Changes to Store: Poisson distribution" />
     <MESSAGE value="Added JUnit" />
     <MESSAGE value="Logger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logger" />
+    <MESSAGE value="Test .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test .gitignore" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
