@@ -4,12 +4,12 @@ arriveAtStore - 6Items were added to inventory.
 arriveAtStore - 9Items were added to inventory.
 arriveAtStore - 12Items were added to inventory.
 arriveAtStore - 15Items were added to inventory.
-arriveAtStore - 18Items were added to inventory.
+checkRegister - Cash Register value: 63.72478
+goToBank - 1000.0 has been added to the Cash Register on Day 29. New value: 1063.7247
 doInventory - The total number of items damaged is 0
-doInventory - The total number of items in inventory is 31
-doInventory - Total purchase value of all the inventory items is 712.95
-placeAnOrder - 6 have been purchased
-openTheStore - 4 Items were sold today.
-openTheStore - 6 Items were purchased today.
-cleanTheStore - 1 items were damaged while cleaning the store.
-leaveTheStore - Closing time! Velma left the store.
+doInventory - The total number of items in inventory is 4
+doInventory - Total purchase value of all the inventory items is 132.84
+placeAnOrder - 17 have been purchased
+openTheStore - 1 Items were sold today.
+openTheStore - 5 Items were purchased today.
+leaveTheStore - Closing time! Shaggy left the store.

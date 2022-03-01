@@ -1,15 +1,21 @@
 ----------------------C:\Users\abhin\Documents\GitHub\OOAD-Project-4\FNMS\logger\Logger-18.txt----------------------
-arriveAtStore - 0Items were added to inventory.
-arriveAtStore - 0Items were added to inventory.
-arriveAtStore - 0Items were added to inventory.
-arriveAtStore - 0Items were added to inventory.
-arriveAtStore - 0Items were added to inventory.
-arriveAtStore - 0Items were added to inventory.
-arriveAtStore - 0Items were added to inventory.
+arriveAtStore - 3Items were added to inventory.
+arriveAtStore - 6Items were added to inventory.
+arriveAtStore - 9Items were added to inventory.
+arriveAtStore - 12Items were added to inventory.
+arriveAtStore - 15Items were added to inventory.
+arriveAtStore - 18Items were added to inventory.
+arriveAtStore - 21Items were added to inventory.
+arriveAtStore - 24Items were added to inventory.
+arriveAtStore - 27Items were added to inventory.
+arriveAtStore - 30Items were added to inventory.
+arriveAtStore - 33Items were added to inventory.
+arriveAtStore - 36Items were added to inventory.
 doInventory - The total number of items damaged is 0
-doInventory - The total number of items in inventory is 27
-doInventory - Total purchase value of all the inventory items is 506.91
+doInventory - The total number of items in inventory is 23
+doInventory - Total purchase value of all the inventory items is 518.16
+placeAnOrder - 11 have been purchased
 openTheStore - 2 Items were sold today.
 openTheStore - 3 Items were purchased today.
 cleanTheStore - 1 items were damaged while cleaning the store.
-leaveTheStore - Closing time! Daphne left the store.
+leaveTheStore - Closing time! Velma left the store.

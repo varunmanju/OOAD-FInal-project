@@ -2,11 +2,18 @@
 arriveAtStore - 3Items were added to inventory.
 arriveAtStore - 6Items were added to inventory.
 arriveAtStore - 9Items were added to inventory.
+arriveAtStore - 12Items were added to inventory.
+arriveAtStore - 12Items were added to inventory.
+arriveAtStore - 15Items were added to inventory.
+arriveAtStore - 15Items were added to inventory.
+arriveAtStore - 18Items were added to inventory.
+arriveAtStore - 21Items were added to inventory.
+arriveAtStore - 24Items were added to inventory.
 doInventory - The total number of items damaged is 0
-doInventory - The total number of items in inventory is 30
-doInventory - Total purchase value of all the inventory items is 636.43
-placeAnOrder - 5 have been purchased
-openTheStore - 4 Items were sold today.
-openTheStore - 4 Items were purchased today.
+doInventory - The total number of items in inventory is 29
+doInventory - Total purchase value of all the inventory items is 642.95
+placeAnOrder - 6 have been purchased
+openTheStore - 3 Items were sold today.
+openTheStore - 7 Items were purchased today.
 cleanTheStore - 1 items were damaged while cleaning the store.
 leaveTheStore - Closing time! Daphne left the store.

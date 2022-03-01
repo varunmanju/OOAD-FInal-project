@@ -1,9 +1,7 @@
 ----------------------C:\Users\abhin\Documents\GitHub\OOAD-Project-4\FNMS\logger\Logger-4.txt----------------------
-arriveAtStore - 3Items were added to inventory.
 doInventory - The total number of items damaged is 2
-doInventory - The total number of items in inventory is 48
-doInventory - Total purchase value of all the inventory items is 1229.38
-placeAnOrder - 3 have been purchased
-openTheStore - 3 Items were sold today.
-openTheStore - 2 Items were purchased today.
+doInventory - The total number of items in inventory is 52
+doInventory - Total purchase value of all the inventory items is 1104.31
+openTheStore - 2 Items were sold today.
+openTheStore - 9 Items were purchased today.
 leaveTheStore - Closing time! Shaggy left the store.
