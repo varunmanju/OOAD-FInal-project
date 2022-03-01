@@ -17,6 +17,8 @@ public class Logger extends Subscriber{
         fName = fileName;
     
         //create file for output, delete it, and make a new one
+        String dir = System.getProperty("user.dir");
+        fName = dir + "\\FNMS\\logger\\" + fName;
         outputFile = new File(fName);
         outputFile.delete();
         outputFile = new File(fName);
