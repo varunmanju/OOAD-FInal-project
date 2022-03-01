@@ -1,0 +1,10 @@
+----------------------C:\Users\abhin\Documents\GitHub\OOAD-Project-4\FNMS\logger\Logger-1.txt----------------------
+checkRegister - Cash Register value: 0.0
+goToBank - 1000.0 has been added to the Cash Register on Day 1. New value: 1000.0
+doInventory - The total number of items damaged is 0
+doInventory - The total number of items in inventory is 63
+doInventory - Total purchase value of all the inventory items is 1655.92
+openTheStore - 2 Items were sold today.
+openTheStore - 4 Items were purchased today.
+cleanTheStore - 1 items were damaged while cleaning the store.
+leaveTheStore - Closing time! Daphne left the store.
