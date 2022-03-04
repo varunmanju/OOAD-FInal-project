@@ -20,6 +20,7 @@ public class Store implements Logger {
         clerks = new ArrayList<Clerk>();
         clerks.add(new Clerk("Velma",.05, this));
         clerks.add(new Clerk("Shaggy", .20, this));
+        clerks.add(new Clerk("Daphne", .10, this));
     }
 
     void openToday(int day) {
@@ -36,26 +37,39 @@ public class Store implements Logger {
     }
 
     Clerk getValidClerk() {
+        ArrayList<Clerk> availableClerks = (ArrayList<Clerk>) clerks.clone();
+        Clerk clerk = null;
+        boolean canWork = false;
         // pick a random clerk
-        Clerk clerk = clerks.get(Utility.rndFromRange(0,clerks.size()-1));
-        // if they are ok to work, set days worked on other clerks to 0
-        if (clerk.daysWorked < 3) {
-            clerk.daysWorked += 1;
-            for (Clerk other: clerks) {
-                if (other != clerk) other.daysWorked = 0; // they had a day off, so clear their counter
+        while (!canWork) {
+            canWork=true;
+            if (clerks.size() == 1) {
+                clerk = clerks.get(0);
+                break;
+            }
+
+            clerk = availableClerks.get(Utility.rndFromRange(0, availableClerks.size() - 1));
+
+            if (clerk.daysWorked > 3) {
+                out(clerk.name + " cannot work more than 3 days in a row.");
+                canWork=false;
+                availableClerks.remove(clerk);
+            }
+            else if (Utility.rndFromRange(1, 10) == 1) {
+                out(clerk.name + " is sick today.");
+                canWork=false;
+                availableClerks.remove(clerk);
+            }
+
+        }
+
+        clerk.daysWorked = clerk.daysWorked + 1;
+        for (Clerk other: clerks) {
+            if (other.name != clerk.name) {
+                other.daysWorked = 0;
             }
         }
-        // if they are not ok to work, set their days worked to 0 and get another clerk
-        else {
-            out(clerk.name+" has worked maximum of 3 days in a row.");
-            clerk.daysWorked = 0;   // they can't work, get another clerk
-            for (Clerk other: clerks) {
-                if (other != clerk) {
-                    clerk = other;
-                    break;
-                }
-            }
-        }
+
         return clerk;
     }
 

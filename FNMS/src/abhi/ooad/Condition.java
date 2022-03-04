@@ -5,7 +5,7 @@ package abhi.ooad;
 
 public enum Condition {
     POOR (1), FAIR (2), GOOD (3), VERYGOOD (4), EXCELLENT (5);
-    public final int level;
+    public int level;
     Condition(int level) {
         this.level = level;
     }

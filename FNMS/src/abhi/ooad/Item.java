@@ -12,7 +12,7 @@ public abstract class Item implements Logger {
     ItemType itemType;      // set by subclass constructors
 
     void damageAnItem(Item i) {
-        i.condition = new Condition(i.condition.level - 1);
+        i.condition = Condition.values()[i.condition.level-2];
         i.listPrice = i.listPrice * 0.8;
     }
 
@@ -85,28 +85,28 @@ abstract class Players extends Item {
 class CDPlayer extends Players{
     public CDPlayer() {
         super();
-        itemType = CDPLAYER;
+        itemType = ItemType.CDPLAYER;
     }
 }
 
 class MP3Player extends Players{
     public MP3Player() {
         super();
-        itemType = MP3PLAYER;
+        itemType = ItemType.MP3PLAYER;
     }
 }
 
 class CassettePlayer extends Players{
     public CassettePlayer() {
         super();
-        itemType = CASSETTEPLAYER;
+        itemType = ItemType.CASSETTEPLAYER;
     }
 }
 
 class RecordPlayer extends Players{
     public RecordPlayer() {
         super();
-        itemType = RECORDPLAYER;
+        itemType = ItemType.RECORDPLAYER;
     }
 }
 
@@ -215,7 +215,7 @@ class Shirt extends Clothing{
 
     Shirt(){
         super();
-        hatSize = sizes[Utility.rndFromRange(0, sizes.length-1)];
+        shirtSize = sizes[Utility.rndFromRange(0, sizes.length-1)];
         itemType = itemType.SHIRT;
     }
 }
