@@ -1,4 +1,4 @@
-package com.OOAD;
+package abhi.ooad;
 
 // top level object to run the simulation
 public class Simulation implements Logger {

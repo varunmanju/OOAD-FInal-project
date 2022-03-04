@@ -1,4 +1,4 @@
-package com.OOAD;
+package abhi.ooad;
 import java.util.ArrayList;
 
 public class Store implements Logger {

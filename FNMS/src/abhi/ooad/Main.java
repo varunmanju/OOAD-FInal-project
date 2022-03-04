@@ -1,4 +1,4 @@
-package com.OOAD;
+package abhi.ooad;
 
 // Example code for Project 2 Part 2
 // Bruce Montgomery - 2/14/22 - OOAD CSCI 4/5448 - CU Boulder

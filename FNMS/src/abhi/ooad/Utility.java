@@ -1,4 +1,4 @@
-package com.OOAD;
+package abhi.ooad;
 
 import java.text.NumberFormat;
 import java.util.Random;
