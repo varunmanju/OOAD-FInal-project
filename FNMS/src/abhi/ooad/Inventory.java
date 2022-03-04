@@ -1,4 +1,4 @@
-package com.OOAD;
+package abhi.ooad;
 
 import java.util.ArrayList;
 
@@ -42,11 +42,25 @@ public class Inventory implements Logger {
             case PAPERSCORE -> item = new PaperScore();
             case CD -> item = new CD();
             case VINYL -> item = new Vinyl();
+            case CASSETTE -> item = new Cassette();
+            case CDPlayer -> item = new CDPlayer();
+            case MP3Player -> item = new MP3Player();
+            case CASSETTEPLAYER -> item = new CassettePlayer();
+            case RECORDPLAYER -> item = new RecordPlayer();
             case GUITAR -> item = new Guitar();
             case BASS -> item = new Bass();
             case MANDOLIN -> item = new Mandolin();
             case FLUTE -> item = new Flute();
             case HARMONICA -> item = new Harmonica();
+            case SAXOPHONE -> item = new Saxophone();
+            case HAT -> item = new Hat();
+            case SHIRT -> item = new Shirt();
+            case BANDANA -> item = new Bandana();
+            case PRACTICEAMP -> item = new PracticeAmp();
+            case CABLE -> item = new Cable();
+            case STRINGS -> item = new Strings();
+            case GIGBAG -> item = new GigBag();
+
             default -> {
                 out("Error in makeNewItemByType - unexpected type enum");
                 item = null;

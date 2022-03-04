@@ -1,4 +1,4 @@
-package com.OOAD;
+package abhi.ooad;
 
 public interface Logger {
     default void out(String msg) {
