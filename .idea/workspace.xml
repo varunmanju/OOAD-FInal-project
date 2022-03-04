@@ -6,35 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="619e4a75-38d6-4e02-8a49-16595471aa37" name="Changes" comment="Rename TryCode to FNMS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Condition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Condition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Electronic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Haphazard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Inventory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/ItemType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/JUnit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Manual.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Staff.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Store.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Subscriber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Tracker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Tune.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/cables1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/gigs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/practiceamp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/string1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Old Code/stringdecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part 1/Sequence Diagram.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +184,7 @@
       <workItem from="1646246029932" duration="2087000" />
       <workItem from="1646264383280" duration="884000" />
       <workItem from="1646335784811" duration="2116000" />
-      <workItem from="1646421448020" duration="4076000" />
+      <workItem from="1646421448020" duration="10241000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1645292941697</created>
@@ -324,6 +301,7 @@
         <watch expression="this.storeDay" language="JAVA" />
         <watch expression="this.clerkRecord.get(0).bankWithdrawValue + this.clerkRecord.get(1).bankWithdrawValue + this.clerkRecord.get(2).bankWithdrawValue" language="JAVA" />
         <watch expression="((java.util.ArrayList)((Store)this).clerkRecord).get(2)" custom="abhi.ooad.Store,java.util.ArrayList" />
+        <watch expression="i.condition" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

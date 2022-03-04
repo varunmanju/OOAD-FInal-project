@@ -43,8 +43,8 @@ public class Inventory implements Logger {
             case CD -> item = new CD();
             case VINYL -> item = new Vinyl();
             case CASSETTE -> item = new Cassette();
-            case CDPlayer -> item = new CDPlayer();
-            case MP3Player -> item = new MP3Player();
+            case CDPLAYER -> item = new CDPlayer();
+            case MP3PLAYER -> item = new MP3Player();
             case CASSETTEPLAYER -> item = new CassettePlayer();
             case RECORDPLAYER -> item = new RecordPlayer();
             case GUITAR -> item = new Guitar();
