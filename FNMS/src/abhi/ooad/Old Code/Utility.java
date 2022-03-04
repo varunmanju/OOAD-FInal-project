@@ -1,4 +1,6 @@
-package com.OOAD;
+//from professor's code shared to class
+
+package abhi.ooad;
 
 import java.text.NumberFormat;
 import java.util.Random;
