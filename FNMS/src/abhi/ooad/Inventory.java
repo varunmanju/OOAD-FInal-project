@@ -1,4 +1,4 @@
-package com.OOAD;
+package abhi.ooad;
 
 import java.util.ArrayList;
 
@@ -47,6 +47,7 @@ public class Inventory implements Logger {
             case MANDOLIN -> item = new Mandolin();
             case FLUTE -> item = new Flute();
             case HARMONICA -> item = new Harmonica();
+
             default -> {
                 out("Error in makeNewItemByType - unexpected type enum");
                 item = null;

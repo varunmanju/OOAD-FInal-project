@@ -12,11 +12,11 @@ public abstract class Item implements Logger {
     ItemType itemType;      // set by subclass constructors
 
     void damageAnItem(Item i) {
-
     }
 
     Item() {
         // common initialization of a new instance
+        name = itemType.name;
         purchasePrice = Utility.rndFromRange(1,50);
         listPrice = 2 * purchasePrice;
         isNew = (Utility.rnd() > .5);  // coin flip for new or used
