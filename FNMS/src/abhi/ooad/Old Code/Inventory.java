@@ -1,4 +1,6 @@
-package com.OOAD;
+//from professor's code shared to class
+
+package abhi.ooad;
 
 import java.util.ArrayList;
 
@@ -35,7 +37,6 @@ public class Inventory implements Logger {
     // and the reflection framework, this has the advantage of being pretty clean and readable
     // we're not applying patterns here yet, otherwise this really wants to be formatted
     // as a factory
-    //TODO add all of the other item types to this
     Item makeNewItemByType(ItemType type) {
         Item item;
         switch (type) {
