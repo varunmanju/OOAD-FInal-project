@@ -12,6 +12,8 @@ public abstract class Item implements Logger {
     ItemType itemType;      // set by subclass constructors
 
     void damageAnItem(Item i) {
+        i.condition = new Condition(i.condition.level - 1);
+        i.listPrice = i.listPrice * 0.8;
     }
 
     Item() {
@@ -219,17 +221,6 @@ class Shirt extends Clothing{
     }
 }
 
-class Hat extends Clothing{
-    String hatSize;
-    String[] sizes = {"Small", "Medium", "Large"};
-
-    Hat(){
-        super();
-        hatSize = sizes[Utility.rndFromRange(0, sizes.length-1)];
-        itemType = itemType.HAT;
-    }
-}
-
 class Bandana extends Clothing{
     Bandana(){
         super();
@@ -263,7 +254,7 @@ class Cable extends Accessories{
 
     public Cable() {
         super();
-        this.length = lenOptions[Utility.rndFromRange(0,lenOptions.length-1)];
+        this.length = Integer.valueOf(lenOptions[Utility.rndFromRange(0,lenOptions.length-1)]);
         itemType = itemType.CABLE;
     }
 }

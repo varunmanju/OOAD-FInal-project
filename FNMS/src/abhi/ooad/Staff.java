@@ -220,11 +220,23 @@ class Clerk extends Staff implements Logger {
         if (Utility.rnd()>this.damageChance) {
             out(this.name + " doesn't break anything.");
         }
-        else {
+        else if (store.inventory.items.size() > 0) {
             out(this.name + " breaks something!");
             // reduce the condition for a random item
+            int pickItemIndex = Utility.rndFromRange(0,store.inventory.items.size()-1);
+            Item item = store.inventory.items.get(pickItemIndex);
+            if(item.condition.level > 1) {
+                item.damageAnItem(item);
+            }
+            else {
+                store.inventory.discardedItems.add(item);
+                store.inventory.items.remove(item);
+            }
             // take the item off the main inventory and put it on the broken items ArrayList
             // left as an exercise to the reader :-)
+        }
+        else {
+            out(this.name + " nothing to break. Inventory has no items.");
         }
     }
     void leaveTheStore() {
