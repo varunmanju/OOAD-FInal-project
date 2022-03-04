@@ -38,6 +38,23 @@ public class Simulation implements Logger {
     }
 
     void summary() {
-        out("The summary is left as an exercise to the reader :-)");
+        //TODO fill this in
+        out("##########################################################");
+        out("                          Summary:                        ");
+        out("##########################################################");
+        out("Items In Inventory:");
+        for(Item i: store.inventory.items){
+            out(i.itemType.name);
+        }
+        out("Total Inventory Value: " + store.inventory.getValue(store.inventory.items));
+        out("");
+        out("Items Sold During Simulation:");
+        for(Item i: store.inventory.soldItems){
+            out("Name: " + i.itemType.name + " Day Sold: " + i.daySold + " Sale Price: " + i.salePrice);
+        }
+        out("Total Sales Value: " + store.inventory.getValue(store.inventory.soldItems));
+        out("");
+        out("Total Value In Cash Register: " + store.cashRegister);
+        out("Total $ Added from goToBank: " + store.cashFromBank);
     }
 }
