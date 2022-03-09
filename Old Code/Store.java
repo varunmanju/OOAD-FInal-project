@@ -18,7 +18,7 @@ class Store {
     protected Staff activeClerk;
     private ArrayList<String> listOfItems = new ArrayList<>();
     protected float registerValue;
-    public static int storeDay;
+    public int storeDay;
     private Random rand;
     private DecimalFormat df;
     private ArrayList<Subscriber> subscribers = new ArrayList<Subscriber>(); 
@@ -29,9 +29,9 @@ class Store {
         this.storeDay = 1;
 
         // Assign a tune Algorithm to each clerk, Shaggy,Velma and Daphne.
-        this.clerkRecord.add(new Staff("Shaggy", 20,new Haphazard(inventory)));
-        this.clerkRecord.add(new Staff("Velma", 5,new Electronic()));
-        this.clerkRecord.add(new Staff("Daphne", 10, new Manual(inventory)));
+        this.clerkRecord.add(new Staff("Shaggy", 20,new Haphazard(inventory,this)));
+        this.clerkRecord.add(new Staff("Velma", 5,new Electronic(this)));
+        this.clerkRecord.add(new Staff("Daphne", 10, new Manual(inventory,this)));
         for(Staff obj:this.clerkRecord){
             this.availableClerk.add(obj.getName());
         }
@@ -660,6 +660,7 @@ class Store {
     {
     		
     		ArrayList<Item> item = new ArrayList<>();
+    		ArrayList<Item> item1 = new ArrayList<>();
     		ArrayList<Item> stringed = new ArrayList<>();
             ArrayList<Item> stringed1 = new ArrayList<>();
            
@@ -708,10 +709,19 @@ class Store {
         	
         	System.out.println(it.getName());
         	it.setSalePrice(it.getListPrice());
-        	it.setDaySold(Store.storeDay);
+        	it.setDaySold(this.storeDay);
         	this.registerValue += it.getSalePrice();
         	this.activeClerk.setItemsSold(this.activeClerk.getItemsSold() + 1);
             this.activeClerk.setItemsSoldValue(this.activeClerk.getItemsSoldValue() + it.getSalePrice());
+            
+            if (this.soldItems.get(it.getName()) != null) {
+                item1 = (ArrayList<Item>) this.soldItems.get(it.getName());
+            }
+            
+            item1.add(it);
+            
+            this.soldItems.put(it.getName(), (List<Item>) item.clone());
+ 
         	remove(it.getName(),it);
         	announcement("openTheStore", "Customer" +  countCustomer + " bought a " + it.getName() + " for " + it.getSalePrice() + "!");
         	count++;
@@ -901,6 +911,7 @@ class Store {
                 } else {
                     selectedItem.setCondition(this.getConditionText(this.getConditionLevel(selectedItem.getCondition())-1));
                     selectedItem.setListPrice(selectedItem.getListPrice() * 0.80F);
+                    selectedItem.setSalePrice(selectedItem.getListPrice());
                     this.activeClerk.setItemsDamaged(this.activeClerk.getItemsDamaged() + 1);
                     this.activeClerk.setItemsDamagedValue(this.activeClerk.getItemsDamagedValue() + selectedItem.getListPrice());
                     this.announcement("cleanTheStore", this.activeClerk.getName() + "has damaged a " + selectedItemKey + " while cleaning. Item condition is lowered and list price is reduced.");
@@ -929,13 +940,15 @@ class Store {
         out.println();
         out.println("Inventory at the end of simulation");
         out.println("----------------------------------");
+        int sum=0;
         for (int i = 0; i < inventory.keySet().size(); i++) {
             for (int j = 0; j < inventory.get(inventory.keySet().toArray()[i]).size(); j++) {
                 out.println("Item: " + inventory.get(inventory.keySet().toArray()[i]).get(j).getName() + "  Purchase Price: " + this.df.format(inventory.get(inventory.keySet().toArray()[i]).get(j).getPurchasePrice()));
+                sum+=inventory.get(inventory.keySet().toArray()[i]).get(j).getPurchasePrice();
             }
         }
 
-        out.println();
+        out.println("Purchase prize"+ sum);
         out.println("Sold Items' details at the end of simulation");
         out.println("--------------------------------------------");
         float totalSalePrice = 0.00F;
