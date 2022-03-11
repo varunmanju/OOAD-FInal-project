@@ -108,6 +108,7 @@ class Clerk extends Staff implements Logger {
         for (int i = 1; i <= buyers; i++) this.sellAnItem(i);
         for (int i = 1; i <= sellers; i++) this.buyAnItem(i);
     }
+
     void sellAnItem(int customer) {
         String custName = "Buyer "+customer;
         out(this.name+" serving "+custName);
@@ -160,7 +161,7 @@ class Clerk extends Staff implements Logger {
         store.cashRegister += item.listPrice;
     }
 
-    // find a selecyted item of a certain type from the items
+    // find a selected item of a certain type from the items
     Item GetItemFromInventoryByCount(int countInStock, ItemType type) {
         int count = 0;
         for(Item item: store.inventory.items) {

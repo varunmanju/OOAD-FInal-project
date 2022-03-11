@@ -4,5 +4,14 @@ package abhi.ooad;
 // I essentially used it instead of bothering with a name
 // by printing it out in lowercase
 public enum ItemType {
-    PAPERSCORE,CD,VINYL,GUITAR,BASS,MANDOLIN,FLUTE,HARMONICA,CASSETTE,RECORDPLAYER,CDPLAYER,MP3PLAYER,CASSETTEPLAYER,SAXOPHONE,HAT,SHIRT,BANDANA,PRACTICEAMP,CABLE,STRINGS,GIGBAG;
+    PAPERSCORE ("Paper Score"), CD ("CD"), VINYL ("Vinyl"), GUITAR ("Guitar"), BASS ("Bass"), MANDOLIN ("Mandolin"), FLUTE ("Flute"), HARMONICA ("Harmonica"), CASSETTE ("Cassette"), RECORDPLAYER ("Record Player"), CDPLAYER ("CD Player"), MP3PLAYER ("MP3 Player"), CASSETTEPLAYER ("Cassette Player"), SAXOPHONE ("Saxophone"), HAT ("Hat"), SHIRT ("Shirt"), BANDANA ("Bandana"), PRACTICEAMP ("Practice Amp"), CABLE ("Cable"), STRINGS ("Strings"), GIGBAG ("Gig Bag");
+    private final String name;
+
+    ItemType(String n){
+        this.name = n;
+    }
+
+    public String getName(){
+        return this.name;
+    }
 }

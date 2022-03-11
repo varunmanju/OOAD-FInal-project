@@ -18,6 +18,7 @@ public abstract class Item implements Logger {
 
     Item() {
         // common initialization of a new instance
+//        name = itemType.getName();
         purchasePrice = Utility.rndFromRange(1,50);
         listPrice = 2 * purchasePrice;
         isNew = (Utility.rnd() > .5);  // coin flip for new or used
@@ -47,6 +48,7 @@ class PaperScore extends Music {
     PaperScore() {
         super();
         itemType = ItemType.PAPERSCORE;
+        name = itemType.getName();
     }
 }
 
@@ -54,6 +56,7 @@ class CD extends Music {
     CD() {
         super();
         itemType = ItemType.CD;
+        name = itemType.getName();
     }
 }
 
@@ -61,6 +64,7 @@ class Vinyl extends Music {
     Vinyl() {
         super();
         itemType = ItemType.VINYL;
+        name = itemType.getName();
     }
 }
 
@@ -68,6 +72,7 @@ class Cassette extends Music {
     Cassette() {
         super();
         itemType = ItemType.CASSETTE;
+        name = itemType.getName();
     }
 }
 
@@ -86,6 +91,7 @@ class CDPlayer extends Players{
     public CDPlayer() {
         super();
         itemType = ItemType.CDPLAYER;
+        name = itemType.getName();
     }
 }
 
@@ -93,6 +99,7 @@ class MP3Player extends Players{
     public MP3Player() {
         super();
         itemType = ItemType.MP3PLAYER;
+        name = itemType.getName();
     }
 }
 
@@ -100,6 +107,7 @@ class CassettePlayer extends Players{
     public CassettePlayer() {
         super();
         itemType = ItemType.CASSETTEPLAYER;
+        name = itemType.getName();
     }
 }
 
@@ -107,6 +115,7 @@ class RecordPlayer extends Players{
     public RecordPlayer() {
         super();
         itemType = ItemType.RECORDPLAYER;
+        name = itemType.getName();
     }
 }
 
@@ -135,18 +144,21 @@ class Guitar extends Stringed {
     Guitar() {
         super();
         itemType = ItemType.GUITAR;
+        name = itemType.getName();
     }
 }
 class Bass extends Stringed {
     Bass() {
         super();
         itemType = ItemType.BASS;
+        name = itemType.getName();
     }
 }
 class Mandolin extends Stringed {
     Mandolin() {
         super();
         itemType = ItemType.MANDOLIN;
+        name = itemType.getName();
     }
 }
 
@@ -165,6 +177,7 @@ class Flute extends Wind {
         super();
         type = types[Utility.rndFromRange(0,types.length-1)];
         itemType = ItemType.FLUTE;
+        name = itemType.getName();
     }
 }
 
@@ -175,6 +188,7 @@ class Harmonica extends Wind {
         super();
         key = keys[Utility.rndFromRange(0,keys.length-1)];
         itemType = ItemType.HARMONICA;
+        name = itemType.getName();
     }
 }
 
@@ -186,6 +200,7 @@ class Saxophone extends Wind {
         super();
         type = types[Utility.rndFromRange(0,types.length-1)];
         itemType = ItemType.SAXOPHONE;
+        name = itemType.getName();
     }
 }
 
@@ -206,6 +221,7 @@ class Hat extends Clothing{
         super();
         hatSize = sizes[Utility.rndFromRange(0, sizes.length-1)];
         itemType = itemType.HAT;
+        name = itemType.getName();
     }
 }
 
@@ -217,6 +233,7 @@ class Shirt extends Clothing{
         super();
         shirtSize = sizes[Utility.rndFromRange(0, sizes.length-1)];
         itemType = itemType.SHIRT;
+        name = itemType.getName();
     }
 }
 
@@ -224,6 +241,7 @@ class Bandana extends Clothing{
     Bandana(){
         super();
         itemType = itemType.BANDANA;
+        name = itemType.getName();
     }
 }
 
@@ -244,6 +262,7 @@ class PracticeAmp extends Accessories{
         super();
         wattage = watOptions[Utility.rndFromRange(0, watOptions.length-1)];
         itemType = itemType.PRACTICEAMP;
+        name = itemType.getName();
     }
 }
 
@@ -255,6 +274,7 @@ class Cable extends Accessories{
         super();
         this.length = Integer.valueOf(lenOptions[Utility.rndFromRange(0,lenOptions.length-1)]);
         itemType = itemType.CABLE;
+        name = itemType.getName();
     }
 }
 
@@ -266,6 +286,7 @@ class Strings extends Accessories{
         super();
         type = types[Utility.rndFromRange(0,types.length-1)];
         itemType = ItemType.STRINGS;
+        name = itemType.getName();
     }
 }
 
@@ -273,5 +294,6 @@ class GigBag extends Accessories{
     public GigBag() {
         super();
         itemType = itemType.GIGBAG;
+        name = itemType.getName();
     }
 }
