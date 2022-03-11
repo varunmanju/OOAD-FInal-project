@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45bc605b-7453-45ef-8868-f374a628b5ab" name="Changes" comment="Command Pattern">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" afterDir="false" />
-    </list>
+    <list default="true" id="45bc605b-7453-45ef-8868-f374a628b5ab" name="Changes" comment="Command Pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,6 +289,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="Command Pattern" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="System.getProperty(&quot;user.dir&quot;)" language="JAVA" custom="java.nio.file.Paths" />
