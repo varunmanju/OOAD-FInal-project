@@ -4,12 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="619e4a75-38d6-4e02-8a49-16595471aa37" name="Changes" comment="Rename TryCode to FNMS">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" afterDir="false" />
-    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

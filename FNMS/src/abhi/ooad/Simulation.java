@@ -58,7 +58,6 @@ public class Simulation implements Logger {
     }
 
     void summary() {
-        //TODO fill this in
 //        out("##########################################################");
 //        out("                          Summary:                        ");
 //        out("##########################################################");
