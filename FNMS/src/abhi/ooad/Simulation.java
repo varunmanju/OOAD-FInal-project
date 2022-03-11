@@ -43,7 +43,28 @@ public class Simulation implements Logger {
         int storeNum = myObj.nextInt();
         Store store = (storeNum == 1) ? store_northside : store_southside;
         out("Welcome to Store FNMS " + store.storeName);
-        store.interactiveUser(days+1);
+        while(true) {
+            myObj = new Scanner(in);
+            String userInput = myObj.nextLine();
+            if (userInput.contains("Name")) {
+                store.interactiveUserClerkName();
+            } else if (userInput.contains("Time")) {
+                store.interactiveUserClerkTime(days + 1);
+            } else if (userInput.contains("Sell")) {
+                store.interactiveUserBuy();
+            } else if (userInput.contains("Buy")) {
+                store.interactiveUserSell();
+            } else if (userInput.contains("Guitar Kit")) {
+                store.interactiveUserGuitarKit();
+            } else if (userInput.contains("Toggle")) {
+                store = (store.storeName == "Southside") ? store_northside : store_southside;
+                out("Welcome to Store FNMS " + store.storeName);
+            } else {
+                break;
+            }
+        }
+        store_northside.interactiveUserEndOfDay();
+        store_southside.interactiveUserEndOfDay();
     }
 
     void startDay(int day) {
