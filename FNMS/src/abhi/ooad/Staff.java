@@ -37,7 +37,7 @@ class Clerk extends Staff implements Subscriber {
         String newMessage = methodName + " - " + message;
         int day = this.store.today;
 
-        out(message);
+        out("Day "+ this.store.today + ": " + newMessage);
         Logger.getInstance().out(newMessage, this.store.storeName, day);
     }
 

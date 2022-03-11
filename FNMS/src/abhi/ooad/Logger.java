@@ -21,7 +21,7 @@ public class Logger implements Subscriber{
     public void out(String message, String storeName, int day){
         File outputFile;
         FileWriter writer;
-        String fName = "Logger_"+storeName+"_"+day+".txt";
+        String fName = "FNMS\\Logger-Files\\Logger_"+storeName+"_"+day+".txt";
         outputFile = new File(fName);
         //if file isn't already made, make it and fill header
         if (!outputFile.exists()){
