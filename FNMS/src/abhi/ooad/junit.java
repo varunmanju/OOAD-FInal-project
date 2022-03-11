@@ -135,4 +135,43 @@ public class junit {
         ClerkPool instance3 = ClerkPool.getInstance();
         assertTrue(instance1 == instance2 && instance2 == instance3);
     }
+
+    @Test
+    @DisplayName("Get Valid Clerk")
+    void getValidClerk() {
+        Store store_northside = new Store("Northside");
+        Store store_southside = new Store("Southside");
+        System.out.println(store_northside.getValidClerk().name);
+        System.out.println(store_southside.getValidClerk().name);
+        assert(store_northside.getValidClerk().name != store_southside.getValidClerk().name);
+    }
+
+    @Test
+    @DisplayName("Store closed - Sunday")
+    void closedToday() {
+        Simulation sim = new Simulation();
+        sim.weekDay = Simulation.Weekday.SUNDAY;
+        sim.startDay(1);
+        assert(sim.store_northside.activeClerk == null && sim.store_southside.activeClerk == null);
+    }
+
+    @Test
+    @DisplayName("Utility Random Function")
+    void rndFromRange() {
+        for (int i = 0; i < 10; i++) {
+            assert(Utility.rndFromRange(0, 3) >= 0 && Utility.rndFromRange(0, 3) <= 3);
+        }
+    }
+
+    @Test
+    @DisplayName("Utility Dollar Function")
+    void asDollar() {
+        assert(Utility.asDollar(5.00).substring(0, 1).contentEquals("$"));
+    }
+
+    @Test
+    @DisplayName("Utility Enum Function")
+    void randomEnum() {
+        assert(Utility.randomEnum(ItemType.class) != null);
+    }
 }
