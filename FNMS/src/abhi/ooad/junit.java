@@ -13,19 +13,18 @@ public class junit {
 
 	Clerk s;
 
-
 	public junit() throws NoSuchFieldException {
         this.s = new Clerk("Shaggy",0.10);
         this.s.setStoreInstance(new Store("North Side"));
 	}
-	
-	
+
     @Test
     @DisplayName("Inventory Initialization")
     void inventoryInitialization(){
         assertTrue(this.s.store.inventory.items.size() == 63);
     
     }
+
     @Test
     @DisplayName("Bank Visit")
    void gotobank() {
@@ -56,7 +55,7 @@ public class junit {
         
        invBefore += this.s.store.inventory.items.size();
         
-        this.s.sellAnItem(1);
+        this.s.sellAnItem(1, false);
       
        invAfter += this.s.store.inventory.items.size();
         
@@ -77,7 +76,7 @@ public class junit {
         this.s.store.activeClerk = this.s.store.getValidClerk();
         assertTrue(this.s.store.inventory.items.size() ==63);
         invBefore += this.s.store.inventory.items.size();
-        this.s.buyAnItem(2);
+        this.s.buyAnItem(2, false);
         invAfter += this.s.store.inventory.items.size();
         if(invAfter == invBefore+1) {
             assertTrue((this.s.store.inventory.items.size()==62));
@@ -98,6 +97,7 @@ public class junit {
     void damage() throws NoSuchFieldException {
     	Item i=new GigBag();
     	double listprice=i.listPrice;
+        i.condition = Condition.EXCELLENT;
     	i.damageAnItem(i);
     	assertTrue(i.listPrice<=listprice);
     }
@@ -114,7 +114,6 @@ public class junit {
     }
     @Test
     @DisplayName("Get value of items in the inventory")
-    
     void totalprice() throws NoSuchFieldException {
     	ArrayList<Item> list = new ArrayList<Item>();
     	list.add(new GigBag());
@@ -125,26 +124,54 @@ public class junit {
     	for(Item it: list) {
     		purchaseprice+=it.purchasePrice;
     	}
-    	
-    	
     	assertTrue(i.getValue(list)==purchaseprice) ;
-    	 
     }
-    
+
     @Test
-    @DisplayName("In Abstract factory B check if guitar is getting added to solditems list ")
-    void abstractfactory() throws NoSuchFieldException {
-    int sizes=this.s.store.inventory.soldItems.size();
-    this.s.create();	
-    assertTrue(sizes+1==this.s.store.inventory.soldItems.size()) ;
-    	 
+    @DisplayName("Initialize Clerk Pool - Singleton")
+    void clerkPool() {
+        ClerkPool instance1 = ClerkPool.getInstance();
+        ClerkPool instance2 = ClerkPool.getInstance();
+        ClerkPool instance3 = ClerkPool.getInstance();
+        assertTrue(instance1 == instance2 && instance2 == instance3);
     }
-    
-    
-   
-    
-    
-    
-    
-    
+
+    @Test
+    @DisplayName("Get Valid Clerk")
+    void getValidClerk() {
+        Store store_northside = new Store("Northside");
+        Store store_southside = new Store("Southside");
+        System.out.println(store_northside.getValidClerk().name);
+        System.out.println(store_southside.getValidClerk().name);
+        assert(store_northside.getValidClerk().name != store_southside.getValidClerk().name);
+    }
+
+    @Test
+    @DisplayName("Store closed - Sunday")
+    void closedToday() {
+        Simulation sim = new Simulation();
+        sim.weekDay = Simulation.Weekday.SUNDAY;
+        sim.startDay(1);
+        assert(sim.store_northside.activeClerk == null && sim.store_southside.activeClerk == null);
+    }
+
+    @Test
+    @DisplayName("Utility Random Function")
+    void rndFromRange() {
+        for (int i = 0; i < 10; i++) {
+            assert(Utility.rndFromRange(0, 3) >= 0 && Utility.rndFromRange(0, 3) <= 3);
+        }
+    }
+
+    @Test
+    @DisplayName("Utility Dollar Function")
+    void asDollar() {
+        assert(Utility.asDollar(5.00).substring(0, 1).contentEquals("$"));
+    }
+
+    @Test
+    @DisplayName("Utility Enum Function")
+    void randomEnum() {
+        assert(Utility.randomEnum(ItemType.class) != null);
+    }
 }

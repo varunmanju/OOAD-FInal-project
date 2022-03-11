@@ -42,13 +42,18 @@ public class ClerkPool {
         Iterator<Clerk> itr = clerks.iterator();
         while (itr.hasNext()) {
             Clerk clerk = itr.next();
-            if(store_northside.activeClerk.name == clerk.name || store_southside.activeClerk.name == clerk.name){
-                //Do not reset daysWorked
+            if(store_northside.activeClerk == null) {
+                clerk.daysWorked = 0;
+                clerk.workingAtStore = null;
             }
             else {
-                clerk.daysWorked = 0;
+                if (store_northside.activeClerk.name == clerk.name || store_southside.activeClerk.name == clerk.name) {
+                    //Do not reset daysWorked
+                } else {
+                    clerk.daysWorked = 0;
+                }
+                clerk.workingAtStore = null;
             }
-            clerk.workingAtStore = null;
         }
     }
 }

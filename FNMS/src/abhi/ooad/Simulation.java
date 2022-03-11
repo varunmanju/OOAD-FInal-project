@@ -1,7 +1,5 @@
 package abhi.ooad;
 
-import java.util.Iterator;
-
 import java.util.Scanner;
 
 import static java.lang.System.in;
