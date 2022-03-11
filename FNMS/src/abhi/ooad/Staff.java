@@ -2,8 +2,10 @@ package abhi.ooad;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+
 import java.util.List;
 import java.util.Scanner;
+import static java.lang.System.in;
 
 
 public abstract class Staff {
@@ -13,9 +15,14 @@ public abstract class Staff {
 
 class Clerk extends Staff implements Logger {
     int daysWorked;
+
     String workingAtStore;
+    boolean sickToday = false;
+
     double damageChance;    // Velma = .05, Shaggy = .20
+    String workingAtStore;
     Store store;
+
     boolean sickToday = false;
     int damage=0;
     public Tune tunealgorithm;
@@ -42,6 +49,10 @@ class Clerk extends Staff implements Logger {
     	int algo= Utility.rndFromRange(0,2);
         this.tunealgorithm=algos.get(algo);
     }
+    void setStoreInstance(Store store) {
+        this.store = store;
+    }
+
     void arriveAtStore() {
         out(this.name + " arrives at store.");
         // have to check for any arriving items slated for this day
@@ -80,6 +91,9 @@ class Clerk extends Staff implements Logger {
         int total_damages=this.tune();
         System.out.println(total_damages);
         for (ItemType type: ItemType.values()) {
+            if (type.name() == "SHIRT" || type.name() == "BANDANA" || type.name() == "HAT") {
+                continue;
+            }
             int numItems = store.inventory.countByType(store.inventory.items,type);
             out(this.name + " counts "+numItems+" "+type.toString().toLowerCase());
             if (numItems == 0) {
@@ -121,40 +135,57 @@ class Clerk extends Staff implements Logger {
         int buyers = Utility.rndFromRange(4,10);
         int sellers = Utility.rndFromRange(1,4);
         out(buyers + " buyers, "+sellers+" sellers today.");
-        for (int i = 1; i <= buyers; i++) this.sellAnItem(i);
+        for (int i = 1; i <= buyers; i++) this.sellAnItem(i, false);
         for (int i = 1; i <= sellers; i++) this.buyAnItem(i);
     }
 
-    void sellAnItem(int customer) {
+    void sellAnItem(int customer, boolean interactiveUser) {
+        Scanner myObj = new Scanner(in);
+        ItemType type = null;
         String custName = "Buyer "+customer;
         out(this.name+" serving "+custName);
-        ItemType type = Utility.randomEnum(ItemType.class);
+
+        if(interactiveUser == true) {
+            out("What do you want to buy?");
+            type = ItemType.valueOf(myObj.nextLine());
+        }
+        else {
+            type = Utility.randomEnum(ItemType.class);
+        }
+
         out(custName + " wants to buy a "+type.toString().toLowerCase());
         int countInStock = store.inventory.countByType(store.inventory.items, type);
         // if no items - bye
         if (countInStock == 0) {
-            out (custName + " leaves, no items in stock.");
+            out (custName + " doesn't buy, no items in stock.");
         }
         else {
             // pick one of the types of items from inventory
-            int pickItemIndex = Utility.rndFromRange(1,countInStock);
+            int pickItemIndex = Utility.rndFromRange(1, countInStock);
             Item item = GetItemFromInventoryByCount(countInStock, type);
-            out("Item is "+type.toString().toLowerCase()+" in "+item.condition.toString().toLowerCase()+" condition.");
+            out("Item is " + type.toString().toLowerCase() + " in " + item.condition.toString().toLowerCase() + " condition.");
             // 50% chance to buy at listPrice
-            out (this.name+" selling at "+Utility.asDollar(item.listPrice));
-            if (Utility.rnd()>.5) {
-                sellItemtoCustomer(item, custName);
+            out(this.name + " selling at " + Utility.asDollar(item.listPrice));
+            String answer = null;
+            if (interactiveUser == true) {
+                out("Do you want to buy?");
+                answer = myObj.nextLine();
             }
-            else {
+            if (Utility.rnd() > .5 || answer == "Yes") {
+                sellItemtoCustomer(item, custName);
+            } else {
                 // if not, clerk offers 10% off listPrice
                 double newListPrice = item.listPrice * .9;
-                out (this.name+" selling at "+Utility.asDollar(newListPrice));
+                out(this.name + " selling at " + Utility.asDollar(newListPrice));
                 // now 75% chance of buy
-                if (Utility.rnd()>.25) {
-                    item.listPrice = newListPrice;
-                    sellItemtoCustomer(item,custName);
+                if (interactiveUser == true) {
+                    out("Do you want to buy?");
+                    answer = myObj.nextLine();
                 }
-                else {
+                if (Utility.rnd() > .25 || answer == "Yes") {
+                    item.listPrice = newListPrice;
+                    sellItemtoCustomer(item, custName);
+                } else {
                     out(custName + " wouldn't buy item.");
                 }
             }
@@ -267,6 +298,14 @@ class Clerk extends Staff implements Logger {
     }
     void leaveTheStore() {
         out(this.name + " locks up the store and leaves.");
+
+        ClerkPool clerkPool = ClerkPool.getInstance();
+        Iterator<Clerk> itr = clerkPool.clerks.iterator();
+        while (itr.hasNext()) {
+            Clerk clerk = itr.next();
+            if(clerk.workingAtStore == store.storeName)
+            clerk.workingAtStore = null;
+        }
     }
 public int dotuning(Item obj,int idx){
     	
