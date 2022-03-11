@@ -40,13 +40,30 @@ public class Store implements Subscriber {
         activeClerk.leaveTheStore();
     }
 
-    void interactiveUser(int day) {
-        Scanner myObj = new Scanner(in);
-        String userInput = myObj.nextLine();
+    void interactiveUserClerkName() {
         out("I'm " + activeClerk.name);
-        userInput = myObj.nextLine();
+    }
+
+    void interactiveUserClerkTime(int day) {
         out("This is day " + day + " and the time is " + java.time.LocalTime.now().toString().substring(0,8));
+    }
+
+    void interactiveUserBuy() {
+        activeClerk.buyAnItem(1, true);
+    }
+
+    void interactiveUserSell() {
         activeClerk.sellAnItem(1, true);
+    }
+
+    void interactiveUserGuitarKit() {
+        activeClerk.create();
+        out(" ");
+    }
+
+    void interactiveUserEndOfDay() {
+        activeClerk.cleanTheStore();
+        activeClerk.leaveTheStore();
     }
 
     Clerk getValidClerk() {

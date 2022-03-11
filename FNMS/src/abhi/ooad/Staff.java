@@ -16,8 +16,8 @@ class Clerk extends Staff implements Subscriber {
     int daysWorked;
     String workingAtStore;
     boolean sickToday = false;
-    double damageChance;    // Velma = .05, Shaggy = .20
-//    private ArrayList<Subscriber> subscribers = new ArrayList<Subscriber>();
+    double damageChance;
+    Store store;
     int damage=0;
     public Tune tunealgorithm;
     public static ArrayList<Tune> algos = new ArrayList<Tune>() {{
@@ -53,7 +53,6 @@ class Clerk extends Staff implements Subscriber {
 
     void setStoreInstance(Store store) {
         this.store = store;
-        
     }
 
     void setalgo()
@@ -62,8 +61,7 @@ class Clerk extends Staff implements Subscriber {
         this.tunealgorithm=algos.get(algo);
          
     }
-    
-  
+
     void arriveAtStore() {
         notifyAllSubscribers("ArriveAtStore", this.name + " arrives at " + this.store.storeName + " FNMS Store");
         // have to check for any arriving items slated for this day
@@ -167,6 +165,7 @@ class Clerk extends Staff implements Subscriber {
         }
         int numBought = (prevInventory - store.inventory.items.size()) * -1;
         notifyAllSubscribers("openTheStore", numBought + " items were purchased", numBought, eventType.PURCHASED);
+
     }
 
     void sellAnItem(int customer, boolean interactiveUser) {
@@ -202,7 +201,7 @@ class Clerk extends Staff implements Subscriber {
                 out("Do you want to buy?");
                 answer = myObj.nextLine();
             }
-            if (Utility.rnd() > .5 || answer == "Yes") {
+            if ((interactiveUser == false && Utility.rnd()>.5) || (interactiveUser == true && answer.contentEquals("Yes"))) {
                 sellItemtoCustomer(item, custName);
             } else {
                 // if not, clerk offers 10% off listPrice
@@ -213,7 +212,7 @@ class Clerk extends Staff implements Subscriber {
                     out("Do you want to buy?");
                     answer = myObj.nextLine();
                 }
-                if (Utility.rnd() > .25 || answer == "Yes") {
+                if ((interactiveUser == false && Utility.rnd()>.25) || (interactiveUser == true && answer.contentEquals("Yes"))) {
                     item.listPrice = newListPrice;
                     sellItemtoCustomer(item, custName);
                 } else {
@@ -251,10 +250,20 @@ class Clerk extends Staff implements Subscriber {
         return null;
     }
 
-    void buyAnItem(int customer) {
+    void buyAnItem(int customer, boolean interactiveUser) {
+        Scanner myObj = new Scanner(in);
+        ItemType type = null;
+
         String custName = "Seller "+customer;
         out(this.name+" serving "+custName);
-        ItemType type = Utility.randomEnum(ItemType.class);
+
+        if(interactiveUser == true) {
+            out("What do you want to sell?");
+            type = ItemType.valueOf(myObj.nextLine());
+        }
+        else {
+            type = Utility.randomEnum(ItemType.class);
+        }
         out(custName + " wants to sell a "+type.toString().toLowerCase());
         Item item = store.inventory.makeNewItemByType(type);
         // clerk will determine new or used, condition, purchase price (based on condition)
@@ -263,7 +272,12 @@ class Clerk extends Staff implements Subscriber {
         item.purchasePrice = getPurchasePriceByCondition(item.condition);
         // seller has 50% chance of selling
         out (this.name+" offers "+Utility.asDollar(item.purchasePrice));
-        if (Utility.rnd()>.5) {
+        String answer = null;
+        if (interactiveUser == true) {
+            out("Do you want to sell?");
+            answer = myObj.nextLine();
+        }
+        if ((interactiveUser == false && Utility.rnd()>.5) || (interactiveUser == true && answer.contentEquals("Yes"))) {
             buyItemFromCustomer(item, custName);
         }
         else {
@@ -271,7 +285,11 @@ class Clerk extends Staff implements Subscriber {
             item.purchasePrice += item.purchasePrice * .10;
             out (this.name+" offers "+Utility.asDollar(item.purchasePrice));
             // seller has 75% chance of selling
-            if (Utility.rnd()>.25) {
+            if (interactiveUser == true) {
+                out("Do you want to sell?");
+                answer = myObj.nextLine();
+            }
+            if ((interactiveUser == false && Utility.rnd()>.25) || (interactiveUser == true && answer.contentEquals("Yes"))) {
                 buyItemFromCustomer(item, custName);
             }
             else {
@@ -343,7 +361,14 @@ class Clerk extends Staff implements Subscriber {
         return this.tunealgorithm.tuning(obj,idx,this);
     }
 
-    private int tune() {
+
+
+    public int dotuning(Item obj,int idx){
+    	
+        return this.tunealgorithm.tuning(obj,idx,this);
+     }
+
+     private int tune() {
 	  	ArrayList<Item> items = (ArrayList<Item>)store.inventory.items.clone();
     	int dam;
     	this.damage=0;
@@ -376,125 +401,125 @@ class Clerk extends Staff implements Subscriber {
   		item.populate("Southside");
   	}
   	public GuitarKit createGuitar() {
-  		int prize=0;
+  		int price=0;
   		bridge b = null;
   		pickguard g = null;
   		pickups p = null;
   		knobset k = null;
   		covers c = null;
   		neck n = null;
-  		System.out.println("Pickup A prize "+ item.p1.get(0).getprize());
-  		System.out.println("Pickup B prize "+ item.p1.get(1).getprize());
-  		System.out.println("Pickup C prize "+ item.p1.get(2).getprize());
+  		System.out.println("Pickup A price "+ item.p1.get(0).getprice());
+  		System.out.println("Pickup B price "+ item.p1.get(1).getprice());
+  		System.out.println("Pickup C price "+ item.p1.get(2).getprice());
   		System.out.println("enter the choice Southside items for pickups Pickup A or Pickup B or Pickup C");
   		
   		Scanner scan = new Scanner(System.in);
   		String s = scan.nextLine();
   		if(s.equals("Pickup A")) {
   		 p=item.p1.get(0);
-  		prize+=p.getprize();
+  		price+=p.getprice();
   	}
   		if(s.equals("Pickup B")) {
   			 p=	item.p1.get(1);
-  			prize+=p.getprize();
+  			price+=p.getprice();
       	}
   		if(s.equals("Pickup C")) {
   			p=item.p1.get(2);
-      		prize+=p.getprize();
+      		price+=p.getprice();
       	}
-  		System.out.println("Knobset A prize "+ item.k1.get(0).getprize());
-  		System.out.println("Knobset B prize "+ item.k1.get(1).getprize());
-  		System.out.println("Knobset C prize "+ item.k1.get(2).getprize());
+  		System.out.println("Knobset A price "+ item.k1.get(0).getprice());
+  		System.out.println("Knobset B price "+ item.k1.get(1).getprice());
+  		System.out.println("Knobset C price "+ item.k1.get(2).getprice());
   		System.out.println("enter the choice Southside items for knobset Knobset A or Knobset B or Knobset C");
   		Scanner scan1 = new Scanner(System.in);
   		String s1 = scan1.nextLine();
   		if(s1.equals("Knobset A")) {
   			 k=item.k1.get(0);
-  			prize+=k.getprize();
+  			price+=k.getprice();
   		}
   		if(s1.equals("Knobset B")) {
   			 k=item.k1.get(1);
-  			prize+=k.getprize();
+  			price+=k.getprice();
       	}
   		if(s1.equals("Knobset C")) {
   			 k=item.k1.get(2);
-  			prize+=k.getprize();
+  			price+=k.getprice();
       		}
-  		System.out.println("Covers A prize "+ item.c1.get(0).getprize());
-  		System.out.println("Covers B prize "+ item.c1.get(1).getprize());
-  		System.out.println("Covers C prize "+ item.c1.get(2).getprize());
+  		System.out.println("Covers A price "+ item.c1.get(0).getprice());
+  		System.out.println("Covers B price "+ item.c1.get(1).getprice());
+  		System.out.println("Covers C price "+ item.c1.get(2).getprice());
   		System.out.println("enter the choice Southside items for Covers Covers A or Covers B or Covers C");
   		Scanner scan2 = new Scanner(System.in);
   		String s2 = scan2.nextLine();
   		if(s2.equals("Covers A")) {
   			 c=item.c1.get(0);
-  			prize+=c.getprize();
+  			price+=c.getprice();
   		}
   		if(s2.equals("Covers B")) {
       		 c=item.c1.get(1);
-      		prize+=c.getprize();
+      		price+=c.getprice();
       	}
   		if(s2.equals("Covers C")) {
   			 c=item.c1.get(2);
-  			prize+=c.getprize();
+  			price+=c.getprice();
       		}
-  		System.out.println("Neck A prize "+ item.n1.get(0).getprize());
-  		System.out.println("Neck B prize "+ item.n1.get(1).getprize());
-  		System.out.println("Neck C prize "+ item.n1.get(2).getprize());
+  		System.out.println("Neck A price "+ item.n1.get(0).getprice());
+  		System.out.println("Neck B price "+ item.n1.get(1).getprice());
+  		System.out.println("Neck C price "+ item.n1.get(2).getprice());
   		System.out.println("enter the choice Southside items for Neck Neck A or Neck B or Neck C");
   		Scanner scan3 = new Scanner(System.in);
   		String s3 = scan3.nextLine();
   		if(s3.equals("Neck A")) {
   			 n=item.n1.get(0);
-  			prize+=n.getprize();
+  			price+=n.getprice();
   		}
   		if(s3.equals("Neck B")) {
   			 n=item.n1.get(1);
-  			prize+=n.getprize();
+  			price+=n.getprice();
       	}
   		if(s3.equals("Neck C")) {
   			 n=item.n1.get(2);
-  			prize+=n.getprize();
+  			price+=n.getprice();
       		}
-  		System.out.println("Pickguard A prize "+ item.g1.get(0).getprize());
-  		System.out.println("Pickguard B prize "+ item.g1.get(1).getprize());
-  		System.out.println("Pickguard C prize "+ item.g1.get(2).getprize());
+  		System.out.println("Pickguard A price "+ item.g1.get(0).getprice());
+  		System.out.println("Pickguard B price "+ item.g1.get(1).getprice());
+  		System.out.println("Pickguard C price "+ item.g1.get(2).getprice());
   		System.out.println("enter the choice Southside items for Pickguard Pickguard A or Pickguard B or Pickguard C");
   		Scanner scan4 = new Scanner(System.in);
   		String s4 = scan4.nextLine();
   		if(s4.equals("Pickguard A")) {
   			g=item.g1.get(0);
-  			prize+=g.getprize();
+  			price+=g.getprice();
   		}
   		if(s4.equals("Pickguard B")) {
   			 g=item.g1.get(1);
-  			prize+=g.getprize();
+  			price+=g.getprice();
       	}
   		if(s4.equals("Pickguard C")) {
   			 g=item.g1.get(2);
-  			prize+=g.getprize();
+  			price+=g.getprice();
       		}
-  		System.out.println("Bridge A prize "+ item.b1.get(0).getprize());
-  		System.out.println("Bridge B prize "+ item.b1.get(1).getprize());
-  		System.out.println("Bridge C prize "+ item.b1.get(2).getprize());
+  		System.out.println("Bridge A price "+ item.b1.get(0).getprice());
+  		System.out.println("Bridge B price "+ item.b1.get(1).getprice());
+  		System.out.println("Bridge C price "+ item.b1.get(2).getprice());
   		System.out.println("enter the choice Southside items for Bridge Bridge A or Bridge B or Bridge C");
   		Scanner scan5 = new Scanner(System.in);
   		String s5 = scan5.nextLine();
   		if(s5.equals("Bridge A")) {
   			b=item.b1.get(0);
-  			prize+=b.getprize();
+  			price+=b.getprice();
   		}
   		if(s5.equals("Bridge B")) {
   			b=item.b1.get(1);
-  			prize+=b.getprize();
+  			price+=b.getprice();
   			}
   		if(s5.equals("Bridge C")) {
   			b=item.b1.get(2);
-  			prize+=b.getprize();
+  			price+=b.getprice();
       		}
   		
   		
-			GuitarKit guitar=new GuitarKit("Guitar",prize,b,k,c,n,g,p);
+			GuitarKit guitar=new GuitarKit("Guitar",price,b,k,c,n,g,p);
   		return guitar;
   }
   }
@@ -505,7 +530,7 @@ class Clerk extends Staff implements Subscriber {
   		item.populate("Northside");
   	}
   	public GuitarKit createGuitar() {
-  		int prize=0;
+  		int price=0;
   		bridge b = null;
   		pickguard g = null;
   		pickups p = null;
@@ -514,135 +539,133 @@ class Clerk extends Staff implements Subscriber {
   		neck n = null;
   		System.out.println("enter the choice Northside items for pickups Pickup A or Pickup B or Pickup C");
   		Scanner scan = new Scanner(System.in);
-  		System.out.println("Pickup A prize "+ item.p2.get(0));
-  		System.out.println("Pickup B prize "+ item.p2.get(1));
-  		System.out.println("Pickup C prize "+ item.p2.get(2));
+  		System.out.println("Pickup A price "+ item.p2.get(0).getprice());
+  		System.out.println("Pickup B price "+ item.p2.get(1).getprice());
+  		System.out.println("Pickup C price "+ item.p2.get(2).getprice());
   		String s = scan.nextLine();
   		if(s.equals("Pickup A")) {
   		 p=item.p2.get(0);
-  		prize+=p.getprize();
+  		price+=p.getprice();
   	}
   		if(s.equals("Pickup B")) {
   			 p=	item.p2.get(1);
-  			prize+=p.getprize();
+  			price+=p.getprice();
       	}
   		if(s.equals("Pickup C")) {
   			p=item.p2.get(2);
-      		prize+=p.getprize();
+      		price+=p.getprice();
       	}
   		System.out.println("enter the choice Northside items for knobset Knobset A or Knobset B or Knobset C");
-  		System.out.println("Knobset A prize "+ item.k2.get(0).getprize());
-  		System.out.println("Knobset B prize "+ item.k2.get(1).getprize());
-  		System.out.println("Knobset C prize "+ item.k2.get(2).getprize());
+  		System.out.println("Knobset A price "+ item.k2.get(0).getprice());
+  		System.out.println("Knobset B price "+ item.k2.get(1).getprice());
+  		System.out.println("Knobset C price "+ item.k2.get(2).getprice());
   		Scanner scan1 = new Scanner(System.in);
   		String s1 = scan1.nextLine();
   		if(s1.equals("Knobset A")) {
   			 k=item.k2.get(0);
-  			prize+=k.getprize();
+  			price+=k.getprice();
   		}
   		if(s1.equals("Knobset B")) {
   			 k=item.k2.get(1);
-  			prize+=k.getprize();
+  			price+=k.getprice();
       	}
   		if(s1.equals("Knobset C")) {
   			 k=item.k2.get(2);
-  			prize+=k.getprize();
+  			price+=k.getprice();
       		}
   		System.out.println("enter the choice Northside items for Covers Covers A or Covers B or Covers C");
-  		System.out.println("Covers A prize "+ item.c2.get(0).getprize());
-  		System.out.println("Covers B prize "+ item.c2.get(1).getprize());
-  		System.out.println("Covers C prize "+ item.c2.get(2).getprize());
+  		System.out.println("Covers A price "+ item.c2.get(0).getprice());
+  		System.out.println("Covers B price "+ item.c2.get(1).getprice());
+  		System.out.println("Covers C price "+ item.c2.get(2).getprice());
   		Scanner scan2 = new Scanner(System.in);
   		String s2 = scan2.nextLine();
   		if(s2.equals("Covers A")) {
   			 c=item.c2.get(0);
-  			prize+=c.getprize();
+  			price+=c.getprice();
   		}
   		if(s2.equals("Covers B")) {
       		 c=item.c2.get(1);
-      		prize+=c.getprize();
+      		price+=c.getprice();
       	}
   		if(s2.equals("Covers C")) {
   			 c=item.c2.get(2);
-  			prize+=c.getprize();
+  			price+=c.getprice();
       		}
   		System.out.println("enter the choice Northside items for Neck Neck A or Neck B or Neck C");
-  		System.out.println("Neck A prize "+ item.n2.get(0).getprize());
-  		System.out.println("Neck B prize "+ item.n2.get(1).getprize());
-  		System.out.println("Neck C prize "+ item.n2.get(2).getprize());
+  		System.out.println("Neck A price "+ item.n2.get(0).getprice());
+  		System.out.println("Neck B price "+ item.n2.get(1).getprice());
+  		System.out.println("Neck C price "+ item.n2.get(2).getprice());
   		Scanner scan3 = new Scanner(System.in);
   		String s3 = scan3.nextLine();
   		if(s3.equals("Neck A")) {
   			 n=item.n2.get(0);
-  			prize+=n.getprize();
+  			price+=n.getprice();
   		}
   		if(s3.equals("Neck B")) {
   			 n=item.n2.get(1);
-  			prize+=n.getprize();
+  			price+=n.getprice();
       	}
   		if(s3.equals("Neck C")) {
   			 n=item.n2.get(2);
-  			prize+=n.getprize();
+  			price+=n.getprice();
       		}
   		System.out.println("enter the choice Northside items for Pickguard Pickguard A or Pickguard B or Pickguard C");
-  		System.out.println("Pickguard A prize "+ item.g2.get(0).getprize());
-  		System.out.println("Pickguard B prize "+ item.g2.get(1).getprize());
-  		System.out.println("Pickguard C prize "+ item.g2.get(2).getprize());
+  		System.out.println("Pickguard A price "+ item.g2.get(0).getprice());
+  		System.out.println("Pickguard B price "+ item.g2.get(1).getprice());
+  		System.out.println("Pickguard C price "+ item.g2.get(2).getprice());
   		Scanner scan4 = new Scanner(System.in);
   		String s4 = scan4.nextLine();
   		if(s4.equals("Pickguard A")) {
   			g=item.g2.get(0);
-  			prize+=g.getprize();
+  			price+=g.getprice();
   		}
   		if(s4.equals("Pickguard B")) {
   			 g=item.g2.get(1);
-  			prize+=g.getprize();
+  			price+=g.getprice();
       	}
   		if(s4.equals("Pickguard C")) {
   			 g=item.g2.get(2);
-  			prize+=g.getprize();
+  			price+=g.getprice();
       		}
   		System.out.println("enter the choice Northside items for Bridge Bridge A or Bridge B or Bridge C");
-  		System.out.println("Bridge A prize "+ item.b2.get(0).getprize());
-  		System.out.println("Bridge B prize "+ item.b2.get(1).getprize());
-  		System.out.println("Bridge C prize "+ item.b2.get(2).getprize());
+  		System.out.println("Bridge A price "+ item.b2.get(0).getprice());
+  		System.out.println("Bridge B price "+ item.b2.get(1).getprice());
+  		System.out.println("Bridge C price "+ item.b2.get(2).getprice());
   		Scanner scan5 = new Scanner(System.in);
   		String s5 = scan5.nextLine();
   		if(s5.equals("Bridge A")) {
   			b=item.b2.get(0);
-  			prize+=b.getprize();
+  			price+=b.getprice();
   		}
   		if(s5.equals("Bridge B")) {
   			b=item.b2.get(1);
-  			prize+=b.getprize();
+  			price+=b.getprice();
   			}
   		if(s5.equals("Bridge C")) {
   			b=item.b2.get(2);
-  			prize+=b.getprize();
+  			price+=b.getprice();
       		}
   		
   		
-			GuitarKit guitar=new GuitarKit("Guitar",prize,b,k,c,n,g,p);
+			GuitarKit guitar=new GuitarKit("Guitar",price,b,k,c,n,g,p);
   		return guitar;
   }
   }
-  public void client_code(Abstractguitarkit g) {
+  public Item client_code(Abstractguitarkit g) {
   		Item guitar=g.createGuitar();
         store.inventory.soldItems.add(guitar);
-        System.out.println(guitar.purchasePrice);
+        return guitar;
   }
   public void create(){
-  	if(store.storeName.equals("Southside")) {
-  		System.out.println("Southside uses factory A");
-  		client_code(new AbstractguitarkitA());
-  	}
-  	else {
-  		client_code(new AbstractguitarkitB());
-  	}
-  	
+        Item guitar;
+        if(this.store.storeName.equals("Southside")) {
+            System.out.println("Southside uses factory A");
+            guitar = client_code(new AbstractguitarkitA());
+        }
+        else {
+            guitar = client_code(new AbstractguitarkitB());
+        }
+  	    out("Customer bought the Guitar kit for price: " + guitar.purchasePrice);
   }
-
-
-  
 }
         
