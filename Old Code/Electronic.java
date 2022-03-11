@@ -5,9 +5,14 @@ import static java.lang.System.out;
 import java.util.Random;
 public class Electronic implements Tune{
 	private Random rand;
+	public Store store1;
 	 private void announcement(String methodName, String message) {
-	        out.println("Day "+ Store.storeDay + ": " + methodName + " - " + message);
+	        out.println("Day "+ store1.storeDay + ": " + methodName + " - " + message);
 	    }
+	 public Electronic(Store store1)
+	 {
+		 this.store1=store1;
+	 }
     @Override
 	public int tuning(Item obj,int idx)
 	{

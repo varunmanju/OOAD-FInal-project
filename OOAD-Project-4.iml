@@ -20,5 +20,6 @@
     <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-params:5.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.8.2" level="project" />
     <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-engine:1.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.jfree:jfreechart:1.5.3" level="project" />
   </component>
 </module>

@@ -10,10 +10,13 @@ public abstract class Item implements Subscriber {
     double salePrice;       // set when sold
     int daySold;            // set when sold
     ItemType itemType;      // set by subclass constructors
-
+	boolean equalized;
+	boolean isTuned;
+	boolean adjusted;
     void damageAnItem(Item i) {
         i.condition = Condition.values()[i.condition.level-2];
         i.listPrice = i.listPrice * 0.8;
+        
     }
 
     Item() {
@@ -84,6 +87,7 @@ abstract class Players extends Item {
     Players(){
         super();
         equalized = false;
+        
     }
 }
 
@@ -164,8 +168,10 @@ class Mandolin extends Stringed {
 
 //Wind classes and subclasses
 abstract class Wind extends Instrument {
+	boolean adjusted;
     Wind() {
         super();
+        adjusted=false;
     }
 }
 
@@ -296,4 +302,5 @@ class GigBag extends Accessories{
         itemType = itemType.GIGBAG;
         name = itemType.getName();
     }
+
 }

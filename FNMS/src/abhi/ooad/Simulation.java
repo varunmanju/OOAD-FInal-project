@@ -2,6 +2,11 @@ package abhi.ooad;
 
 import java.util.Iterator;
 
+import java.util.Scanner;
+
+import static java.lang.System.in;
+
+
 // top level object to run the simulation
 public class Simulation implements Subscriber {
     Store store_northside;
@@ -12,7 +17,7 @@ public class Simulation implements Subscriber {
     // enum for Weekdays
     // next implementation from
     // https://stackoverflow.com/questions/17006239/whats-the-best-way-to-implement-next-and-previous-on-an-enum-type
-    public static enum Weekday {
+    public enum Weekday {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
         private static final Weekday[] vals = values();
         public Weekday next() {
@@ -21,10 +26,12 @@ public class Simulation implements Subscriber {
     }
 
     Simulation() {
+        Logger.getInstance().deleteOldFiles(50, "Northside");
+        Logger.getInstance().deleteOldFiles(50, "Southside");
         weekDay = Weekday.MONDAY;   //set the starting day
         dayCounter = 0;
-        store_northside = new Store("North Side");
-        store_southside = new Store("South Side");
+        store_northside = new Store("Northside");
+        store_southside = new Store("Southside");
     }
 
     void startSim(int days) {
@@ -33,6 +40,12 @@ public class Simulation implements Subscriber {
             out("*** Simulation day "+day+" ***");
             startDay(day);
         }
+        Scanner myObj = new Scanner(in);
+        out("Choose a store: 1->FNMS Northside    2->FNMS Southside");
+        int storeNum = myObj.nextInt();
+        Store store = (storeNum == 1) ? store_northside : store_southside;
+        out("Welcome to Store FNMS " + store.storeName);
+        store.interactiveUser(days+1);
     }
 
     void startDay(int day) {
@@ -49,7 +62,6 @@ public class Simulation implements Subscriber {
     }
 
     void summary() {
-//        //TODO fill this in
 //        out("##########################################################");
 //        out("                          Summary:                        ");
 //        out("##########################################################");
