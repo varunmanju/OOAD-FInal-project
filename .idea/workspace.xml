@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45bc605b-7453-45ef-8868-f374a628b5ab" name="Changes" comment="Command Pattern">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/GuitarKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/GuitarKit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/bridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/covers.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/covers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/knobset.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/knobset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/neck.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/neck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/pickguard.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/pickguard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/pickups.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/pickups.java" afterDir="false" />
-    </list>
+    <list default="true" id="45bc605b-7453-45ef-8868-f374a628b5ab" name="Changes" comment="Command Pattern" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
