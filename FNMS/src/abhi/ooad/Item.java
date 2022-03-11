@@ -1,6 +1,6 @@
 package abhi.ooad;
 
-public abstract class Item implements Subscriber {
+public abstract class Item implements Logger {
     String name;            // I didn't implement a naming scheme - mostly ignoring this - how would you?
     double purchasePrice;   // $1 to $50
     double listPrice;       // purchasePrice x 2

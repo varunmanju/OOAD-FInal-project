@@ -2,7 +2,7 @@ package abhi.ooad;
 
 import java.util.ArrayList;
 
-public class Inventory implements Subscriber {
+public class Inventory implements Logger {
 
     // I specifically wanted to try to do this for now with single level ArrayLists
     // there may be better collections or nested lists that might make some of
