@@ -161,7 +161,7 @@ class Clerk extends Staff implements Subscriber {
         notifyAllSubscribers("openTheStore", numSold + " items were sold", numSold, eventType.SOLD);
         prevInventory = store.inventory.items.size();
         for (int i = 1; i <= sellers; i++) {
-            this.buyAnItem(i);
+            this.buyAnItem(i, false);
         }
         int numBought = (prevInventory - store.inventory.items.size()) * -1;
         notifyAllSubscribers("openTheStore", numBought + " items were purchased", numBought, eventType.PURCHASED);
@@ -360,13 +360,6 @@ class Clerk extends Staff implements Subscriber {
     public int dotuning(Item obj,int idx){
         return this.tunealgorithm.tuning(obj,idx,this);
     }
-
-
-
-    public int dotuning(Item obj,int idx){
-    	
-        return this.tunealgorithm.tuning(obj,idx,this);
-     }
 
      private int tune() {
 	  	ArrayList<Item> items = (ArrayList<Item>)store.inventory.items.clone();

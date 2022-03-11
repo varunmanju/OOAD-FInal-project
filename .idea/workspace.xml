@@ -6,9 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="45bc605b-7453-45ef-8868-f374a628b5ab" name="Changes" comment="Command Pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/ClerkPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/ClerkPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/junit.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/junit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Northside_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_10.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/Logger-Files/Logger_Southside_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +92,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Arrays" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.junit">
+  <component name="RunManager" selected="Application.Run Config">
     <configuration name="Run Config" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="abhi.ooad.Main" />
       <module name="OOAD-Project-4" />
@@ -207,6 +223,7 @@
       <workItem from="1646960040591" duration="1721000" />
       <workItem from="1647023069658" duration="4835000" />
       <workItem from="1647031474194" duration="4643000" />
+      <workItem from="1647041776262" duration="425000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1645292941697</created>
@@ -364,23 +381,23 @@
     <MESSAGE value="Rename TryCode to FNMS" />
     <MESSAGE value="Added classes for singleton observer pattern" />
     <MESSAGE value="Tracker working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tracker working" />
     <MESSAGE value="Command Pattern" />
     <option name="LAST_COMMIT_MESSAGE" value="Command Pattern" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="System.getProperty(&quot;user.dir&quot;)" language="JAVA" custom="java.nio.file.Paths" />
-        <watch expression="this.clerkRecord.get(0).bankWithdrawValue" language="JAVA" />
-        <watch expression="this.clerkRecord.get(1).bankWithdrawValue" language="JAVA" />
-        <watch expression="this.clerkRecord.get(2).bankWithdrawValue" language="JAVA" />
-        <watch expression="this.storeDay" language="JAVA" />
-        <watch expression="this.clerkRecord.get(0).bankWithdrawValue + this.clerkRecord.get(1).bankWithdrawValue + this.clerkRecord.get(2).bankWithdrawValue" language="JAVA" />
-        <watch expression="((java.util.ArrayList)((Store)this).clerkRecord).get(2)" custom="abhi.ooad.Store,java.util.ArrayList" />
-        <watch expression="i.condition" language="JAVA" />
-        <watch expression="store_northside" language="JAVA" />
-        <watch expression="store_southside" language="JAVA" />
+        <watch expression="store == store_northside" language="JAVA" />
+        <watch expression="store == store_southside" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

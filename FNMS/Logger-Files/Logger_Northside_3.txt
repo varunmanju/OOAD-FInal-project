@@ -10,3 +10,55 @@ doInventory - 0 items were damaged during tuning
 openTheStore - 7 items were sold
 openTheStore - 1 items were purchased
 leaveTheStore - Varun locks up the Northside store and leaves.
+ArriveAtStore - Velma arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Velma finds $1,296.10 in register.
+doInventory - There are 62 items in the Northside store
+doInventory - There is 1503.3000000000002 of items in the Northside store
+doInventory - 1 items were damaged during tuning
+openTheStore - 7 items were sold
+openTheStore - 2 items were purchased
+leaveTheStore - Velma locks up the Northside store and leaves.
+ArriveAtStore - Alexa arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Alexa finds $1,596.40 in register.
+placeAnOrder - 3 items were ordered
+doInventory - There are 54 items in the Northside store
+doInventory - There is 1348.4 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 3 items were sold
+openTheStore - 4 items were purchased
+leaveTheStore - Alexa locks up the Northside store and leaves.
+ArriveAtStore - Velma arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Velma finds $1,884.12 in register.
+placeAnOrder - 3 items were ordered
+placeAnOrder - 3 items were ordered
+doInventory - There are 48 items in the Northside store
+doInventory - There is 1192.4 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 9 items were sold
+openTheStore - 4 items were purchased
+leaveTheStore - Velma locks up the Northside store and leaves.
+ArriveAtStore - Varun arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Varun finds $1,830.50 in register.
+placeAnOrder - 3 items were ordered
+placeAnOrder - 3 items were ordered
+placeAnOrder - 3 items were ordered
+doInventory - There are 49 items in the Northside store
+doInventory - There is 1174.1000000000001 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 5 items were sold
+openTheStore - 1 items were purchased
+leaveTheStore - Varun locks up the Northside store and leaves.
+ArriveAtStore - Alexa arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Alexa finds $1,599.00 in register.
+placeAnOrder - 3 items were ordered
+doInventory - There are 52 items in the Northside store
+doInventory - There is 1350.4 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 8 items were sold
+openTheStore - 1 items were purchased
+leaveTheStore - Alexa locks up the Northside store and leaves.

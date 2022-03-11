@@ -9,3 +9,53 @@ doInventory - 0 items were damaged during tuning
 openTheStore - 7 items were sold
 openTheStore - 3 items were purchased
 leaveTheStore - Daphne locks up the Southside store and leaves.
+ArriveAtStore - Alexa arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Alexa finds $1,641.44 in register.
+placeAnOrder - 3 items were ordered
+doInventory - There are 49 items in the Southside store
+doInventory - There is 1223.2 of items in the Southside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 7 items were sold
+openTheStore - 2 items were purchased
+leaveTheStore - Alexa locks up the Southside store and leaves.
+ArriveAtStore - Shaggy arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Shaggy finds $2,406.56 in register.
+doInventory - There are 44 items in the Southside store
+doInventory - There is 1191.4 of items in the Southside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 5 items were sold
+openTheStore - 2 items were purchased
+leaveTheStore - Shaggy locks up the Southside store and leaves.
+ArriveAtStore - Abhi arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Abhi finds $2,037.30 in register.
+doInventory - There are 45 items in the Southside store
+doInventory - There is 1129.4999999999998 of items in the Southside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 7 items were sold
+openTheStore - 3 items were purchased
+leaveTheStore - Abhi locks up the Southside store and leaves.
+ArriveAtStore - Scooby arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Scooby finds $2,451.40 in register.
+placeAnOrder - 3 items were ordered
+placeAnOrder - 0 items were ordered
+doInventory - There are 43 items in the Southside store
+doInventory - There is 1080.5 of items in the Southside store
+doInventory - 1 items were damaged during tuning
+openTheStore - 6 items were sold
+openTheStore - 2 items were purchased
+leaveTheStore - Scooby locks up the Southside store and leaves.
+ArriveAtStore - Varun arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Varun finds $2,166.96 in register.
+placeAnOrder - 0 items were ordered
+placeAnOrder - 3 items were ordered
+doInventory - There are 43 items in the Southside store
+doInventory - There is 1012.5 of items in the Southside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 5 items were sold
+openTheStore - 4 items were purchased
+leaveTheStore - Varun locks up the Southside store and leaves.

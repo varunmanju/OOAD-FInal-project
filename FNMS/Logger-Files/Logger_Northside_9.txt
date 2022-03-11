@@ -10,3 +10,56 @@ doInventory - 0 items were damaged during tuning
 openTheStore - 4 items were sold
 openTheStore - 2 items were purchased
 leaveTheStore - Abhi locks up the Northside store and leaves.
+ArriveAtStore - Daphne arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Daphne finds $2,403.66 in register.
+placeAnOrder - 0 items were ordered
+doInventory - There are 43 items in the Northside store
+doInventory - There is 970.6 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 5 items were sold
+openTheStore - 3 items were purchased
+leaveTheStore - Daphne locks up the Northside store and leaves.
+ArriveAtStore - Abhi arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Abhi finds $2,639.40 in register.
+placeAnOrder - 3 items were ordered
+placeAnOrder - 3 items were ordered
+doInventory - There are 42 items in the Northside store
+doInventory - There is 1090.1 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 4 items were sold
+openTheStore - 1 items were purchased
+cleanTheStore - Abhi breaks something!
+leaveTheStore - Abhi locks up the Northside store and leaves.
+ArriveAtStore - Scooby arrives at Northside FNMS Store
+arriveAtStore - A total of 3 items were added to inventory
+checkRegister - Scooby finds $3,075.22 in register.
+placeAnOrder - 0 items were ordered
+doInventory - There are 41 items in the Northside store
+doInventory - There is 989.9999999999999 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 4 items were sold
+openTheStore - 2 items were purchased
+leaveTheStore - Scooby locks up the Northside store and leaves.
+ArriveAtStore - Alexa arrives at Northside FNMS Store
+arriveAtStore - A total of 3 items were added to inventory
+checkRegister - Alexa finds $3,040.98 in register.
+placeAnOrder - 0 items were ordered
+placeAnOrder - 0 items were ordered
+doInventory - There are 42 items in the Northside store
+doInventory - There is 820.0 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 5 items were sold
+openTheStore - 1 items were purchased
+cleanTheStore - Alexa breaks something!
+leaveTheStore - Alexa locks up the Northside store and leaves.
+ArriveAtStore - Shaggy arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Shaggy finds $2,792.50 in register.
+doInventory - There are 43 items in the Northside store
+doInventory - There is 1094.8 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 3 items were sold
+openTheStore - 2 items were purchased
+leaveTheStore - Shaggy locks up the Northside store and leaves.
