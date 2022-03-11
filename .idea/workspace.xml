@@ -4,6 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="619e4a75-38d6-4e02-8a49-16595471aa37" name="Changes" comment="FNMS North and South + Clerk Pool">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,11 +21,31 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="Alexa" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <branch-grouping />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -269,7 +298,44 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Alexa" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Alexa" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>

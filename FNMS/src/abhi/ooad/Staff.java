@@ -13,7 +13,7 @@ public abstract class Staff {
 	Store store;
 }
 
-class Clerk extends Staff implements Logger {
+class Clerk extends Staff implements Subscriber {
     int daysWorked;
 
     String workingAtStore;
@@ -22,6 +22,7 @@ class Clerk extends Staff implements Logger {
     double damageChance;    // Velma = .05, Shaggy = .20
     String workingAtStore;
     Store store;
+    private ArrayList<Subscriber> subscribers = new ArrayList<Subscriber>();
 
     boolean sickToday = false;
     int damage=0;
@@ -37,7 +38,63 @@ class Clerk extends Staff implements Logger {
          this.name = name;
          this.damageChance = damageChance;
          daysWorked = 0;
-         
+      
+        subscribers.add(Tracker.getInstance());
+         subscribers.add(Logger.getInstance());
+    }
+
+    private Subscriber registerSubscriber(subType t) {
+        switch (t) {
+            case LOGGER:
+                Logger l = new Logger("Logger-" + storeDay + ".txt");
+                subscribers.add(l);
+                return l;
+            default:
+                Tracker tr = new Tracker(this.availableClerk);
+                subscribers.add(tr);
+                return tr;
+        }
+    }
+
+    private void removeSubscriber(Subscriber s) {
+        subscribers.remove(s);
+    }
+
+    //Print day, calling method & message
+    private void announcement(String methodName, String message) {
+        out.println("Day "+ this.storeDay + ": " + methodName + " - " + message);
+    }
+
+    // notify subscriber & announce
+    private void publish(Staff current, String methodName, String message) {
+        announcement(methodName, message);
+        Subscriber c;
+        Logger l;
+        for (int i = 0; i < subscribers.size(); i++) {
+            c = subscribers.get(i);
+            if (c.type == subType.LOGGER) {
+                l = (Logger) c;
+                l.update(current.getName(), methodName, message);
+            }
+        }
+    }
+
+    // notify subscriber & announce
+    private void publish(Staff current, String methodName, String message, int data, eventType e) {
+        announcement(methodName, message);
+        Subscriber c;
+        Logger l;
+        Tracker t;
+        for (int i = 0; i < subscribers.size(); i++) {
+            c = subscribers.get(i);
+            if (c.type == subType.LOGGER) {
+                l = (Logger) c;
+                c.update(current.getName(), methodName, message);
+            } else {
+                t = (Tracker) c;
+                t.update(current.getName(), e, data);
+            }
+        }       
          
     }
     void setStoreInstance(Store store) {
@@ -48,11 +105,10 @@ class Clerk extends Staff implements Logger {
     {
     	int algo= Utility.rndFromRange(0,2);
         this.tunealgorithm=algos.get(algo);
+         
     }
-    void setStoreInstance(Store store) {
-        this.store = store;
-    }
-
+    
+  
     void arriveAtStore() {
         out(this.name + " arrives at store.");
         // have to check for any arriving items slated for this day
