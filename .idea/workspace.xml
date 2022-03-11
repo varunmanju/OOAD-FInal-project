@@ -181,6 +181,11 @@
       <workItem from="1646928112002" duration="13904000" />
       <workItem from="1646960040591" duration="1721000" />
       <workItem from="1647023069658" duration="4835000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1647031474194" duration="4643000" />
+      <workItem from="1647037170700" duration="148000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1645292941697</created>
@@ -259,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646103290015</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Command Pattern">
+      <created>1647037295554</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647037295554</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
