@@ -1,0 +1,11 @@
+----------------------FNMS\Logger-Files\Logger_Southside_6.txt----------------------
+ArriveAtStore - Daphne arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Daphne finds $2,397.60 in register.
+placeAnOrder - 0 items were ordered
+doInventory - There are 42 items in the Southside store
+doInventory - There is 1140.1 of items in the Southside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 7 items were sold
+openTheStore - 3 items were purchased
+leaveTheStore - Daphne locks up the Southside store and leaves.

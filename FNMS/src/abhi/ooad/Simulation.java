@@ -1,14 +1,12 @@
 package abhi.ooad;
 
-import java.util.Iterator;
-
 import java.util.Scanner;
 
 import static java.lang.System.in;
 
 
 // top level object to run the simulation
-public class Simulation implements Logger {
+public class Simulation implements Subscriber {
     Store store_northside;
     Store store_southside;
     int dayCounter;
@@ -17,15 +15,17 @@ public class Simulation implements Logger {
     // enum for Weekdays
     // next implementation from
     // https://stackoverflow.com/questions/17006239/whats-the-best-way-to-implement-next-and-previous-on-an-enum-type
-    public static enum Weekday {
+    public enum Weekday {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
-        private static Weekday[] vals = values();
+        private static final Weekday[] vals = values();
         public Weekday next() {
             return vals[(this.ordinal()+1) % vals.length];
         }
     }
 
     Simulation() {
+        Logger.getInstance().deleteOldFiles(50, "Northside");
+        Logger.getInstance().deleteOldFiles(50, "Southside");
         weekDay = Weekday.MONDAY;   //set the starting day
         dayCounter = 0;
         store_northside = new Store("Northside");
@@ -43,7 +43,28 @@ public class Simulation implements Logger {
         int storeNum = myObj.nextInt();
         Store store = (storeNum == 1) ? store_northside : store_southside;
         out("Welcome to Store FNMS " + store.storeName);
-        store.interactiveUser(days+1);
+        while(true) {
+            myObj = new Scanner(in);
+            String userInput = myObj.nextLine();
+            if (userInput.contains("Name")) {
+                store.interactiveUserClerkName();
+            } else if (userInput.contains("Time")) {
+                store.interactiveUserClerkTime(days + 1);
+            } else if (userInput.contains("Sell")) {
+                store.interactiveUserBuy();
+            } else if (userInput.contains("Buy")) {
+                store.interactiveUserSell();
+            } else if (userInput.contains("Guitar Kit")) {
+                store.interactiveUserGuitarKit();
+            } else if (userInput.contains("Toggle")) {
+                store = (store.storeName == "Southside") ? store_northside : store_southside;
+                out("Welcome to Store FNMS " + store.storeName);
+            } else {
+                break;
+            }
+        }
+        store_northside.interactiveUserEndOfDay();
+        store_southside.interactiveUserEndOfDay();
     }
 
     void startDay(int day) {

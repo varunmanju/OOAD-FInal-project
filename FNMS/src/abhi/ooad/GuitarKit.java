@@ -1,10 +1,10 @@
 package abhi.ooad;
 
 public class GuitarKit extends Item{
-	 public GuitarKit(String name,float prize,bridge b,knobset k,covers c, neck n,pickguard g,pickups p) {
+	 public GuitarKit(String name,float price,bridge b,knobset k,covers c, neck n,pickguard g,pickups p) {
 		 name="Guitar";
-		 purchasePrice=prize;
-		 listPrice=prize*2;
+		 purchasePrice=price;
+		 listPrice=price*2;
 		 isNew = (Utility.rnd() > .5); 
 		 dayArriving=0;
 		 condition=Utility.randomEnum(Condition.class);
