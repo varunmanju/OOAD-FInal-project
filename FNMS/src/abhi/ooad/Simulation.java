@@ -26,6 +26,8 @@ public class Simulation implements Subscriber {
     }
 
     Simulation() {
+        Logger.getInstance().deleteOldFiles(50, "Northside");
+        Logger.getInstance().deleteOldFiles(50, "Southside");
         weekDay = Weekday.MONDAY;   //set the starting day
         dayCounter = 0;
         store_northside = new Store("Northside");

@@ -6,34 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="619e4a75-38d6-4e02-8a49-16595471aa37" name="Changes" comment="Tracker working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-12.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-13.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-15.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-17.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-18.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-19.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-20.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-22.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-24.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-25.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-26.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-29.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-30.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/logger/Logger-9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647036893867</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tracker working">
+      <created>1647038814361</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647038814361</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
