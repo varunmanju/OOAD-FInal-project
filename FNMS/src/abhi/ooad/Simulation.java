@@ -1,8 +1,11 @@
 package abhi.ooad;
 
+import java.util.Iterator;
+
 // top level object to run the simulation
 public class Simulation implements Logger {
-    Store store;
+    Store store_northside;
+    Store store_southside;
     int dayCounter;
     Weekday weekDay;
 
@@ -20,7 +23,8 @@ public class Simulation implements Logger {
     Simulation() {
         weekDay = Weekday.MONDAY;   //set the starting day
         dayCounter = 0;
-        store = new Store();
+        store_northside = new Store("North Side");
+        store_southside = new Store("South Side");
     }
 
     void startSim(int days) {
@@ -32,29 +36,36 @@ public class Simulation implements Logger {
     }
 
     void startDay(int day) {
-        if (weekDay == Weekday.SUNDAY) store.closedToday(day);
-        else store.openToday(day);
+        if (weekDay == Weekday.SUNDAY) {
+            store_northside.closedToday(day);
+            store_southside.closedToday(day);
+        }
+        else {
+            store_northside.openToday(day);
+            store_southside.openToday(day);
+        }
         weekDay = weekDay.next();
+        ClerkPool.getInstance().endOfDay(store_northside, store_southside);
     }
 
     void summary() {
-        //TODO fill this in
-        out("##########################################################");
-        out("                          Summary:                        ");
-        out("##########################################################");
-        out("Items In Inventory:");
-        for(Item i: store.inventory.items){
-            out(i.itemType.getName());
-        }
-        out("Total Inventory Value: " + store.inventory.getValue(store.inventory.items));
-        out("");
-        out("Items Sold During Simulation:");
-        for(Item i: store.inventory.soldItems){
-            out("Name: " + i.itemType.getName() + " Day Sold: " + i.daySold + " Sale Price: " + i.salePrice);
-        }
-        out("Total Sales Value: " + store.inventory.getValue(store.inventory.soldItems));
-        out("");
-        out("Total Value In Cash Register: " + store.cashRegister);
-        out("Total $ Added from goToBank: " + store.cashFromBank);
+//        //TODO fill this in
+//        out("##########################################################");
+//        out("                          Summary:                        ");
+//        out("##########################################################");
+//        out("Items In Inventory:");
+//        for(Item i: store.inventory.items){
+//            out(i.itemType.getName());
+//        }
+//        out("Total Inventory Value: " + store.inventory.getValue(store.inventory.items));
+//        out("");
+//        out("Items Sold During Simulation:");
+//        for(Item i: store.inventory.soldItems){
+//            out("Name: " + i.itemType.getName() + " Day Sold: " + i.daySold + " Sale Price: " + i.salePrice);
+//        }
+//        out("Total Sales Value: " + store.inventory.getValue(store.inventory.soldItems));
+//        out("");
+//        out("Total Value In Cash Register: " + store.cashRegister);
+//        out("Total $ Added from goToBank: " + store.cashFromBank);
     }
 }

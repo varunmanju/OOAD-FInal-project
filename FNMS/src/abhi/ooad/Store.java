@@ -1,34 +1,34 @@
 package abhi.ooad;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.stream.Collectors;
 
 public class Store implements Logger {
-    public ArrayList<Clerk> clerks;
     public Clerk activeClerk;
     public double cashRegister;
     public double cashFromBank;
     public Inventory inventory;
     public int today;
+    public String storeName;
 
-    Store() {
+    Store(String storeName) {
         // initialize the store's starting inventory
         inventory = new Inventory();
+        this.storeName = storeName;
 
         cashRegister = 0;   // cash register is empty to begin
         cashFromBank = 0;   // no cash from bank yet
-
-        // initialize the store's staff
-        clerks = new ArrayList<Clerk>();
-        clerks.add(new Clerk("Velma",.05, this));
-        clerks.add(new Clerk("Shaggy", .20, this));
-        clerks.add(new Clerk("Daphne", .10, this));
     }
 
     void openToday(int day) {
         today = day;
-        out("Store opens today, day "+day);
+        out(" ");
+        out("Store FNMS " + this.storeName + " opens today, day "+day);
         activeClerk = getValidClerk();
         out(activeClerk.name + " is working today.");
+        activeClerk.setStoreInstance(this);
+        activeClerk.setalgo();
         activeClerk.arriveAtStore();
         activeClerk.checkRegister();
         activeClerk.doInventory();
@@ -38,38 +38,39 @@ public class Store implements Logger {
     }
 
     Clerk getValidClerk() {
-        ArrayList<Clerk> availableClerks = (ArrayList<Clerk>) clerks.clone();
+        ClerkPool clerkPool = ClerkPool.getInstance();
         Clerk clerk = null;
-        boolean canWork = false;
-        // pick a random clerk
-        while (!canWork) {
-            canWork=true;
-            if (clerks.size() == 1) {
-                clerk = clerks.get(0);
-                break;
-            }
+        ArrayList<Clerk> availableClerks = new ArrayList<>();
 
-            clerk = availableClerks.get(Utility.rndFromRange(0, availableClerks.size() - 1));
-
-            if (clerk.daysWorked > 3) {
-                out(clerk.name + " cannot work more than 3 days in a row.");
-                canWork=false;
-                availableClerks.remove(clerk);
+        for (int i=0; i<clerkPool.clerks.size(); i++) {
+            if (clerkPool.clerks.get(i).workingAtStore == null && clerkPool.clerks.get(i).sickToday == false) {
+                availableClerks.add(clerkPool.clerks.get(i));
             }
-            else if (Utility.rndFromRange(1, 10) == 1) {
-                out(clerk.name + " is sick today.");
-                canWork=false;
-                availableClerks.remove(clerk);
-            }
+        }
 
+        for (int i = 0; i < availableClerks.size(); i++) {
+            if (availableClerks.size() <= 2) {
+                clerk = availableClerks.get(0);
+            }
+            else {
+                clerk = availableClerks.get(Utility.rndFromRange(0, availableClerks.size() - 1));
+                if (clerk.daysWorked == 3) {
+                    out(clerk.name + " cannot work more than 3 days in a row.");
+                    availableClerks.remove(clerk);
+                    continue;
+                }
+                if (Utility.rndFromRange(1, 10) == 1) {
+                    out(clerk.name + " is sick today.");
+                    clerk.sickToday = true;
+                    availableClerks.remove(clerk);
+                    continue;
+                }
+            }
+            break;
         }
 
         clerk.daysWorked = clerk.daysWorked + 1;
-        for (Clerk other: clerks) {
-            if (other.name != clerk.name) {
-                other.daysWorked = 0;
-            }
-        }
+        clerk.workingAtStore = this.storeName;
 
         return clerk;
     }
