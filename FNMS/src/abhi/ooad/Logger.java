@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Logger implements Subscriber{
-    Logger instance = new Logger(); //eager instantiation
+    private static Logger instance = new Logger(); //eager instantiation
     subscriberType type;
 
     //constructor to specify type and open file to write to
@@ -13,12 +13,12 @@ public class Logger implements Subscriber{
         type = subscriberType.LOGGER;
     }
 
-    public Logger getInstance(){
+    public static Logger getInstance(){
         return instance;
     }
 
     //write to file
-    public void out(String process, String data, String storeName, int day){
+    public void out(String message, String storeName, int day){
         File outputFile;
         FileWriter writer;
         String fName = "Logger_"+storeName+"_"+day+".txt";
@@ -30,7 +30,7 @@ public class Logger implements Subscriber{
         // create writer for the file
         try{
             writer = new FileWriter(outputFile, true);
-            writer.write(process + " - " + data + "\n");
+            writer.write(message + "\n");
             writer.close();
         } catch(IOException b){
             System.out.println("error occurred while creating writer to" + fName);

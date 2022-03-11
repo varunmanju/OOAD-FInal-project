@@ -17,7 +17,7 @@ public class Simulation implements Subscriber {
     // enum for Weekdays
     // next implementation from
     // https://stackoverflow.com/questions/17006239/whats-the-best-way-to-implement-next-and-previous-on-an-enum-type
-    public static enum Weekday {
+    public enum Weekday {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
         private static final Weekday[] vals = values();
         public Weekday next() {

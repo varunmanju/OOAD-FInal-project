@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="619e4a75-38d6-4e02-8a49-16595471aa37" name="Changes" comment="FNMS North and South + Clerk Pool">
+    <list default="true" id="619e4a75-38d6-4e02-8a49-16595471aa37" name="Changes" comment="Added classes for singleton observer pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Abstractguitarkit.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Abstractguitarkit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/ClerkPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/ClerkPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Simulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/FNMS/src/abhi/ooad/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +349,8 @@
     <MESSAGE value="Logger" />
     <MESSAGE value="Test .gitignore" />
     <MESSAGE value="Rename TryCode to FNMS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename TryCode to FNMS" />
+    <MESSAGE value="Added classes for singleton observer pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added classes for singleton observer pattern" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
