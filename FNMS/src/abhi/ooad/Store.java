@@ -2,7 +2,10 @@ package abhi.ooad;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.Scanner;
 import java.util.stream.Collectors;
+
+import static java.lang.System.in;
 
 public class Store implements Logger {
     public Clerk activeClerk;
@@ -34,6 +37,15 @@ public class Store implements Logger {
         activeClerk.openTheStore();
         activeClerk.cleanTheStore();
         activeClerk.leaveTheStore();
+    }
+
+    void interactiveUser(int day) {
+        Scanner myObj = new Scanner(in);
+        String userInput = myObj.nextLine();
+        out("I'm " + activeClerk.name);
+        userInput = myObj.nextLine();
+        out("This is day " + day + " and the time is " + java.time.LocalTime.now().toString().substring(0,8));
+        activeClerk.sellAnItem(1, true);
     }
 
     Clerk getValidClerk() {

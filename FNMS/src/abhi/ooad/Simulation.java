@@ -1,6 +1,9 @@
 package abhi.ooad;
 
 import java.util.Iterator;
+import java.util.Scanner;
+
+import static java.lang.System.in;
 
 // top level object to run the simulation
 public class Simulation implements Logger {
@@ -23,8 +26,8 @@ public class Simulation implements Logger {
     Simulation() {
         weekDay = Weekday.MONDAY;   //set the starting day
         dayCounter = 0;
-        store_northside = new Store("North Side");
-        store_southside = new Store("South Side");
+        store_northside = new Store("Northside");
+        store_southside = new Store("Southside");
     }
 
     void startSim(int days) {
@@ -33,6 +36,12 @@ public class Simulation implements Logger {
             out("*** Simulation day "+day+" ***");
             startDay(day);
         }
+        Scanner myObj = new Scanner(in);
+        out("Choose a store: 1->FNMS Northside    2->FNMS Southside");
+        int storeNum = myObj.nextInt();
+        Store store = (storeNum == 1) ? store_northside : store_southside;
+        out("Welcome to Store FNMS " + store.storeName);
+        store.interactiveUser(days+1);
     }
 
     void startDay(int day) {
@@ -49,7 +58,6 @@ public class Simulation implements Logger {
     }
 
     void summary() {
-//        //TODO fill this in
 //        out("##########################################################");
 //        out("                          Summary:                        ");
 //        out("##########################################################");
