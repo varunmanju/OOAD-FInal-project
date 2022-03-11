@@ -8,9 +8,12 @@ import java.util.Random;
 public class Manual implements Tune{
 	private Random rand;
 	public int damages=0;
+	Store store1;
 	public Map<String, List<Item>> inventory;
-	public Manual(Map<String, List<Item>> inventory) {
+	public Manual(Map<String, List<Item>> inventory,Store store1) {
 		this.inventory=inventory;
+		this.store1=store1;
+		
 	}
 	private int getRandomInteger (int lowerBound, int upperBound) {
 	    return this.rand.nextInt((upperBound - lowerBound) + 1) + lowerBound;
@@ -36,7 +39,7 @@ public class Manual implements Tune{
         }
     }
 	private void announcement(String methodName, String message) {
-        out.println("Day "+ Store.storeDay + ": " + methodName + " - " + message);
+        out.println("Day "+ store1.storeDay + ": " + methodName + " - " + message);
     }
 	private void remove(String selectedItem,Item it) {
 		ArrayList<Item> item = new ArrayList<>();
@@ -84,6 +87,7 @@ public class Manual implements Tune{
                 }else {
                     obj.setCondition(getConditionText(getConditionLevel(selectedItem.getCondition())-1));
                     obj.setListPrice(selectedItem.getListPrice() * 0.80F);
+                    obj.setSalePrice(obj.getListPrice());
                     announcement("doInventory",obj.getClass().getSimpleName() + " is damaged " +  " while tuning. Instrument condition is lowered and list price is reduced.");
                     
                 }

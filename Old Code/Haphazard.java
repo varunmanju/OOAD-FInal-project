@@ -10,8 +10,12 @@ import java.util.Random;
 public class Haphazard implements Tune{
 	public Map<String, List<Item>> inventory;
 	public int damages=0;
-	public Haphazard(Map<String, List<Item>> inventory) {
+	
+	public Store store1;
+	public Haphazard(Map<String, List<Item>> inventory,Store store1) {
 		this.inventory=inventory;
+		
+		this.store1=store1;
 	}
 	public Random rand;
 	
@@ -51,7 +55,7 @@ public class Haphazard implements Tune{
       }
 	}
 	  private void announcement(String methodName, String message) {
-	        out.println("Day "+ Store.storeDay + ": " + methodName + " - " + message);
+	        out.println("Day "+ store1.storeDay + ": " + methodName + " - " + message);
 	    }
 
     private int cleanTheStore(Item obj){
@@ -85,6 +89,7 @@ public class Haphazard implements Tune{
                 } else {
                     obj.setCondition(getConditionText(getConditionLevel(selectedItem.getCondition())-1));
                     obj.setListPrice(selectedItem.getListPrice() * 0.80F);
+                    obj.setSalePrice(obj.getListPrice());
                     announcement("doInventory",obj.getClass().getSimpleName()+ " is damaged " +  " while tuning. Instrument condition is lowered and list price is reduced.");
                     
                 }

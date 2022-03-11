@@ -1,9 +1,11 @@
 package abhi.ooad;
 
 import java.util.Iterator;
+
 import java.util.Scanner;
 
 import static java.lang.System.in;
+
 
 // top level object to run the simulation
 public class Simulation implements Logger {

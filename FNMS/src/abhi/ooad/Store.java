@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.stream.Collectors;
-
 import static java.lang.System.in;
 
 public class Store implements Logger {
@@ -31,6 +30,7 @@ public class Store implements Logger {
         activeClerk = getValidClerk();
         out(activeClerk.name + " is working today.");
         activeClerk.setStoreInstance(this);
+        activeClerk.setalgo();
         activeClerk.arriveAtStore();
         activeClerk.checkRegister();
         activeClerk.doInventory();
