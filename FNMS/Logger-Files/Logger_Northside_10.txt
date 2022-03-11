@@ -68,3 +68,16 @@ openTheStore - 4 items were sold
 openTheStore - 3 items were purchased
 leaveTheStore - Shaggy locks up the Northside store and leaves.
 leaveTheStore - Shaggy locks up the Northside store and leaves.
+ArriveAtStore - Abhi arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Abhi finds $2,511.84 in register.
+placeAnOrder - 3 items were ordered
+placeAnOrder - 3 items were ordered
+doInventory - There are 50 items in the Northside store
+doInventory - There is 1255.6000000000001 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 3 items were sold
+openTheStore - 1 items were purchased
+leaveTheStore - Abhi locks up the Northside store and leaves.
+cleanTheStore - Abhi breaks something!
+leaveTheStore - Abhi locks up the Northside store and leaves.

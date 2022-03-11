@@ -59,3 +59,14 @@ doInventory - 0 items were damaged during tuning
 openTheStore - 5 items were sold
 openTheStore - 4 items were purchased
 leaveTheStore - Varun locks up the Southside store and leaves.
+ArriveAtStore - Scooby arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Scooby finds $2,096.16 in register.
+placeAnOrder - 0 items were ordered
+placeAnOrder - 3 items were ordered
+doInventory - There are 51 items in the Southside store
+doInventory - There is 1330.8 of items in the Southside store
+doInventory - 2 items were damaged during tuning
+openTheStore - 6 items were sold
+openTheStore - 0 items were purchased
+leaveTheStore - Scooby locks up the Southside store and leaves.

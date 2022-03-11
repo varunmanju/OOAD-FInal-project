@@ -62,3 +62,12 @@ doInventory - 1 items were damaged during tuning
 openTheStore - 6 items were sold
 openTheStore - 2 items were purchased
 leaveTheStore - Abhi locks up the Northside store and leaves.
+ArriveAtStore - Velma arrives at Northside FNMS Store
+arriveAtStore - A total of 3 items were added to inventory
+checkRegister - Velma finds $2,049.70 in register.
+doInventory - There are 54 items in the Northside store
+doInventory - There is 1439.8999999999999 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 6 items were sold
+openTheStore - 3 items were purchased
+leaveTheStore - Velma locks up the Northside store and leaves.

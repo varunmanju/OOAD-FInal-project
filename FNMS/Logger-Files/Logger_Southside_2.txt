@@ -56,3 +56,13 @@ doInventory - 0 items were damaged during tuning
 openTheStore - 8 items were sold
 openTheStore - 3 items were purchased
 leaveTheStore - Abhi locks up the Southside store and leaves.
+ArriveAtStore - Varun arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Varun finds $1,212.80 in register.
+doInventory - There are 59 items in the Southside store
+doInventory - There is 1594.6 of items in the Southside store
+doInventory - 1 items were damaged during tuning
+openTheStore - 5 items were sold
+openTheStore - 4 items were purchased
+cleanTheStore - Varun breaks something!
+leaveTheStore - Varun locks up the Southside store and leaves.

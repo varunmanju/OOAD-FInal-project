@@ -61,3 +61,13 @@ doInventory - 1 items were damaged during tuning
 openTheStore - 5 items were sold
 openTheStore - 3 items were purchased
 leaveTheStore - Daphne locks up the Northside store and leaves.
+ArriveAtStore - Scooby arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Scooby finds $1,856.30 in register.
+placeAnOrder - 3 items were ordered
+doInventory - There are 57 items in the Northside store
+doInventory - There is 1455.6 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 7 items were sold
+openTheStore - 1 items were purchased
+leaveTheStore - Scooby locks up the Northside store and leaves.

@@ -64,3 +64,12 @@ doInventory - 0 items were damaged during tuning
 openTheStore - 5 items were sold
 openTheStore - 2 items were purchased
 leaveTheStore - Shaggy locks up the Northside store and leaves.
+ArriveAtStore - Shaggy arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Shaggy finds $1,590.00 in register.
+doInventory - There are 59 items in the Northside store
+doInventory - There is 1523.1999999999998 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 6 items were sold
+openTheStore - 4 items were purchased
+leaveTheStore - Shaggy locks up the Northside store and leaves.

@@ -53,3 +53,12 @@ doInventory - 1 items were damaged during tuning
 openTheStore - 6 items were sold
 openTheStore - 1 items were purchased
 leaveTheStore - Scooby locks up the Northside store and leaves.
+ArriveAtStore - Varun arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Varun finds $1,203.50 in register.
+doInventory - There are 62 items in the Northside store
+doInventory - There is 1669.1000000000001 of items in the Northside store
+doInventory - 1 items were damaged during tuning
+openTheStore - 4 items were sold
+openTheStore - 3 items were purchased
+leaveTheStore - Varun locks up the Northside store and leaves.

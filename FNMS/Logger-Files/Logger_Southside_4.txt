@@ -55,3 +55,13 @@ doInventory - 0 items were damaged during tuning
 openTheStore - 7 items were sold
 openTheStore - 4 items were purchased
 leaveTheStore - Velma locks up the Southside store and leaves.
+ArriveAtStore - Abhi arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Abhi finds $1,787.10 in register.
+placeAnOrder - 3 items were ordered
+doInventory - There are 54 items in the Southside store
+doInventory - There is 1361.8999999999999 of items in the Southside store
+doInventory - 1 items were damaged during tuning
+openTheStore - 6 items were sold
+openTheStore - 4 items were purchased
+leaveTheStore - Abhi locks up the Southside store and leaves.

@@ -74,3 +74,16 @@ openTheStore - 5 items were sold
 openTheStore - 4 items were purchased
 leaveTheStore - Velma locks up the Southside store and leaves.
 leaveTheStore - Velma locks up the Southside store and leaves.
+ArriveAtStore - Fred arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Fred finds $2,877.06 in register.
+placeAnOrder - 3 items were ordered
+placeAnOrder - 3 items were ordered
+doInventory - There are 39 items in the Southside store
+doInventory - There is 1035.3 of items in the Southside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 8 items were sold
+openTheStore - 4 items were purchased
+cleanTheStore - Fred breaks something!
+leaveTheStore - Fred locks up the Southside store and leaves.
+leaveTheStore - Fred locks up the Southside store and leaves.

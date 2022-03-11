@@ -63,3 +63,12 @@ doInventory - 2 items were damaged during tuning
 openTheStore - 5 items were sold
 openTheStore - 1 items were purchased
 leaveTheStore - Scooby locks up the Northside store and leaves.
+ArriveAtStore - Fred arrives at Northside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Fred finds $1,772.40 in register.
+doInventory - There are 57 items in the Northside store
+doInventory - There is 1466.6999999999998 of items in the Northside store
+doInventory - 0 items were damaged during tuning
+openTheStore - 4 items were sold
+openTheStore - 4 items were purchased
+leaveTheStore - Fred locks up the Northside store and leaves.
