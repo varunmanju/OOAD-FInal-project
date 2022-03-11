@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.stream.Collectors;
 
-public class Store implements Logger {
+public class Store implements Subscriber {
     public Clerk activeClerk;
     public double cashRegister;
     public double cashFromBank;
     public Inventory inventory;
     public int today;
     public String storeName;
+
 
     Store(String storeName) {
         // initialize the store's starting inventory

@@ -3,7 +3,7 @@ package abhi.ooad;
 import java.util.Iterator;
 
 // top level object to run the simulation
-public class Simulation implements Logger {
+public class Simulation implements Subscriber {
     Store store_northside;
     Store store_southside;
     int dayCounter;
@@ -14,7 +14,7 @@ public class Simulation implements Logger {
     // https://stackoverflow.com/questions/17006239/whats-the-best-way-to-implement-next-and-previous-on-an-enum-type
     public static enum Weekday {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
-        private static Weekday[] vals = values();
+        private static final Weekday[] vals = values();
         public Weekday next() {
             return vals[(this.ordinal()+1) % vals.length];
         }

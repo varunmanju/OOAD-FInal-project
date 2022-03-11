@@ -7,18 +7,75 @@ public abstract class Staff {
     String name;    // Velma and Shaggy
 }
 
-class Clerk extends Staff implements Logger {
+class Clerk extends Staff implements Subscriber {
     int daysWorked;
     boolean sickToday = false;
     double damageChance;    // Velma = .05, Shaggy = .20
     String workingAtStore;
     Store store;
+    private ArrayList<Subscriber> subscribers = new ArrayList<Subscriber>();
 
     Clerk(String name, double damageChance) {
          this.name = name;
          this.damageChance = damageChance;
 //         this.store = store;
          daysWorked = 0;
+         subscribers.add(Tracker.getInstance());
+         subscribers.add(Logger.getInstance());
+    }
+
+    private Subscriber registerSubscriber(subType t) {
+        switch (t) {
+            case LOGGER:
+                Logger l = new Logger("Logger-" + storeDay + ".txt");
+                subscribers.add(l);
+                return l;
+            default:
+                Tracker tr = new Tracker(this.availableClerk);
+                subscribers.add(tr);
+                return tr;
+        }
+    }
+
+    private void removeSubscriber(Subscriber s) {
+        subscribers.remove(s);
+    }
+
+    //Print day, calling method & message
+    private void announcement(String methodName, String message) {
+        out.println("Day "+ this.storeDay + ": " + methodName + " - " + message);
+    }
+
+    // notify subscriber & announce
+    private void publish(Staff current, String methodName, String message) {
+        announcement(methodName, message);
+        Subscriber c;
+        Logger l;
+        for (int i = 0; i < subscribers.size(); i++) {
+            c = subscribers.get(i);
+            if (c.type == subType.LOGGER) {
+                l = (Logger) c;
+                l.update(current.getName(), methodName, message);
+            }
+        }
+    }
+
+    // notify subscriber & announce
+    private void publish(Staff current, String methodName, String message, int data, eventType e) {
+        announcement(methodName, message);
+        Subscriber c;
+        Logger l;
+        Tracker t;
+        for (int i = 0; i < subscribers.size(); i++) {
+            c = subscribers.get(i);
+            if (c.type == subType.LOGGER) {
+                l = (Logger) c;
+                c.update(current.getName(), methodName, message);
+            } else {
+                t = (Tracker) c;
+                t.update(current.getName(), e, data);
+            }
+        }
     }
 
     void setStoreInstance(Store store) {
