@@ -136,7 +136,7 @@ class Clerk extends Staff implements Logger {
         int sellers = Utility.rndFromRange(1,4);
         out(buyers + " buyers, "+sellers+" sellers today.");
         for (int i = 1; i <= buyers; i++) this.sellAnItem(i, false);
-        for (int i = 1; i <= sellers; i++) this.buyAnItem(i);
+        for (int i = 1; i <= sellers; i++) this.buyAnItem(i, false);
     }
 
     void sellAnItem(int customer, boolean interactiveUser) {
@@ -220,10 +220,21 @@ class Clerk extends Staff implements Logger {
         return null;
     }
 
-    void buyAnItem(int customer) {
+    void buyAnItem(int customer, boolean interactiveUser) {
+        Scanner myObj = new Scanner(in);
+        ItemType type = null;
+
         String custName = "Seller "+customer;
         out(this.name+" serving "+custName);
-        ItemType type = Utility.randomEnum(ItemType.class);
+
+        if(interactiveUser == true) {
+            out("What do you want to sell?");
+            type = ItemType.valueOf(myObj.nextLine());
+        }
+        else {
+            type = Utility.randomEnum(ItemType.class);
+        }
+
         out(custName + " wants to sell a "+type.toString().toLowerCase());
         Item item = store.inventory.makeNewItemByType(type);
         // clerk will determine new or used, condition, purchase price (based on condition)
@@ -232,7 +243,12 @@ class Clerk extends Staff implements Logger {
         item.purchasePrice = getPurchasePriceByCondition(item.condition);
         // seller has 50% chance of selling
         out (this.name+" offers "+Utility.asDollar(item.purchasePrice));
-        if (Utility.rnd()>.5) {
+        String answer = null;
+        if (interactiveUser == true) {
+            out("Do you want to sell?");
+            answer = myObj.nextLine();
+        }
+        if (Utility.rnd()>.5 || answer == "Yes") {
             buyItemFromCustomer(item, custName);
         }
         else {
@@ -240,7 +256,11 @@ class Clerk extends Staff implements Logger {
             item.purchasePrice += item.purchasePrice * .10;
             out (this.name+" offers "+Utility.asDollar(item.purchasePrice));
             // seller has 75% chance of selling
-            if (Utility.rnd()>.25) {
+            if (interactiveUser == true) {
+                out("Do you want to sell?");
+                answer = myObj.nextLine();
+            }
+            if (Utility.rnd()>.25 || answer == "Yes") {
                 buyItemFromCustomer(item, custName);
             }
             else {

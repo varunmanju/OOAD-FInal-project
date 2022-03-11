@@ -45,6 +45,7 @@ public class Store implements Logger {
         out("I'm " + activeClerk.name);
         userInput = myObj.nextLine();
         out("This is day " + day + " and the time is " + java.time.LocalTime.now().toString().substring(0,8));
+        activeClerk.buyAnItem(1, true);
         activeClerk.sellAnItem(1, true);
     }
 
