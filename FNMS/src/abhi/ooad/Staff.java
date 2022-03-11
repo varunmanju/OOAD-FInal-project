@@ -1,5 +1,6 @@
 package abhi.ooad;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 
 public abstract class Staff {
@@ -8,14 +9,20 @@ public abstract class Staff {
 
 class Clerk extends Staff implements Logger {
     int daysWorked;
+    boolean sickToday = false;
     double damageChance;    // Velma = .05, Shaggy = .20
+    String workingAtStore;
     Store store;
 
-    Clerk(String name, double damageChance, Store store) {
+    Clerk(String name, double damageChance) {
          this.name = name;
          this.damageChance = damageChance;
-         this.store = store;
+//         this.store = store;
          daysWorked = 0;
+    }
+
+    void setStoreInstance(Store store) {
+        this.store = store;
     }
 
     void arriveAtStore() {
@@ -54,6 +61,9 @@ class Clerk extends Staff implements Logger {
     void doInventory() {
         out(this.name + " is doing inventory.");
         for (ItemType type: ItemType.values()) {
+            if (type.name() == "SHIRT" || type.name() == "BANDANA" || type.name() == "HAT") {
+                continue;
+            }
             int numItems = store.inventory.countByType(store.inventory.items,type);
             out(this.name + " counts "+numItems+" "+type.toString().toLowerCase());
             if (numItems == 0) {
@@ -241,5 +251,13 @@ class Clerk extends Staff implements Logger {
     }
     void leaveTheStore() {
         out(this.name + " locks up the store and leaves.");
+
+        ClerkPool clerkPool = ClerkPool.getInstance();
+        Iterator<Clerk> itr = clerkPool.clerks.iterator();
+        while (itr.hasNext()) {
+            Clerk clerk = itr.next();
+            if(clerk.workingAtStore == store.storeName)
+            clerk.workingAtStore = null;
+        }
     }
 }
