@@ -1,0 +1,11 @@
+----------------------FNMS\Logger-Files\Logger_Southside_4.txt----------------------
+ArriveAtStore - Varun arrives at Southside FNMS Store
+arriveAtStore - A total of 0 items were added to inventory
+checkRegister - Varun finds $1,839.06 in register.
+placeAnOrder - 3 items were ordered
+doInventory - There are 50 items in the Southside store
+doInventory - There is 1350.3999999999999 of items in the Southside store
+doInventory - 1 items were damaged during tuning
+openTheStore - 9 items were sold
+openTheStore - 0 items were purchased
+leaveTheStore - Varun locks up the Southside store and leaves.
