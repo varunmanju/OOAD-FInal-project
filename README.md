@@ -1,5 +1,5 @@
-# OOAD Project 3 Part 2
- OOAD Project 3 Part 2
+# OOAD Project 4
+ OOAD Project 4
 
 This is an assignment for our Object Oriented Analysis and Design course in which we will be applying object oriented design principles to create a simulation of a music shop. When ran, the user will be able to choose how many days the simulation will be ran for. As the simulation is running, announcements of all actions that occurs during each day will be printed to the terminal. The output.txt file in this repository contains the terminal output from running the simulation for 30 days.
 
