@@ -16,6 +16,7 @@ Run in IntelliJ. Run the Main.java in src/abhi/ooad folder.Also dont forget to i
      <li>When the user enters "Buy" , then the clerk will ask the user what item to buy.Again the item entered should be from the class ItemType.java.The clerk will display the prize of the item to the user and the user will have to accept the prize by saying "Yes"  or "no".If the user saya no then the clerk will reduce the prize of the item and sell it to the user.If the user says "Yes" the item is sold else the item is not sold and the user leaves without buying an item.
 <li>The user can choose Toggle anytime to switch stores</li>
  <li>The user when he enters "Guitar Kit" the user will be given with a set of choices to choose from for parts of the guitar kit.There are a total of 6 parts as shown in the problem statement.Each type has 3 units and hence a factory will have a total of 18 units.The units will differ in both the stores Northside and Southside</li>
+ <li>All the screenshots are the bonus question output and we have an output.txt file for the outputs captured</li>
 </ul>
 Creators: 
 --------
