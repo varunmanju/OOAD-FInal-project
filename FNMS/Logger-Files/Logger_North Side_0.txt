@@ -1,3 +1,0 @@
-----------------------FNMS\Logger-Files\Logger_North Side_0.txt----------------------
-checkRegister - Shaggy finds $1,000.00 in register.
-goToBank - there is now $1,000.00 in register
