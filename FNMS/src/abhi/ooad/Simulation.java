@@ -30,7 +30,7 @@ public class Simulation implements Subscriber {
 	ArrayList<Integer> xData8 = new ArrayList<>();
 	ArrayList<Integer> xData9 = new ArrayList<>();
 	ArrayList<Integer> xData10 = new ArrayList<>();
-	//Graph the sales of the total register value everyday and item sales everyday.
+	//Graph the sales of the total register value everyday and item sales for each day of the simulation.
     public void graph(ArrayList<Integer> yData,ArrayList<Double> xData1,ArrayList<Double> xData2,String storename) {
     	final XYChart chart = new XYChartBuilder().width(600).height(400).title("Value of item in store " + storename).xAxisTitle("Total cost").yAxisTitle("Day number").build();
 
@@ -44,6 +44,7 @@ public class Simulation implements Subscriber {
     	new SwingWrapper(chart).displayChart();
     	
     }
+	//Graph the sales of the total count of items in the inventory, damaged items and Items Sold for each day of the simulation.
     public void graph1(ArrayList<Integer> yData,ArrayList<Integer> xData1,ArrayList<Integer> xData2,ArrayList<Integer> xData3,String storename) {
     	final XYChart chart = new XYChartBuilder().width(600).height(400).title("Count of item in store " + storename).xAxisTitle("Total count").yAxisTitle("Day number").build();
 
@@ -119,6 +120,7 @@ public class Simulation implements Subscriber {
             store_northside.closedToday(day);
             store_southside.closedToday(day);
             yData.add(day);
+	   //Adding the Item Sales,Total Register,Counts of items in the inventory , count of Damaged items and count of the items sold in the inventory. 
             xData1.add(store_southside.cashRegister);
             xData2.add(store_southside.inventory.getValue(store_southside.inventory.soldItems));
             xData3.add(store_northside.cashRegister);
@@ -135,6 +137,7 @@ public class Simulation implements Subscriber {
             store_northside.openToday(day);
             store_southside.openToday(day);
             yData.add(day);
+	    //Adding the Item Sales,Total Register,Counts of items in the inventory , count of Damaged items and count of the items sold in the inventory. 
             xData1.add(store_southside.cashRegister);
             xData2.add(store_southside.inventory.getValue(store_southside.inventory.soldItems));
             xData3.add(store_northside.cashRegister);
@@ -188,13 +191,13 @@ public class Simulation implements Subscriber {
         out("");
         out("Total Value In Cash Register: " + store_southside.cashRegister);
         out("Total $ Added from goToBank: " + store_southside.cashFromBank);
-       //For Southside store graph total register vale and items sold everyday
+        //For Southside store graph total register vale and items sold everyday
         graph(yData,xData1,xData2,"Southside");
-      //For Northside store graph total register vale and items sold everyday
+        //For Northside store graph total register vale and items sold everyday
         graph(yData,xData3,xData4,"Northside");
         //For Southside store get items count in inventory,items damaged and items sold
         graph1(yData,xData5,xData6,xData7,"Southside");
-        //For Northsidestore get items count in inventory,items damaged and items sold
+        //For Northside store get items count in inventory,items damaged and items sold
         graph1(yData,xData8,xData9,xData10,"Northside");
     }
 }
