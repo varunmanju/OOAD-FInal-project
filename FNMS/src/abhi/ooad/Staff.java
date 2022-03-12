@@ -360,7 +360,7 @@ class Clerk extends Staff implements Subscriber {
     public int dotuning(Item obj,int idx){
         return this.tunealgorithm.tuning(obj,idx,this);
     }
-
+//Strategy pattern where the clerk will perform tuning of the instruments.Three values (Manual,Haphazard and Electronic) are assigned to the clerks.
      private int tune() {
 	  	ArrayList<Item> items = (ArrayList<Item>)store.inventory.items.clone();
     	int dam;
@@ -385,9 +385,10 @@ class Clerk extends Staff implements Subscriber {
     	  }
     	  return damage;
   }
-
+//Abstract Factory pattern where we have two concrete factories AbstractguitarkitA and AbstractguitarkitB that extend the Abstractguitarkit class.These
+// classes create a guitarkit which comprises of 6 items(Pickup,Knobset,Covers,Neck,Pickguard,Bridge).
   public class AbstractguitarkitA extends Abstractguitarkit{
-  	
+  	// the initialize class that initializes the items from the inventory.
   	initialize item=new initialize();
   	public AbstractguitarkitA() {
   		
@@ -644,11 +645,13 @@ class Clerk extends Staff implements Subscriber {
   		return guitar;
   }
   }
+//Called by the create function to return the  GuitarKit.Also adds this GuitarKit item to soldItems list that keeps track of the items sold.
   public Item client_code(Abstractguitarkit g) {
   		Item guitar=g.createGuitar();
         store.inventory.soldItems.add(guitar);
         return guitar;
   }
+// Function to create the abstract factory.
   public void create(){
         Item guitar;
         if(this.store.storeName.equals("Southside")) {
