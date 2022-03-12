@@ -28,7 +28,7 @@ We are using Java version 17.0.2 for this project
 Class Heirarchy:
 ------------
 
-<a href = "https://lucid.app/lucidchart/41af58ed-28cf-4924-bad2-b28631ca1c5f/edit?invitationId=inv_d94f10f2-e7f7-496b-8df3-ae2a3f32930c"> Link to UML Diagram </a>
+<a href = "https://lucid.app/lucidchart/4bec437b-3542-4f9a-b3f0-1b8d1d7ad336/edit?invitationId=inv_dde5e83c-e87b-4a5d-843b-9044843acab7&page=0_0#"> Link to UML Diagram </a>
 
 Assumptions:
 ------------
