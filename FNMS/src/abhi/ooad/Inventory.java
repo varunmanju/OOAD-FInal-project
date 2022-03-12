@@ -68,7 +68,13 @@ public class Inventory implements Subscriber {
         }
         return item;
     }
-
+    int countitems(ArrayList<Item> it) {
+    	int count=0;
+    	for(Item i:it) {
+    		count+=1;
+    	}
+    	return count;
+    }
     // add(), remove() can be done directly to the list
     // overall count can come from size()
     // count of specific item types is needed sometimes
