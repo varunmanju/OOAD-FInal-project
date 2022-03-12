@@ -19,7 +19,7 @@ Run in IntelliJ. Run the Main.java in src/abhi/ooad folder.Also dont forget to i
  <li>All the screenshots are the bonus question output and we have an output.txt file for the outputs captured</li>
  <li>Have added the output of junit in junit_output file</li>
  <li>Have flipped the axis in count the items and items damaged and items sold in both northside and southside store screenshots for the graphs.So the x axis should have been y and y axis should have been x.So it should be total count on the y axis and day number on the x axis</li>
- <li>Similarly for value of items sold and items in inventory for bith northside and southside store where i fliped the axis</li>
+ <li>Similarly for value of items sold and items in inventory for bith northside and southside store where i fliped the axis.So it should be total cost on y axis and day number on x axis.</li>
  
 </ul>
 Creators: 
