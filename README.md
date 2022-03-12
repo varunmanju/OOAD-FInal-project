@@ -12,11 +12,11 @@ Run in IntelliJ. Run the Main.java in src/abhi/ooad folder.Also dont forget to i
  <li>The user can choose this option of store 1 and 2 at any time</li>
   <li>The user when enters "Name" in the console the name of the clerk will be displayed </li>
   <li>The user when he enters "Time" on the console, the clerk will return the time to the user</li>
-  <li>The user when he enters "Sell" on the console, the clerk will try to sell an item to the user.The user will have to enter the item he can sell.The item entered should be from the class ItemType.java.The clerk will give a prize for the item and if the user says yes the clerk will sell the item else the clerk will increase the prize of teh item and again ask the user whether he wants to sell the item.If the user says yes the item is sold to the user else a message that the user left without selling will be displayed<\li>
+  <li>The user when he enters "Sell" on the console, the clerk will try to sell an item to the user.The user will have to enter the item he can sell.The item entered should be from the class ItemType.java.The clerk will give a prize for the item and if the user says yes the clerk will sell the item else the clerk will increase the prize of teh item and again ask the user whether he wants to sell the item.If the user says yes the item is sold to the user else a message that the user left without selling will be displayed</li>
      <li>When the user enters "Buy" , then the clerk will ask the user what item to buy.Again the item entered should be from the class ItemType.java.The clerk will display the prize of the item to the user and the user will have to accept the prize by saying "Yes"  or "no".If the user saya no then the clerk will reduce the prize of the item and sell it to the user.If the user says "Yes" the item is sold else the item is not sold and the user leaves without buying an item.
 <li>The user can choose Toggle anytime to switch stores</li>
  <li>The user when he enters "Guitar Kit" the user will be given with a set of choices to choose from for parts of the guitar kit.There are a total of 6 parts as shown in the problem statement.Each type has 3 units and hence a factory will have a total of 18 units.The units will differ in both the stores Northside and Southside</li>
-      <\ul>
+<\ul>
 Creators: 
 --------
 Abhinav Gupta, Alexa Rinard, Varun Manjunath
