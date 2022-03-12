@@ -84,6 +84,7 @@ public class Simulation implements Subscriber {
             out("*** Simulation day "+day+" ***");
             startDay(day);
         }
+	//The interactive mode where the user interacts with the clerk.This is where command pattern is used.
         Scanner myObj = new Scanner(in);
         out("Choose a store: 1->FNMS Northside    2->FNMS Southside");
         int storeNum = myObj.nextInt();
