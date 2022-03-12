@@ -20,12 +20,13 @@ class Clerk extends Staff implements Subscriber {
     Store store;
     int damage=0;
     public Tune tunealgorithm;
+    //Function that creates a static Arraylist of the tune algorithms to be used.Manual,Electronic and Haphazard are the three algorithms.
     public static ArrayList<Tune> algos = new ArrayList<Tune>() {{
         add(new Haphazard());
         add(new Manual());
         add(new Electronic());
     }};
-
+   //Constructor Clerk that comprises of the name of the clerk and damage chance attribute that can be set by the user via new keyword.
     Clerk(String name, double damageChance) {
          this.name = name;
          this.damageChance = damageChance;
