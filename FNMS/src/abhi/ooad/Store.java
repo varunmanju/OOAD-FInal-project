@@ -39,7 +39,7 @@ public class Store implements Subscriber {
         activeClerk.cleanTheStore();
         activeClerk.leaveTheStore();
     }
-
+    //The function that the command pattern executes.All th functions that are executed by the command pattern start with a word interactive.
     void interactiveUserClerkName() {
         out("I'm " + activeClerk.name);
     }
