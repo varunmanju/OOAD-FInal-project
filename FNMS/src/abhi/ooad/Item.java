@@ -13,6 +13,7 @@ public abstract class Item implements Subscriber {
 	boolean equalized;
 	boolean isTuned;
 	boolean adjusted;
+	public String name1;
     void damageAnItem(Item i) {
         i.condition = Condition.values()[i.condition.level-2];
         i.listPrice = i.listPrice * 0.8;
@@ -29,6 +30,7 @@ public abstract class Item implements Subscriber {
         condition = Utility.randomEnum(Condition.class);
         salePrice = 0;
         daySold = 0;
+        
     };
 }
 
